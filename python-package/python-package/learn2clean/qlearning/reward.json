@@ -1,0 +1,96 @@
+{
+    "Mean": {
+        "type": "Imputer",
+        "followed_by":{"UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "CCA": {
+        "type": "Imputer",
+        "followed_by":{"UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "MI": {
+        "type": "Imputer",
+        "followed_by":{"UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "KNN": {
+        "type": "Imputer",
+        "followed_by":{"UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "Median": {
+        "type": "Imputer",
+        "followed_by":{"UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "UC": {
+        "type": "Feature_selector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0,"DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "LASSO": {
+        "type": "Feature_selector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0,"DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "RFE": {
+        "type": "Feature_selector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0,"DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "IG": {
+        "type": "Feature_selector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0,"DBID": 0, "DBT": 0, "ED": 0, "MR": 0, "MUO": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "DBID": {
+        "type": "Duplicate_detector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "MR": 0, "MUO": 0}
+    },
+    "DBT": {
+        "type": "Duplicate_detector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "MR": 0, "MUO": 0}
+    },
+    "ED": {
+        "type": "Duplicate_detector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "MR": 0, "MUO": 0}
+    },
+    "MR": {
+        "type": "Outlier_detector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "CR": {
+        "type": "Outlier_detector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "MUO": {
+        "type": "Outlier_detector",
+        "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
+    },
+    "COX": {
+        "type": "Survival_Model",
+        "followed_by": {},
+        "reward": 100
+    },
+    "RSF": {
+        "type": "Survival_Model",
+        "followed_by": {},
+        "reward": 100
+    },
+    "NN": {
+        "type": "Survival_Model",
+        "followed_by": {},
+        "reward": 100
+    },
+    "OLS": {
+        "type": "Regression",
+        "followed_by": {},
+        "reward": 100
+    },
+    "LASSO_REG": {
+        "type": "Regression",
+        "followed_by": {},
+        "reward": 100
+    },
+    "MARS": {
+        "type": "Regression",
+        "followed_by": {},
+        "reward": 100
+    }
+
+}
+
+
+

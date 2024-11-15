@@ -1,0 +1,5 @@
+('flchain.csv', 'Learn2Clean', 'COX', 'Mean -> COX', 'C-Index', 0.6557101651911165, 43.1298885345459)
+('flchain.csv', 'Learn2Clean', 'OLS', 'KNN -> ED -> UC -> MUO -> OLS', 'MSE', 0.09883234936614402, 32.64012932777405)
+('flchain.csv', 'Learn2Clean', 'MARS', 'Mean -> UC -> MUO -> MARS', 'MSE', 0.1539506329207502, 32.60671615600586)
+('flchain.csv', 'Learn2Clean', 'MARS', 'CCA -> RFE -> DBID -> MARS', 'MSE', 2.2204460492503132e-17, 40.482691049575806)
+('flchain.csv', 'Learn2Clean', 'MARS', 'CCA -> ED -> UC -> MUO -> MARS', 'MSE', 0, 48.39164733886719)

@@ -1,0 +1,58 @@
+{
+    "Imputer":{
+        "multiple_imputation":
+        {
+            "max_iter": 9,
+            "random_state": 0,
+            "min_value": 0
+        },
+        "KNN_imputer":
+        {
+            "n_neighbors": 6
+        }
+    },
+
+    "NeuralNetwork":{
+        "fit":{
+            "learning_rate":0.001,
+            "hidden_layers_sizes":null,
+            "lr_decay":0.0,
+            "momentum":0.9,
+            "L2_reg":0.0,
+            "L1_reg":0.0,
+            "activation":"rectify",
+            "dropout":null,
+            "batch_norm":false,
+            "standardize":false,
+            "n_epochs": 500,
+            "validation_frequency":250,
+            "patience":2000,
+            "improvement_threshold":0.99999,
+            "patience_increase":2,
+            "logger":null,
+            "verbose":true
+
+        },
+        "fit_dh":{
+            "mb_size": 64,
+            "iteration": 10000,
+            "keep_prob": 0.8,
+            "lr_train": 0.001,
+            "alpha": 0.2,
+            "beta": 0.5,
+            "gamma": 0.1,
+            "h_dim_shared": 100,
+            "num_layers_shared": 2,
+            "h_dim_CS": 50,
+            "num_layers_CS": 2,
+            "active_fn": "relu",
+            "out_path": "./model_output",
+            "out_itr": 1,
+            "eval_time": [12, 24, 36],
+            "MAX_VALUE": -99,
+            "OUT_ITERATION": 5,
+            "seed":1234
+        }
+    }
+    
+}

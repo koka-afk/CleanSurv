@@ -1,0 +1,1130 @@
+stag,event,gender,age,industry,profession,traffic,coach,head_gender,greywage,way,extraversion,independ,selfcontrol,anxiety,novator
+0.394250513,1,m,36.0,IT,IT,empjs,no,m,white,foot,3.8,7.6,2.6,7.9,4.4
+0.427104723,1,f,24.0,IT,HR,youjs,yes,f,white,bus,8.6,4.1,4.9,3.3,6.0
+0.492813142,0,f,29.0,Retail,HR,empjs,my head,f,grey,bus,5.4,4.8,8.0,9.4,2.9
+0.492813142,0,f,29.0,Retail,HR,empjs,my head,f,grey,bus,4.6,5.5,1.8,7.1,6.7
+0.492813142,0,f,29.0,Retail,HR,empjs,my head,f,grey,bus,4.6,1.0,5.7,8.7,2.9
+0.525667351,0,f,49.0,Telecom,HR,friends,no,m,white,car,5.4,2.6,4.1,6.3,6.7
+0.689938398,0,f,24.0,Mining,HR,youjs,no,f,white,bus,4.6,7.6,7.2,2.5,3.7
+0.755646817,1,f,43.0,Retail,HR,empjs,no,f,white,bus,7.0,5.5,4.1,4.0,5.2
+0.788501027,0,f,43.0,etc,HR,youjs,no,m,white,bus,3.0,6.2,8.0,7.1,4.4
+0.887063655,0,f,30.0,IT,HR,empjs,no,m,grey,bus,10.0,3.4,3.3,4.0,7.5
+0.919917864,1,m,26.0,etc,HR,youjs,yes,f,white,bus,6.2,5.5,6.4,4.0,3.7
+1.117043121,1,f,54.0,Pharma,HR,rabrecNErab,no,m,white,car,4.6,8.4,5.7,4.0,4.4
+1.117043121,1,f,54.0,Pharma,HR,rabrecNErab,no,m,white,car,4.6,8.4,5.7,4.0,4.4
+1.149897331,0,m,30.0,IT,Sales,recNErab,no,f,white,foot,7.8,3.4,1.8,7.1,7.5
+1.18275154,0,f,25.0,Retail,PR,friends,my head,f,white,bus,7.0,9.1,1.8,4.8,6.0
+1.18275154,0,f,50.0,Pharma,BusinessDevelopment,youjs,no,m,grey,car,4.6,6.2,8.0,4.8,5.2
+1.347022587,0,f,27.0,Retail,HR,youjs,my head,m,white,bus,7.0,4.8,6.4,4.8,7.5
+1.412731006,1,f,29.0,Banks,HR,youjs,my head,f,white,bus,4.6,4.1,6.4,4.8,4.4
+1.445585216,0,f,29.0,IT,HR,youjs,my head,m,white,bus,6.2,6.2,4.9,5.6,6.0
+1.478439425,1,m,28.0,transport,Commercial,referal,no,m,white,bus,6.2,3.4,6.4,8.7,6.0
+1.642710472,1,f,44.0,etc,HR,youjs,no,m,white,bus,4.6,7.6,5.7,2.5,6.0
+1.675564682,0,m,36.0,Telecom,HR,friends,my head,f,white,car,5.4,4.8,6.4,4.8,6.7
+1.708418891,0,m,30.0,IT,IT,friends,my head,m,white,bus,6.2,4.8,7.2,4.8,3.7
+1.708418891,1,f,37.0,etc,Marketing,youjs,no,f,white,bus,4.6,2.6,8.7,4.0,2.9
+1.741273101,1,f,24.0,Consult,Consult,youjs,no,f,grey,bus,6.2,4.8,8.0,4.0,2.9
+1.80698152,1,m,27.0,Retail,Sales,empjs,no,m,white,bus,3.0,4.1,9.5,7.1,5.2
+1.80698152,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,5.6,9.0
+1.80698152,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,4.8,7.5
+1.839835729,0,f,32.0,Retail,HR,youjs,no,f,white,bus,4.6,4.1,6.4,5.6,6.0
+1.938398357,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,4.8,7.5
+1.938398357,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,5.6,9.0
+1.971252567,0,m,31.0,Banks,IT,recNErab,no,m,grey,car,6.2,4.1,2.6,8.7,8.3
+2.036960986,1,f,48.0,PowerGeneration,HR,empjs,no,f,white,bus,6.2,4.8,5.7,8.7,7.5
+2.102669405,0,f,38.0,Retail,HR,empjs,no,m,grey,car,8.6,5.5,4.1,5.6,6.7
+2.102669405,0,f,32.0,etc,Marketing,rabrecNErab,my head,m,white,foot,5.4,5.5,3.3,7.9,8.3
+2.102669405,0,f,38.0,Retail,HR,empjs,no,m,grey,car,8.6,3.4,4.1,7.1,6.0
+2.102669405,0,f,38.0,Retail,HR,empjs,no,m,grey,car,7.8,4.1,4.1,7.1,6.7
+2.135523614,0,m,38.0,manufacture,HR,KA,no,f,white,car,5.4,4.1,8.0,7.1,8.3
+2.135523614,0,m,38.0,manufacture,HR,KA,no,f,white,car,3.0,5.5,7.2,7.9,6.0
+2.135523614,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,5.6,9.0
+2.135523614,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,4.8,7.5
+2.168377823,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,4.8,7.5
+2.168377823,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,5.6,9.0
+2.201232033,1,f,33.0,Banks,HR,rabrecNErab,no,f,white,car,5.4,6.2,7.2,2.5,5.2
+2.201232033,1,m,23.0,State,etc,rabrecNErab,my head,m,white,bus,6.2,2.6,7.2,6.3,7.5
+2.234086242,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,4.8,7.5
+2.234086242,0,f,26.0,Banks,Sales,advert,no,f,white,foot,5.4,7.6,4.1,5.6,9.0
+2.266940452,1,f,39.0,State,Teaching,rabrecNErab,no,m,grey,bus,2.2,6.9,8.7,6.3,5.2
+2.36550308,0,f,28.0,Building,HR,empjs,my head,m,white,bus,7.0,6.9,2.6,4.0,5.2
+2.39835729,0,m,25.0,Retail,Marketing,youjs,no,f,white,car,6.2,2.6,5.7,5.6,6.7
+2.431211499,1,f,28.0,IT,HR,youjs,no,f,white,bus,6.2,3.4,4.9,7.9,7.5
+2.431211499,0,f,35.0,Telecom,HR,empjs,no,f,grey,bus,7.0,3.4,3.3,6.3,7.5
+2.694045175,0,m,29.0,PowerGeneration,HR,friends,no,f,white,bus,7.0,5.5,8.0,5.6,8.3
+2.759753593,0,f,28.0,Agriculture,HR,friends,no,m,white,bus,6.2,5.5,3.3,6.3,8.3
+2.759753593,1,f,41.0,Banks,HR,rabrecNErab,no,m,white,bus,3.8,8.4,2.6,4.8,7.5
+2.759753593,0,f,31.0,IT,HR,youjs,no,m,white,bus,7.0,3.4,8.0,7.9,6.0
+2.792607803,0,f,41.0,manufacture,HR,friends,no,f,white,bus,7.0,4.8,3.3,5.6,7.5
+2.792607803,1,m,39.0,Banks,BusinessDevelopment,youjs,no,f,white,bus,7.8,4.8,1.8,8.7,8.3
+2.792607803,1,f,23.0,Building,HR,friends,no,f,white,bus,7.0,5.5,4.1,5.6,8.3
+2.825462012,0,f,32.0,Telecom,HR,youjs,no,f,white,bus,7.0,5.5,3.3,7.1,6.7
+2.858316222,1,f,38.0,Building,HR,KA,no,m,white,car,5.4,5.5,4.9,4.8,4.4
+2.858316222,1,f,38.0,Building,HR,KA,no,m,white,car,6.2,6.2,4.9,3.3,2.9
+2.98973306,1,m,45.0,Telecom,BusinessDevelopment,friends,my head,m,white,bus,3.0,8.4,7.2,7.1,6.0
+3.121149897,0,f,32.0,IT,IT,youjs,my head,m,white,car,7.0,6.2,5.7,4.8,5.2
+3.121149897,0,f,32.0,IT,IT,youjs,my head,m,white,car,9.4,6.2,4.1,4.8,7.5
+3.121149897,1,f,41.0,Consult,HR,youjs,no,f,white,bus,3.0,8.4,8.0,3.3,2.1
+3.121149897,1,f,41.0,Consult,HR,youjs,no,f,white,bus,1.4,4.8,8.7,5.6,2.1
+3.252566735,1,f,35.0, HoReCa,HR,empjs,my head,f,white,bus,1.4,8.4,8.0,4.8,6.0
+3.252566735,1,f,39.0,manufacture,HR,youjs,no,m,white,bus,2.2,9.8,7.2,3.3,2.1
+3.252566735,1,f,35.0, HoReCa,HR,empjs,my head,f,white,bus,3.0,7.6,7.2,4.0,7.5
+3.318275154,0,f,25.0,Banks,HR,youjs,yes,m,white,car,7.0,2.6,4.9,7.9,5.2
+3.351129363,1,f,24.0,Consult,HR,youjs,no,f,white,bus,4.6,6.9,5.7,5.6,2.9
+3.416837782,1,f,39.0,Building,HR,KA,no,m,grey,bus,8.6,4.8,3.3,4.0,6.7
+3.449691992,1,f,40.0,Retail,HR,youjs,no,m,grey,car,6.2,5.5,4.9,4.8,7.5
+3.449691992,0,f,30.0,IT,HR,empjs,no,m,white,bus,6.2,7.6,3.3,6.3,7.5
+3.482546201,1,f,37.0,IT,HR,empjs,yes,f,white,bus,6.2,6.9,5.7,6.3,5.2
+3.482546201,0,f,28.0,manufacture,HR,youjs,no,m,white,bus,3.8,6.2,6.4,5.6,3.7
+3.482546201,0,m,37.0,IT,IT,youjs,no,m,white,foot,4.6,6.2,4.9,6.3,4.4
+3.58110883,1,f,40.0,Banks,HR,empjs,no,f,white,bus,7.8,5.5,2.6,6.3,8.3
+3.58110883,0,f,32.0,Retail,Sales,youjs,no,m,white,car,7.0,4.1,8.7,3.3,1.0
+3.58110883,1,f,40.0,Banks,HR,empjs,no,f,white,bus,8.6,5.5,3.3,6.3,7.5
+3.58110883,1,f,40.0,Banks,HR,empjs,no,f,white,bus,7.0,6.9,4.1,5.6,7.5
+3.58110883,1,f,34.0,Retail,BusinessDevelopment,rabrecNErab,no,f,white,bus,3.0,7.6,4.9,5.6,5.2
+3.778234086,0,f,46.0,manufacture,HR,friends,no,f,white,bus,3.0,4.1,6.4,5.6,5.2
+3.811088296,1,f,32.0,etc,Marketing,youjs,no,m,white,bus,3.8,6.2,6.4,4.0,6.0
+3.811088296,0,f,33.0,Retail,HR,youjs,no,m,white,bus,1.4,6.9,8.0,6.3,5.2
+3.811088296,1,f,23.0,etc,HR,rabrecNErab,yes,m,white,bus,7.0,4.8,7.2,4.8,4.4
+3.876796715,0,f,21.0,IT,HR,advert,no,m,white,bus,7.0,4.8,4.1,5.6,8.3
+3.975359343,1,f,29.0,Retail,etc,empjs,no,m,white,bus,7.0,6.2,5.7,4.0,3.7
+3.975359343,1,f,29.0,Retail,HR,empjs,yes,m,white,bus,7.8,5.5,5.7,4.0,5.2
+3.975359343,1,f,29.0,Retail,etc,empjs,no,m,white,bus,7.8,5.5,5.7,4.0,5.2
+3.975359343,1,f,29.0,Retail,etc,empjs,no,m,white,bus,6.2,6.2,5.7,6.3,2.9
+3.975359343,1,f,29.0,Retail,HR,empjs,yes,m,white,bus,6.2,6.2,5.7,6.3,2.9
+3.975359343,1,f,29.0,Retail,HR,empjs,yes,m,white,bus,7.0,6.2,5.7,4.0,3.7
+4.008213552,1,f,22.0,transport,HR,youjs,no,m,white,bus,2.2,8.4,4.9,7.1,6.7
+4.041067762,0,f,41.0,manufacture,HR,friends,no,m,white,bus,3.0,3.4,7.2,5.6,5.2
+4.073921971,1,f,26.0,Retail,Sales,referal,my head,f,grey,bus,5.4,7.6,2.6,4.8,9.0
+4.1724846,0,f,28.0,etc,HR,youjs,no,m,white,bus,3.8,6.2,6.4,5.6,3.7
+4.336755647,1,f,26.0,manufacture,HR,referal,no,f,white,car,3.8,4.8,5.7,7.9,2.9
+4.369609856,1,f,30.0,Banks,HR,youjs,no,m,white,bus,6.2,3.4,8.0,3.3,3.7
+4.402464066,0,m,40.0,State,Consult,KA,no,m,grey,foot,7.0,6.2,4.1,6.3,9.0
+4.435318275,1,m,40.0,Agriculture,Sales,empjs,no,m,white,bus,4.6,4.1,7.2,10.0,5.2
+4.435318275,1,f,30.0,Consult,Marketing,youjs,yes,m,white,bus,5.4,5.5,3.3,7.9,8.3
+4.468172485,0,f,35.0,manufacture,HR,friends,no,m,white,car,7.0,4.1,6.4,6.3,6.7
+4.501026694,0,m,24.0,Consult,HR,youjs,my head,m,white,bus,6.2,4.8,6.4,7.1,7.5
+4.533880903,1,f,31.0,Retail,Sales,KA,no,f,grey,bus,5.4,5.5,7.2,4.8,1.3
+4.533880903,1,m,23.0,etc,Marketing,friends,my head,m,white,bus,1.4,9.8,6.4,3.3,6.0
+4.76386037,0,m,30.0,Retail,HR,youjs,no,m,white,bus,7.8,2.6,4.1,8.7,6.7
+4.862422998,0,f,27.0,manufacture,HR,youjs,no,m,white,car,5.4,4.1,5.7,7.1,3.7
+4.928131417,0,f,23.0,IT,HR,rabrecNErab,yes,m,white,bus,5.4,4.8,5.7,7.1,6.7
+4.960985626,1,f,37.0,State,Marketing,recNErab,no,f,white,foot,9.4,4.1,4.9,4.0,8.3
+4.960985626,0,f,42.0,IT,HR,youjs,my head,m,white,bus,7.0,6.9,4.1,5.6,7.5
+4.960985626,0,f,42.0,IT,HR,youjs,my head,m,white,bus,8.6,5.5,3.3,6.3,7.5
+4.960985626,0,f,42.0,IT,HR,youjs,my head,m,white,bus,7.8,5.5,2.6,6.3,8.3
+4.993839836,0,f,31.0,manufacture,HR,youjs,no,f,white,bus,7.8,5.5,3.3,5.6,8.3
+5.026694045,1,f,26.0,Banks,HR,youjs,no,f,grey,bus,4.6,6.2,5.7,4.0,6.0
+5.026694045,1,f,26.0,Banks,HR,youjs,no,f,grey,bus,4.6,5.5,6.4,5.6,5.2
+5.092402464,0,f,47.0,manufacture,HR,recNErab,no,f,white,car,5.4,7.6,4.9,4.8,6.7
+5.092402464,0,f,29.0,Retail,HR,empjs,my head,f,grey,bus,4.6,5.5,1.8,7.1,6.7
+5.092402464,0,f,29.0,Retail,HR,empjs,my head,f,grey,bus,4.6,1.0,5.7,8.7,2.9
+5.092402464,0,f,29.0,Retail,HR,empjs,my head,f,grey,bus,5.4,4.8,8.0,9.4,2.9
+5.125256674,0,m,23.0,Consult,HR,empjs,my head,m,white,bus,4.6,6.2,4.9,6.3,8.3
+5.158110883,0,m,40.0,Consult,IT,friends,no,m,white,foot,3.8,4.1,7.2,8.7,6.7
+5.256673511,1,m,34.0,IT,Sales,friends,no,m,white,car,3.0,6.2,8.0,4.8,2.9
+5.289527721,0,f,25.0,State,HR,youjs,no,f,white,bus,9.4,4.8,3.3,7.1,9.0
+5.32238193,1,f,25.0,Banks,HR,youjs,my head,f,grey,bus,5.4,3.4,8.0,6.3,2.1
+5.35523614,0,f,34.0,Retail,HR,rabrecNErab,no,f,white,car,6.2,5.5,6.4,7.1,6.0
+5.388090349,1,f,38.0,Retail,HR,rabrecNErab,no,m,white,car,1.4,4.1,7.2,6.3,7.5
+5.420944559,1,m,44.0,manufacture,BusinessDevelopment,youjs,no,m,white,car,3.0,6.2,10.0,4.0,3.7
+5.453798768,0,m,29.0,PowerGeneration,HR,friends,no,f,white,bus,7.0,5.5,8.0,5.6,8.3
+5.519507187,0,f,23.0,Retail,HR,youjs,my head,f,white,bus,4.6,6.9,5.7,4.8,9.0
+5.585215606,0,f,32.0,IT,HR,youjs,yes,m,white,bus,6.2,3.4,8.0,3.3,3.7
+5.585215606,0,m,37.0,IT,IT,rabrecNErab,my head,m,white,bus,6.2,6.9,4.1,4.0,8.3
+5.650924025,0,f,42.0,IT,IT,KA,no,m,white,foot,1.4,7.6,8.7,4.8,5.2
+5.650924025,1,f,45.0,IT,HR,rabrecNErab,no,m,white,car,7.8,4.8,4.1,4.0,6.0
+5.749486653,0,m,32.0,manufacture,HR,KA,no,m,white,bus,2.2,4.1,5.7,8.7,6.0
+5.749486653,0,f,26.0,Retail,Commercial,empjs,yes,f,white,bus,3.8,4.8,7.2,5.6,4.4
+5.749486653,1,f,34.0,etc,HR,empjs,no,m,white,car,8.6,5.5,1.0,6.3,9.8
+5.782340862,1,f,32.0,Retail,HR,friends,no,f,grey,car,6.2,6.2,1.8,5.6,9.0
+5.815195072,1,f,25.0,Retail,manage,rabrecNErab,no,m,white,bus,4.6,5.5,6.4,5.6,7.5
+5.848049281,0,f,33.0,manufacture,HR,KA,no,m,white,bus,5.4,9.1,4.1,2.5,6.0
+5.848049281,1,f,23.0,Banks,HR,rabrecNErab,yes,f,white,bus,4.6,6.9,7.2,5.6,4.4
+5.848049281,1,f,23.0,Banks,HR,rabrecNErab,yes,f,white,bus,6.2,4.8,4.9,4.8,3.7
+5.9137577,0,f,32.0,Retail,HR,rabrecNErab,no,f,white,bus,3.8,6.2,8.0,4.0,6.7
+5.94661191,0,f,38.0,Retail,BusinessDevelopment,youjs,no,m,white,car,7.0,4.8,4.1,7.1,9.0
+6.045174538,0,f,44.0,Banks,HR,KA,no,f,white,car,4.6,4.8,8.7,4.8,6.0
+6.078028747,0,f,35.0, HoReCa,HR,youjs,no,f,white,bus,5.4,5.5,7.2,5.6,2.9
+6.143737166,1,f,31.0,manufacture,HR,youjs,my head,m,grey,car,5.4,5.5,6.4,6.3,6.7
+6.176591376,1,f,34.0,Retail,HR,youjs,no,f,white,bus,3.8,7.6,8.7,4.0,4.4
+6.176591376,1,f,38.0,transport,HR,youjs,no,m,grey,bus,6.2,6.2,8.0,2.5,3.7
+6.176591376,1,f,38.0,transport,HR,youjs,no,m,grey,bus,4.6,6.2,8.0,4.0,3.7
+6.242299795,0,f,21.0,Consult,HR,friends,yes,f,grey,bus,7.0,6.2,4.1,4.8,6.7
+6.275154004,1,f,30.40033257,Retail,Marketing,youjs,yes,f,white,bus,7.8,6.2,4.9,4.0,8.3
+6.275154004,1,f,24.0,PowerGeneration,Sales,empjs,my head,f,white,bus,5.4,6.2,4.1,6.3,9.8
+6.275154004,0,m,28.0,Banks,IT,rabrecNErab,yes,m,white,bus,2.2,7.6,5.7,5.6,2.9
+6.439425051,1,m,24.0,manufacture,Marketing,empjs,my head,m,white,car,7.8,5.5,1.8,6.3,6.7
+6.53798768,1,f,26.0,Consult,HR,youjs,no,f,grey,bus,7.0,6.2,4.1,4.8,8.3
+6.603696099,1,m,22.0,manufacture,manage,advert,no,f,white,foot,7.8,5.5,1.0,9.4,9.0
+6.669404517,0,f,27.0,Banks,HR,youjs,no,f,white,bus,9.4,5.5,3.3,4.0,7.5
+6.669404517,1,m,27.0,State,Teaching,rabrecNErab,no,f,white,bus,6.2,5.5,6.4,4.0,4.4
+6.800821355,0,m,31.0,IT,IT,youjs,no,m,white,bus,7.8,3.4,1.8,8.7,6.7
+6.800821355,0,m,25.0,manufacture,HR,friends,no,f,white,bus,5.4,4.8,6.4,7.1,8.3
+6.866529774,0,f,45.0,etc,HR,empjs,no,f,white,car,4.6,4.8,8.7,4.8,6.0
+7.030800821,1,f,39.0,State,HR,friends,no,f,white,car,7.0,4.1,2.6,7.9,7.5
+7.030800821,1,f,39.0,State,HR,friends,no,f,white,car,7.8,6.2,2.6,5.6,6.7
+7.030800821,1,m,35.0,Retail,Sales,youjs,no,m,white,foot,5.4,6.2,4.9,4.0,2.9
+7.030800821,1,m,35.0,Banks,HR,rabrecNErab,no,f,white,bus,6.2,4.1,5.7,7.1,8.3
+7.12936345,0,f,27.0,IT,HR,rabrecNErab,no,m,white,bus,7.0,6.2,4.1,4.8,8.3
+7.12936345,1,f,21.0,Consult,HR,youjs,my head,m,white,bus,5.4,6.9,7.2,2.5,4.4
+7.162217659,0,f,39.0,transport,HR,friends,no,f,white,bus,3.0,7.6,7.2,4.0,7.5
+7.162217659,0,f,23.0,Consult,etc,youjs,my head,m,white,foot,4.6,7.6,4.9,5.6,5.2
+7.162217659,0,f,39.0,transport,HR,friends,no,f,white,bus,1.4,8.4,8.0,4.8,6.0
+7.195071869,0,m,27.0,IT,HR,empjs,no,f,grey,bus,7.8,4.8,3.3,6.3,6.7
+7.227926078,0,f,26.0,State,HR,youjs,no,m,white,bus,7.8,6.2,3.3,7.1,6.7
+7.326488706,1,f,23.0,Consult,Marketing,youjs,yes,f,white,bus,6.2,4.8,5.7,3.3,3.7
+7.523613963,0,f,39.0,etc,HR,youjs,no,m,white,bus,7.0,4.8,6.4,5.6,5.2
+7.589322382,1,m,47.0,manufacture,Commercial,empjs,no,m,grey,bus,4.6,4.1,5.7,9.4,3.7
+7.589322382,1,m,47.0,manufacture,Commercial,empjs,no,m,grey,bus,3.0,5.5,4.9,9.4,4.4
+7.589322382,1,m,36.0,Mining,HR,empjs,no,m,white,foot,4.6,4.8,7.2,6.3,7.5
+7.589322382,1,f,22.0,etc,HR,youjs,yes,f,grey,car,7.0,4.8,6.4,4.0,4.4
+7.589322382,1,m,47.0,manufacture,Commercial,empjs,no,m,grey,bus,3.8,1.9,8.7,8.7,2.1
+7.819301848,0,f,30.0,Retail,HR,referal,no,m,white,car,6.2,6.2,7.2,3.3,3.7
+7.819301848,1,f,21.0,State,Sales,advert,my head,m,grey,bus,4.6,5.5,7.2,3.3,5.2
+7.819301848,0,f,30.0,Retail,HR,referal,no,m,white,car,5.4,3.4,3.3,8.7,8.3
+7.852156057,0,f,41.0,Retail,HR,rabrecNErab,no,m,white,bus,3.0,8.4,8.0,3.3,2.1
+7.852156057,0,f,23.0,transport,HR,youjs,my head,f,white,bus,4.6,7.6,8.0,5.6,2.1
+7.852156057,0,f,27.0,Telecom,HR,youjs,no,f,white,bus,5.4,6.9,8.0,4.8,6.0
+7.852156057,0,f,27.0,Telecom,HR,youjs,no,f,white,bus,7.0,4.8,4.1,4.8,7.5
+7.852156057,0,f,41.0,Retail,HR,rabrecNErab,no,m,white,bus,1.4,4.8,8.7,5.6,2.1
+7.950718686,1,f,34.0,Banks,BusinessDevelopment,KA,my head,m,white,car,8.6,6.9,5.7,3.3,4.4
+7.950718686,0,f,39.0,manufacture,HR,empjs,no,m,white,bus,7.8,4.1,2.6,7.9,6.7
+7.950718686,1,f,34.0,Banks,BusinessDevelopment,KA,my head,m,white,car,7.0,6.2,7.2,2.5,5.2
+8.016427105,1,m,41.0,IT,IT,rabrecNErab,no,m,white,bus,3.8,4.1,5.7,5.6,4.4
+8.082135524,1,f,33.0,manufacture,HR,referal,my head,m,grey,car,7.8,6.9,2.6,4.8,8.3
+8.147843943,0,f,42.0,Banks,HR,rabrecNErab,no,f,white,bus,3.8,8.4,2.6,4.8,7.5
+8.147843943,1,f,46.0,RealEstate,HR,rabrecNErab,no,m,white,car,4.6,7.6,6.4,4.0,6.0
+8.180698152,0,m,30.0,IT,IT,empjs,my head,m,white,car,3.8,5.5,2.6,9.4,3.7
+8.180698152,1,f,24.0,Consult,HR,youjs,no,f,white,bus,6.2,3.4,7.2,2.5,3.7
+8.180698152,1,f,24.0,Consult,HR,youjs,no,f,white,bus,6.2,5.5,7.2,7.1,4.4
+8.180698152,1,f,24.0,IT,HR,empjs,my head,m,white,foot,7.0,5.5,4.9,4.8,2.9
+8.213552361,0,f,30.0,transport,HR,youjs,no,m,white,bus,6.2,6.2,6.4,3.3,4.4
+8.27926078,1,m,29.0,Retail,Sales,friends,my head,m,white,bus,8.6,4.8,2.6,8.7,7.5
+8.31211499,1,f,29.0,State,Teaching,advert,no,f,white,foot,9.4,5.5,3.3,3.3,5.2
+8.344969199,0,f,35.0,etc,HR,rabrecNErab,no,f,white,bus,5.4,6.9,7.2,7.9,6.7
+8.410677618,0,m,24.0,IT,IT,empjs,no,m,white,bus,3.8,4.1,4.1,8.7,6.0
+8.410677618,1,m,32.0,Retail,Commercial,youjs,yes,f,white,bus,3.0,4.1,8.0,7.1,3.7
+8.574948665,1,m,38.0,Agriculture,HR,empjs,no,f,white,bus,4.6,4.1,4.1,8.7,8.3
+8.607802875,1,f,29.0,Banks,HR,empjs,no,f,white,bus,8.6,6.9,2.6,4.0,7.5
+8.640657084,1,f,23.0,manufacture,manage,KA,no,f,white,car,3.8,4.1,8.7,4.0,2.9
+8.640657084,1,f,25.0,Retail,IT,empjs,no,f,grey,bus,7.0,2.6,6.4,7.9,5.2
+8.739219713,0,m,34.0,manufacture,HR,youjs,my head,f,white,bus,9.4,7.6,1.0,4.0,5.2
+8.772073922,1,f,27.0,Retail,HR,rabrecNErab,my head,f,white,car,6.2,4.8,6.4,6.3,2.9
+8.772073922,0,f,32.0,Retail,HR,rabrecNErab,no,m,grey,car,6.2,4.8,5.7,4.0,7.5
+8.772073922,0,f,46.0,etc,HR,empjs,no,f,white,bus,6.2,4.8,7.2,5.6,6.7
+8.837782341,0,f,24.0,Banks,HR,youjs,yes,f,white,bus,4.6,6.2,5.7,6.3,6.7
+8.87063655,1,f,38.0,Building,HR,empjs,yes,f,grey,bus,3.8,4.1,5.7,4.8,9.0
+8.936344969,1,f,24.0,State,etc,advert,yes,f,white,foot,7.0,6.2,4.1,7.1,9.0
+8.969199179,1,f,26.0,State,HR,empjs,yes,m,white,car,5.4,6.2,7.2,4.8,6.7
+8.969199179,1,f,42.0,manufacture,HR,empjs,yes,m,white,bus,6.2,6.2,4.1,5.6,6.7
+8.969199179,1,f,42.0,manufacture,HR,empjs,yes,m,white,bus,6.2,6.2,4.1,5.6,6.7
+9.034907598,0,f,30.0,IT,HR,referal,my head,m,white,bus,5.4,3.4,3.3,8.7,8.3
+9.034907598,1,f,37.0,Mining,Commercial,KA,yes,m,white,bus,3.8,7.6,4.9,7.1,9.0
+9.034907598,0,f,30.0,IT,HR,referal,my head,m,white,bus,6.2,6.2,7.2,3.3,3.7
+9.067761807,0,f,54.0,etc,HR,friends,no,m,white,car,4.6,8.4,5.7,4.0,4.4
+9.100616016,1,f,26.0,State,HR,referal,no,m,white,car,5.4,6.2,7.2,4.8,6.7
+9.100616016,1,f,33.0,Retail,HR,empjs,no,m,white,car,7.0,4.8,4.1,7.1,8.3
+9.133470226,0,f,22.0,IT,HR,youjs,my head,m,white,bus,7.8,8.4,2.6,4.0,6.7
+9.133470226,0,f,22.0,IT,HR,youjs,my head,m,white,bus,7.8,7.6,3.3,4.8,6.7
+9.199178645,1,m,44.0,IT,Engineer,empjs,no,m,white,bus,7.0,7.6,6.4,6.3,6.0
+9.264887064,1,f,23.0,Retail,HR,youjs,no,f,white,bus,7.0,5.5,3.3,4.8,6.7
+9.330595483,0,f,23.0,Banks,HR,empjs,my head,f,white,bus,3.8,6.2,6.4,7.1,5.2
+9.429158111,0,m,36.0,PowerGeneration,HR,rabrecNErab,no,m,white,bus,7.0,4.8,4.1,4.0,4.4
+9.49486653,0,f,26.0,IT,IT,empjs,no,m,white,foot,6.2,5.5,5.7,6.3,5.2
+9.527720739,1,m,23.0,IT,HR,empjs,no,f,white,bus,7.0,4.1,6.4,4.8,5.2
+9.593429158,1,f,34.0,State,Teaching,referal,no,f,white,bus,7.8,7.6,3.3,2.5,7.5
+9.626283368,1,f,25.0,Consult,HR,youjs,my head,f,white,bus,5.4,6.9,5.7,3.3,2.9
+9.691991786,0,f,35.0,RealEstate,HR,rabrecNErab,no,m,white,car,7.8,3.4,5.7,4.0,6.0
+9.691991786,0,f,34.0,Retail,HR,youjs,my head,f,grey,car,4.6,4.8,4.1,7.1,9.0
+9.757700205,0,m,37.0,Retail,Sales,friends,my head,m,white,bus,6.2,4.1,4.9,7.9,6.7
+9.790554415,1,f,41.0,Retail,HR,empjs,no,f,white,bus,3.0,6.9,7.2,4.8,5.2
+9.790554415,1,f,41.0,Retail,HR,empjs,no,f,white,bus,3.0,6.9,6.4,4.8,6.0
+9.790554415,1,f,41.0,Retail,HR,empjs,no,m,white,bus,3.0,6.9,6.4,4.8,6.0
+9.790554415,1,f,41.0,Retail,HR,empjs,no,m,white,bus,2.2,6.9,8.0,6.3,3.7
+9.790554415,1,f,41.0,Retail,HR,empjs,no,m,white,bus,3.0,6.9,7.2,4.8,5.2
+9.790554415,1,f,41.0,Retail,HR,empjs,no,f,white,bus,2.2,6.9,8.0,6.3,3.7
+9.823408624,1,m,26.0,Building,Engineer,empjs,my head,m,white,bus,4.6,5.5,5.7,8.7,6.0
+9.889117043,1,f,25.0,Consult,HR,youjs,my head,f,white,bus,5.4,6.9,5.7,3.3,2.9
+9.921971253,0,f,20.0,IT,IT,empjs,my head,m,white,bus,9.4,4.8,2.6,4.8,9.0
+10.02053388,0,m,38.0,Agriculture,HR,youjs,no,f,white,car,7.8,2.6,4.1,7.9,6.7
+10.11909651,0,f,30.0,RealEstate,HR,empjs,no,m,grey,car,7.8,4.8,3.3,5.6,6.7
+10.11909651,0,f,30.0,RealEstate,HR,empjs,no,m,grey,car,10.0,4.1,1.8,6.3,8.3
+10.34907598,1,f,37.0,Consult,Finanï¿½e,empjs,no,m,white,bus,7.0,7.6,2.6,5.6,8.3
+10.38193018,0,f,34.0,etc,etc,empjs,my head,f,white,car,6.2,1.0,7.2,4.8,6.0
+10.48049281,1,f,28.0,Consult,HR,youjs,my head,m,white,bus,7.0,4.1,3.3,4.8,6.7
+10.51334702,0,m,36.0,manufacture,Engineer,friends,my head,m,white,bus,7.8,2.6,4.1,8.7,6.7
+10.51334702,0,f,28.0,Agriculture,HR,friends,no,f,white,bus,6.2,5.5,3.3,6.3,8.3
+10.51334702,0,m,37.0,Retail,Sales,friends,my head,m,white,bus,6.2,4.1,4.9,7.9,6.7
+10.61190965,0,m,40.0,State,Finanï¿½e,rabrecNErab,no,f,white,car,4.6,7.6,5.7,6.3,7.5
+10.61190965,0,f,41.0,Banks,HR,rabrecNErab,my head,m,white,bus,8.6,3.4,2.6,4.8,8.3
+10.61190965,0,f,41.0,Banks,HR,rabrecNErab,my head,m,white,bus,8.6,3.4,2.6,4.8,8.3
+10.64476386,1,f,26.0,Telecom,IT,youjs,my head,m,grey,bus,7.0,4.1,2.6,8.7,9.0
+10.7761807,1,f,31.0,etc,HR,rabrecNErab,no,m,white,bus,9.4,3.4,1.0,8.7,9.8
+10.7761807,1,f,35.0,transport,Commercial,empjs,no,f,white,car,7.8,5.5,1.8,5.6,8.3
+10.84188912,1,f,30.40033257,Consult,HR,youjs,no,m,white,bus,7.8,5.5,4.9,7.1,6.0
+10.90759754,1,f,32.0,Building,HR,rabrecNErab,my head,m,white,car,7.8,5.5,4.9,6.3,9.0
+10.94045175,1,m,33.0,IT,Consult,youjs,yes,m,white,car,3.0,10.0,5.7,6.3,8.3
+11.00616016,1,m,41.0,Consult,HR,youjs,no,m,white,bus,3.8,4.1,6.4,9.4,6.0
+11.03901437,1,f,37.0,Mining,HR,rabrecNErab,no,m,white,bus,4.6,4.8,8.0,5.6,8.3
+11.03901437,1,f,37.0,Retail,HR,rabrecNErab,no,m,white,car,7.0,6.2,3.3,5.6,9.0
+11.07186858,1,f,43.0,Pharma,HR,youjs,my head,f,white,car,4.6,5.5,3.3,7.9,7.5
+11.23613963,1,m,26.0,IT,IT,empjs,no,m,white,bus,3.8,4.8,6.4,8.7,6.0
+11.26899384,0,f,43.0,manufacture,HR,rabrecNErab,no,m,white,car,5.4,4.8,5.7,6.3,6.7
+11.30184805,1,f,34.0,Building,Marketing,referal,no,m,grey,car,9.4,3.4,4.9,3.3,6.0
+11.49897331,1,f,26.0,Banks,HR,youjs,no,f,white,bus,4.6,6.2,5.7,4.0,6.0
+11.49897331,1,f,26.0,Banks,HR,youjs,no,f,white,bus,4.6,5.5,6.4,5.6,5.2
+11.53182752,0,f,31.0,transport,Consult,friends,no,m,white,bus,3.8,3.4,8.0,6.3,6.0
+11.53182752,0,f,31.0,transport,Consult,friends,no,m,white,bus,5.4,6.2,6.4,4.0,3.7
+11.56468172,0,m,41.0,IT,IT,youjs,no,m,white,foot,5.4,4.1,4.9,7.9,7.5
+11.66324435,0,f,37.0,Telecom,HR,youjs,no,f,white,foot,7.0,4.1,6.4,5.6,8.3
+11.69609856,1,f,25.0,manufacture,HR,youjs,my head,f,grey,car,3.0,4.8,7.2,7.9,5.2
+11.69609856,1,f,36.0,Telecom,HR,youjs,no,f,white,car,7.0,4.1,6.4,5.6,8.3
+11.69609856,1,f,25.0,manufacture,HR,youjs,my head,f,grey,car,3.0,5.5,5.7,7.1,5.2
+11.72895277,0,f,27.0,PowerGeneration,Finanï¿½e,youjs,my head,m,white,bus,6.2,3.4,6.4,7.1,6.7
+11.72895277,0,f,22.0,Consult,manage,youjs,my head,m,white,bus,7.0,4.8,5.7,7.1,7.5
+11.76180698,0,f,39.0,transport,HR,empjs,no,f,white,bus,4.6,4.1,4.9,5.6,3.7
+11.76180698,0,f,39.0,transport,HR,empjs,no,f,white,bus,6.2,4.8,5.7,4.0,2.9
+11.79466119,0,f,29.0,Retail,HR,KA,my head,f,white,bus,4.6,4.1,8.7,4.8,4.4
+11.8275154,0,m,35.0,State,HR,empjs,no,f,white,bus,3.8,4.8,7.2,5.6,6.7
+11.8275154,1,f,24.0,Banks,HR,referal,no,f,white,foot,7.8,6.2,4.9,1.7,3.7
+11.86036961,0,f,25.0,Retail,HR,youjs,no,m,white,car,7.8,4.8,5.7,4.8,5.2
+11.89322382,1,f,24.0,Banks,HR,rabrecNErab,no,f,white,foot,7.8,6.2,4.9,1.7,3.7
+11.92607803,0,f,27.0,Retail,HR,youjs,my head,m,grey,bus,7.0,4.8,6.4,4.8,7.5
+11.95893224,1,m,29.0,Banks,HR,rabrecNErab,no,f,white,car,3.8,1.9,9.5,7.9,3.7
+11.95893224,1,f,35.0,Telecom,HR,empjs,my head,f,white,foot,6.2,4.1,6.4,5.6,6.7
+11.99178645,1,f,27.0,Retail,HR,rabrecNErab,yes,f,white,bus,6.2,6.9,3.3,4.8,6.7
+11.99178645,1,f,27.0,Retail,HR,referal,yes,f,white,bus,6.2,6.9,3.3,4.8,6.7
+11.99178645,1,m,24.0,State,Teaching,rabrecNErab,no,f,white,bus,6.2,4.1,5.7,5.6,3.7
+12.02464066,1,m,30.0,Retail,Sales,rabrecNErab,no,m,grey,car,5.4,4.1,4.9,6.3,6.0
+12.02464066,1,m,30.0,Retail,Sales,rabrecNErab,no,m,grey,car,5.4,4.1,4.9,6.3,6.0
+12.05749487,1,f,36.0,Retail,Sales,youjs,no,m,white,bus,5.4,4.8,4.9,4.8,6.0
+12.09034908,1,m,25.0,Building,HR,youjs,yes,f,white,bus,7.0,4.8,4.9,5.6,6.0
+12.12320329,1,f,39.0, HoReCa,HR,youjs,no,m,white,foot,3.8,6.9,5.7,5.6,3.7
+12.22176591,1,m,27.0,Retail,Sales,youjs,my head,m,white,car,3.8,3.4,2.6,10.0,9.0
+12.25462012,0,f,38.0,Consult,HR,youjs,my head,f,white,bus,2.2,8.4,7.2,3.3,5.2
+12.32032854,0,f,26.0,Retail,HR,empjs,no,m,white,car,6.2,2.6,8.0,6.3,7.5
+12.32032854,0,m,28.0,IT,IT,friends,no,m,white,foot,2.2,5.5,8.7,5.6,6.0
+12.32032854,0,m,36.0,manufacture,HR,friends,no,m,white,bus,7.0,4.8,4.1,4.0,4.4
+12.35318275,1,m,39.0,Retail,manage,empjs,no,m,white,car,6.2,3.4,6.4,6.3,7.5
+12.38603696,0,f,24.0,Pharma,HR,youjs,yes,f,white,bus,5.4,6.9,5.7,5.6,4.4
+12.38603696,1,f,36.0,Banks,Finanï¿½e,rabrecNErab,no,m,white,car,7.8,6.9,3.3,3.3,7.5
+12.5174538,0,m,48.0,manufacture,Marketing,friends,no,m,white,bus,1.4,6.9,6.4,8.7,6.0
+12.64887064,0,f,36.0,IT,HR,recNErab,yes,m,white,bus,4.6,6.9,4.9,5.6,6.0
+12.68172485,1,f,36.0,PowerGeneration,HR,youjs,my head,m,white,bus,6.2,5.5,5.7,5.6,6.7
+12.68172485,1,f,36.0,PowerGeneration,HR,youjs,my head,m,white,bus,6.2,5.5,5.7,5.6,6.7
+12.78028747,1,f,24.0,etc,HR,empjs,my head,f,white,bus,8.6,4.8,4.1,6.3,5.2
+12.78028747,1,f,27.0,IT,HR,youjs,my head,m,white,bus,6.2,6.2,4.9,5.6,6.0
+12.78028747,1,f,35.0,Consult,Consult,friends,no,f,white,bus,5.4,5.5,3.3,4.8,6.7
+12.81314168,1,m,33.0,Building,Sales,KA,no,m,grey,car,7.8,3.4,7.2,4.0,5.2
+12.8788501,1,f,23.0,Building,HR,empjs,no,f,grey,bus,5.4,8.4,4.1,4.8,6.0
+12.8788501,1,f,23.0,Building,HR,empjs,no,f,grey,bus,7.8,5.5,4.1,4.8,5.2
+12.97741273,1,f,29.0,Consult,HR,advert,my head,f,white,foot,3.8,4.8,6.4,7.9,6.7
+12.97741273,1,f,26.0,Consult,HR,empjs,my head,m,grey,bus,7.8,6.9,4.1,4.0,4.4
+13.01026694,1,m,34.0,etc,HR,empjs,no,m,grey,bus,3.8,2.6,8.0,9.4,6.0
+13.01026694,1,f,25.0,Banks,HR,empjs,my head,m,white,bus,9.4,6.2,3.3,2.5,6.7
+13.07597536,1,f,21.0,etc,HR,empjs,no,f,white,bus,5.4,7.6,4.9,3.3,2.1
+13.10882957,1,f,21.0,PowerGeneration,HR,youjs,my head,f,grey,bus,3.8,6.9,8.7,4.0,6.7
+13.10882957,1,m,26.0,etc,Commercial,rabrecNErab,no,m,white,car,6.2,4.1,4.9,6.3,2.9
+13.10882957,1,f,26.0,Agriculture,HR,friends,no,f,white,car,3.0,3.4,6.4,7.1,6.0
+13.14168378,1,m,42.0,etc,Marketing,empjs,no,f,grey,bus,2.2,6.9,3.3,6.3,3.7
+13.17453799,1,m,28.0,Telecom,IT,rabrecNErab,no,m,white,car,7.0,6.2,2.6,5.6,8.3
+13.17453799,1,m,28.0,Telecom,IT,rabrecNErab,no,m,white,car,8.6,6.2,1.0,5.6,6.7
+13.27310062,1,f,34.0,Mining,HR,empjs,no,m,white,car,6.2,4.8,4.1,5.6,6.7
+13.33880903,1,f,33.0,manufacture,HR,youjs,yes,m,white,car,9.4,5.5,1.8,4.8,6.7
+13.40451745,1,f,30.40033257,etc,HR,youjs,no,f,white,bus,7.0,6.9,4.1,6.3,3.7
+13.40451745,1,f,30.40033257,etc,HR,youjs,no,f,white,bus,6.2,4.1,6.4,6.3,1.0
+13.5687885,1,f,33.0,manufacture,HR,recNErab,no,m,white,car,6.2,4.8,2.6,5.6,6.7
+13.66735113,1,f,27.0,Retail,HR,youjs,no,m,white,car,8.6,4.8,7.2,4.0,3.7
+13.73305955,0,f,29.0,manufacture,HR,rabrecNErab,no,f,white,bus,6.2,3.4,4.9,7.9,7.5
+13.86447639,1,f,22.0,IT,HR,rabrecNErab,no,m,white,bus,7.0,2.6,7.2,6.3,6.0
+13.8973306,1,f,23.0,etc,HR,friends,my head,f,white,bus,4.6,8.4,6.4,2.5,2.1
+13.8973306,1,f,38.0,State,Teaching,referal,no,f,white,foot,3.0,9.1,4.1,4.8,6.0
+13.8973306,1,f,27.0,Retail,HR,youjs,no,m,white,car,8.6,4.8,7.2,4.0,3.7
+13.9301848,0,f,27.0,manufacture,HR,empjs,no,f,white,bus,7.0,4.8,6.4,4.8,4.4
+14.06160164,0,f,56.0,Retail,HR,empjs,no,m,white,bus,4.6,6.2,4.9,5.6,6.7
+14.22587269,0,f,31.0,IT,HR,friends,my head,f,white,bus,6.2,6.2,5.7,3.3,6.7
+14.22587269,1,f,28.0,State,manage,rabrecNErab,no,f,white,bus,7.0,6.9,6.4,2.5,5.2
+14.45585216,0,f,33.0,Retail,HR,youjs,no,m,grey,bus,6.2,4.8,6.4,2.5,4.4
+14.48870637,0,m,30.0,etc,Commercial,recNErab,no,m,grey,car,3.8,4.1,8.7,4.8,5.2
+14.48870637,0,m,30.0,Retail,Commercial,recNErab,no,m,grey,car,5.4,3.4,9.5,6.3,3.7
+14.48870637,0,m,30.0,Retail,Commercial,recNErab,no,m,grey,car,3.8,4.1,8.7,4.8,5.2
+14.48870637,0,m,30.0,etc,Commercial,recNErab,no,m,grey,car,5.4,3.4,9.5,6.3,3.7
+14.55441478,0,m,30.0,Telecom,Sales,empjs,my head,f,grey,car,5.4,2.6,3.3,7.9,6.0
+14.58726899,1,f,21.0,Telecom,Sales,rabrecNErab,yes,f,white,bus,8.6,4.1,4.9,5.6,6.0
+14.58726899,1,f,34.0,Retail,HR,youjs,my head,m,white,car,3.8,4.8,6.4,7.9,6.7
+14.6201232,1,m,39.0,manufacture,Engineer,recNErab,no,m,white,car,3.8,4.8,5.7,7.9,3.7
+14.71868583,1,f,36.0,Banks,HR,referal,yes,f,grey,bus,5.4,6.9,3.3,3.3,7.5
+14.85010267,1,m,25.0,manufacture,HR,empjs,my head,f,white,car,6.2,5.5,5.7,5.6,4.4
+14.85010267,1,m,29.0,PowerGeneration,HR,rabrecNErab,no,f,white,bus,3.8,3.4,8.0,6.3,6.0
+14.9486653,1,f,25.0,Retail,HR,empjs,no,f,white,bus,8.6,6.2,3.3,6.3,6.0
+14.98151951,1,f,33.0,manufacture,HR,referal,my head,m,white,car,4.6,4.8,7.2,7.9,6.0
+15.01437372,0,f,30.0,IT,HR,friends,no,m,white,car,9.4,4.1,3.3,5.6,7.5
+15.11293634,0,f,45.0,State,HR,rabrecNErab,no,f,white,bus,6.2,6.2,3.3,6.3,8.3
+15.11293634,0,f,45.0,State,HR,rabrecNErab,no,f,white,bus,4.6,4.8,4.1,7.9,9.0
+15.11293634,1,f,23.0,Retail,HR,youjs,no,f,white,car,7.8,4.8,3.3,6.3,7.5
+15.14579055,0,f,39.0,etc,manage,KA,no,f,white,bus,3.8,7.6,4.9,7.1,9.0
+15.14579055,1,m,22.0,PowerGeneration,etc,recNErab,no,m,white,bus,6.2,2.6,7.2,5.6,6.7
+15.17864476,0,f,45.0,Retail,HR,friends,no,f,white,foot,3.8,6.9,8.0,6.3,5.2
+15.21149897,1,f,30.0,Mining,HR,youjs,my head,f,white,car,4.6,6.9,7.2,3.3,6.7
+15.3100616,1,f,31.0,State,HR,rabrecNErab,no,m,grey,bus,2.2,1.0,8.0,8.7,3.7
+15.34291581,1,f,30.0,Banks,HR,rabrecNErab,no,m,white,bus,5.4,5.5,3.3,4.8,6.7
+15.34291581,0,m,33.0,PowerGeneration,manage,friends,no,m,white,bus,4.6,6.2,9.5,5.6,4.4
+15.40862423,1,f,44.0,State,HR,rabrecNErab,my head,f,grey,car,3.8,6.2,5.7,5.6,6.7
+15.54004107,1,m,38.0,IT,IT,referal,no,m,white,car,6.2,4.1,1.8,8.7,8.3
+15.57289528,1,f,24.0,Retail,HR,youjs,no,f,white,foot,6.2,7.6,3.3,3.3,6.7
+15.57289528,1,f,24.0,Retail,HR,youjs,no,f,white,foot,6.2,7.6,3.3,3.3,6.7
+15.60574949,0,m,54.0,Retail,Sales,empjs,my head,m,white,bus,7.8,2.6,4.9,8.7,7.5
+15.70431211,0,f,24.0,Mining,HR,advert,yes,f,white,bus,5.4,4.1,6.4,6.3,2.1
+15.70431211,0,f,34.0,Retail,HR,empjs,no,f,white,car,7.8,4.1,4.1,7.1,6.7
+15.70431211,0,f,34.0,Retail,HR,empjs,no,f,white,car,8.6,3.4,4.1,7.1,6.0
+15.70431211,0,f,34.0,Retail,HR,empjs,no,f,white,car,8.6,5.5,4.1,5.6,6.7
+15.73716632,1,f,27.0,Agriculture,Marketing,empjs,yes,m,white,bus,7.0,6.9,2.6,4.0,5.2
+15.86858316,0,m,42.0,manufacture,BusinessDevelopment,youjs,no,m,white,car,1.4,4.1,9.5,7.1,5.2
+15.93429158,0,f,41.0,Retail,HR,youjs,no,m,grey,bus,7.8,7.6,4.1,1.7,5.2
+15.93429158,1,f,35.0,PowerGeneration,HR,rabrecNErab,no,m,white,bus,6.2,6.2,2.6,4.8,8.3
+15.93429158,1,f,35.0,PowerGeneration,HR,rabrecNErab,no,m,white,bus,5.4,7.6,4.9,2.5,6.7
+16.0,1,f,28.0,Retail,HR,youjs,no,f,white,car,3.0,5.5,6.4,5.6,3.7
+16.0,1,f,26.0, HoReCa,HR,friends,no,m,white,bus,6.2,2.6,4.9,7.9,6.0
+16.06570842,0,f,28.0,Retail,HR,youjs,my head,f,grey,bus,4.6,1.0,5.7,8.7,2.9
+16.06570842,0,f,28.0,Retail,HR,youjs,my head,f,grey,bus,5.4,4.8,8.0,9.4,2.9
+16.06570842,0,f,28.0,Retail,HR,youjs,my head,f,grey,bus,4.6,5.5,1.8,7.1,6.7
+16.06570842,0,f,50.0,Building,HR,rabrecNErab,no,m,white,bus,6.2,6.2,6.4,3.3,6.7
+16.22997947,1,m,35.0,Retail,HR,rabrecNErab,no,m,white,car,7.0,4.8,2.6,5.6,6.0
+16.22997947,1,m,35.0,Retail,HR,rabrecNErab,no,m,white,car,6.2,5.5,5.7,4.0,2.9
+16.32854209,1,f,37.0,Pharma,etc,empjs,no,f,white,car,4.6,7.6,5.7,5.6,8.3
+16.39425051,1,f,28.0,Building,HR,youjs,no,m,white,car,8.6,5.5,4.9,4.8,5.2
+16.42710472,1,f,26.0,etc,Engineer,empjs,no,m,white,bus,6.2,5.5,3.3,6.3,8.3
+16.49281314,0,f,34.0,Retail,HR,youjs,no,f,white,car,9.4,5.5,1.8,4.8,6.7
+16.59137577,1,f,22.0,IT,manage,youjs,yes,f,white,bus,8.6,6.2,2.6,5.6,9.8
+16.62422998,0,m,24.0,IT,IT,empjs,yes,m,white,bus,5.4,4.8,6.4,5.6,3.7
+16.62422998,0,f,23.0,Retail,HR,youjs,no,f,white,bus,3.0,4.8,6.4,5.6,3.7
+16.62422998,0,f,32.0,Banks,HR,rabrecNErab,no,m,grey,bus,6.2,2.6,2.6,10.0,7.5
+16.65708419,0,m,29.0,Mining,HR,empjs,no,f,white,foot,2.2,5.5,7.2,7.1,6.7
+16.65708419,0,f,38.0,manufacture,HR,friends,my head,f,white,bus,5.4,4.8,5.7,4.0,3.7
+16.65708419,0,m,29.0,Mining,HR,empjs,no,f,white,foot,2.2,7.6,6.4,9.4,6.0
+16.65708419,0,f,26.0,manufacture,HR,empjs,no,m,white,bus,8.6,5.5,4.1,4.0,3.7
+16.75564682,0,f,31.0,etc,HR,rabrecNErab,no,f,grey,bus,8.6,4.8,2.6,7.9,6.7
+16.78850103,1,f,21.0,etc,etc,rabrecNErab,my head,f,white,bus,7.0,6.9,5.7,4.0,5.2
+16.78850103,0,f,29.0,Banks,HR,friends,my head,f,white,bus,3.8,7.6,8.0,6.3,4.4
+16.82135524,0,f,32.0,Pharma,Sales,rabrecNErab,no,f,white,bus,5.4,7.6,8.7,2.5,2.9
+16.82135524,0,f,32.0,Retail,HR,rabrecNErab,no,f,white,bus,3.0,4.1,7.2,7.1,8.3
+16.85420945,0,m,28.0,IT,IT,empjs,my head,m,white,bus,4.6,4.8,5.7,6.3,4.4
+16.91991786,1,m,35.0,etc,Sales,youjs,no,m,white,car,4.6,3.4,4.1,8.7,4.4
+16.95277207,0,f,38.0,Retail,HR,youjs,no,f,white,foot,5.4,2.6,10.0,3.3,3.7
+16.95277207,0,f,38.0,Retail,HR,youjs,no,f,white,foot,7.0,1.9,9.5,5.6,6.0
+16.95277207,0,f,38.0,Retail,HR,youjs,no,f,white,foot,4.6,5.5,10.0,2.5,5.2
+16.95277207,0,f,38.0,Retail,HR,youjs,no,f,white,foot,6.2,2.6,8.7,6.3,6.0
+17.01848049,1,f,40.0,Banks,Sales,advert,my head,f,white,car,5.4,4.1,4.9,6.3,7.5
+17.08418891,0,f,34.0,Banks,HR,youjs,no,f,white,bus,1.4,6.9,8.0,4.0,5.2
+17.11704312,0,f,31.0,transport,manage,friends,my head,m,white,bus,5.4,6.2,6.4,4.0,3.7
+17.11704312,0,f,31.0,transport,manage,friends,my head,m,white,bus,3.8,3.4,8.0,6.3,6.0
+17.18275154,1,f,24.0,Retail,HR,youjs,my head,f,white,bus,6.2,4.8,7.2,4.0,6.7
+17.24845996,0,f,37.0,Building,HR,rabrecNErab,no,m,white,bus,6.2,2.6,7.2,7.1,2.9
+17.3798768,1,f,24.0,Consult,HR,rabrecNErab,no,f,white,bus,5.4,6.9,4.9,4.0,6.7
+17.41273101,1,f,45.0,manufacture,Engineer,rabrecNErab,my head,f,white,bus,3.8,4.1,7.2,5.6,3.7
+17.41273101,1,f,27.0,Retail,HR,youjs,yes,f,grey,car,7.8,5.5,5.7,6.3,6.0
+17.51129363,0,f,39.0,transport,HR,youjs,no,f,white,bus,6.2,4.8,5.7,4.0,2.9
+17.51129363,0,f,39.0,transport,HR,youjs,no,f,white,bus,4.6,4.1,4.9,5.6,3.7
+17.57700205,1,f,25.0,Banks,HR,empjs,no,m,white,bus,6.2,6.2,5.7,5.6,7.5
+17.57700205,1,f,25.0,Banks,HR,empjs,no,m,white,bus,6.2,7.6,4.1,4.8,9.0
+17.60985626,1,f,41.0,Banks,HR,empjs,no,m,white,bus,7.0,6.9,4.1,5.6,7.5
+17.60985626,1,f,41.0,Banks,HR,empjs,no,m,white,bus,7.8,5.5,2.6,6.3,8.3
+17.60985626,1,f,41.0,Banks,HR,empjs,no,m,white,bus,8.6,5.5,3.3,6.3,7.5
+17.80698152,0,m,23.0,Telecom,Engineer,empjs,no,m,grey,bus,3.8,9.1,8.7,4.8,5.2
+17.83983573,1,f,39.0,Retail,HR,rabrecNErab,yes,m,white,car,6.2,7.6,4.1,2.5,4.4
+17.93839836,1,f,40.0,IT,HR,empjs,yes,m,white,bus,3.0,8.4,7.2,4.8,8.3
+17.93839836,1,m,24.0,Retail,HR,empjs,my head,f,grey,bus,4.6,7.6,6.4,4.8,6.7
+18.00410678,0,f,40.0,manufacture,HR,youjs,no,m,white,bus,3.0,6.9,4.9,5.6,6.0
+18.1026694,1,f,44.0,Retail,HR,rabrecNErab,no,m,grey,bus,3.0,6.9,4.1,7.9,5.2
+18.13552361,0,f,23.0,PowerGeneration,HR,rabrecNErab,no,m,white,bus,7.0,5.5,4.1,4.8,6.0
+18.16837782,0,f,24.0,Retail,HR,friends,my head,f,white,bus,4.6,1.9,8.0,6.3,6.0
+18.16837782,1,f,24.0,Consult,HR,youjs,no,f,white,bus,5.4,6.9,7.2,2.5,4.4
+18.16837782,0,f,24.0,Retail,HR,friends,my head,f,white,bus,5.4,4.8,4.9,7.1,6.7
+18.33264887,1,m,39.0,Banks,Finanï¿½e,rabrecNErab,my head,m,white,bus,3.8,7.6,6.4,4.8,5.2
+18.49691992,1,f,46.0,Building,HR,friends,no,m,white,car,3.8,5.5,4.9,5.6,5.2
+18.49691992,1,f,32.0,etc,HR,empjs,my head,m,white,bus,7.8,6.2,3.3,4.0,8.3
+18.56262834,0,f,24.0,manufacture,HR,youjs,no,f,white,bus,3.8,7.6,8.0,4.8,2.9
+18.7926078,0,m,30.0,Banks,Marketing,youjs,no,m,white,bus,7.0,2.6,4.1,8.7,9.0
+18.92402464,0,m,43.0,Consult,IT,referal,no,m,white,foot,6.2,4.1,5.7,7.1,8.3
+18.95687885,1,m,36.0,etc,manage,rabrecNErab,my head,m,white,car,8.6,2.6,7.2,4.8,4.4
+18.95687885,1,m,36.0,etc,manage,rabrecNErab,my head,m,white,car,6.2,4.1,6.4,6.3,5.2
+19.05544148,0,f,26.0,IT,HR,youjs,yes,m,grey,bus,3.8,3.4,8.7,7.1,6.0
+19.08829569,1,f,36.0,Pharma,etc,empjs,no,f,white,car,4.6,7.6,5.7,5.6,8.3
+19.1211499,0,m,39.0,Retail,IT,friends,my head,f,white,car,7.8,3.4,3.3,7.1,6.7
+19.18685832,1,f,25.0,Consult,HR,empjs,my head,f,grey,bus,7.0,4.8,5.7,4.8,5.2
+19.18685832,0,f,43.0,Consult,Consult,empjs,yes,m,white,foot,6.2,5.5,3.3,7.9,9.0
+19.18685832,1,f,22.0,Retail,Sales,youjs,yes,m,grey,bus,8.6,4.1,4.9,4.8,5.2
+19.28542094,1,f,38.0,Retail,Commercial,empjs,no,m,white,car,7.0,6.9,4.1,4.0,6.7
+19.31827515,0,m,28.0,IT,IT,referal,no,m,white,bus,4.6,4.8,7.2,6.3,5.2
+19.35112936,0,f,45.0,Retail,HR,friends,no,f,white,foot,3.8,6.9,8.0,6.3,5.2
+19.44969199,1,f,22.0,etc,HR,youjs,my head,f,white,bus,5.4,6.2,4.1,8.7,8.3
+19.44969199,0,m,38.0,manufacture,HR,recNErab,no,m,white,foot,6.2,4.1,6.4,6.3,5.2
+19.44969199,0,f,31.0,etc,HR,empjs,my head,f,white,bus,7.0,2.6,4.1,8.7,5.2
+19.44969199,1,f,40.0,Banks,HR,empjs,yes,f,grey,bus,6.2,3.4,8.0,3.3,3.7
+19.44969199,0,m,38.0,manufacture,HR,recNErab,no,m,white,foot,8.6,2.6,7.2,4.8,4.4
+19.51540041,0,f,31.0,Retail,HR,empjs,my head,f,white,bus,5.4,7.6,6.4,4.8,6.0
+19.51540041,0,f,31.0,Retail,HR,empjs,my head,f,white,bus,6.2,6.2,6.4,4.0,6.0
+19.58110883,1,f,23.0,Telecom,HR,empjs,no,f,white,bus,3.8,4.8,7.2,5.6,4.4
+19.71252567,1,f,23.0,Retail,Sales,empjs,my head,f,white,bus,7.0,4.8,4.1,5.6,6.7
+19.74537988,0,f,33.0,Pharma,HR,rabrecNErab,no,m,white,bus,5.4,6.9,4.1,4.8,6.0
+19.8110883,1,f,26.0,Agriculture,Law,rabrecNErab,no,m,grey,bus,5.4,4.8,8.7,5.6,2.9
+19.84394251,1,f,29.0,Retail,HR,empjs,my head,f,white,car,8.6,6.9,4.9,3.3,6.0
+19.87679671,1,f,29.0,manufacture,HR,empjs,no,m,white,car,6.2,6.2,4.9,4.8,7.5
+19.94250513,1,f,23.0,manufacture,Commercial,youjs,my head,f,white,bus,6.2,3.4,6.4,7.1,2.9
+20.04106776,1,f,25.0,manufacture,HR,advert,yes,f,white,car,9.4,3.4,1.8,8.7,7.5
+20.04106776,1,f,22.0,Retail,HR,empjs,no,f,white,bus,4.6,1.9,8.0,6.3,6.0
+20.04106776,1,f,22.0,Retail,HR,empjs,no,f,white,bus,5.4,4.8,4.9,7.1,6.7
+20.30390144,0,f,45.0,State,HR,rabrecNErab,no,f,grey,bus,6.2,6.2,3.3,6.3,8.3
+20.30390144,0,f,45.0,State,HR,rabrecNErab,no,f,grey,bus,4.6,4.8,4.1,7.9,9.0
+20.46817248,0,f,31.0,Consult,HR,youjs,my head,m,white,bus,2.2,6.9,6.4,4.8,2.1
+20.56673511,1,m,33.0,Banks,etc,youjs,no,m,white,car,6.2,4.1,3.3,8.7,9.8
+20.59958932,1,f,26.0,manufacture,HR,referal,no,m,white,car,3.0,4.8,7.2,7.9,5.2
+20.59958932,1,f,26.0,manufacture,HR,referal,no,m,white,car,3.0,5.5,5.7,7.1,5.2
+20.69815195,0,f,27.0,manufacture,HR,friends,no,m,white,bus,7.8,4.8,1.8,6.3,6.0
+20.69815195,1,f,40.0,Building,HR,rabrecNErab,my head,m,white,car,2.2,8.4,6.4,4.8,6.7
+20.76386037,0,m,26.0,Telecom,HR,youjs,yes,f,white,bus,3.0,6.9,4.9,4.8,7.5
+20.89527721,0,m,27.0,Consult,HR,youjs,my head,m,white,bus,3.0,4.8,6.4,7.1,7.5
+20.89527721,0,f,33.0,IT,HR,rabrecNErab,my head,f,white,bus,3.8,6.2,6.4,4.8,6.7
+20.92813142,1,m,23.0,Banks,HR,referal,yes,m,white,bus,3.0,6.9,4.9,4.8,7.5
+20.92813142,1,f,22.0,Consult,HR,rabrecNErab,my head,f,white,foot,5.4,8.4,4.9,3.3,6.0
+20.92813142,1,f,23.0,manufacture,Engineer,youjs,yes,m,white,bus,3.0,6.9,5.7,7.9,5.2
+20.92813142,1,f,23.0,manufacture,Engineer,youjs,yes,m,white,bus,4.6,6.9,7.2,4.8,5.2
+20.96098563,1,f,24.0,Retail,Commercial,youjs,my head,m,white,bus,4.6,7.6,7.2,3.3,6.7
+20.99383984,0,f,26.0,Consult,HR,empjs,no,m,white,bus,10.0,4.1,1.0,7.1,7.5
+21.15811088,0,m,49.0,Retail,Finanï¿½e,rabrecNErab,no,m,white,bus,7.0,4.8,4.9,7.1,6.0
+21.15811088,1,f,24.0,Consult,Consult,rabrecNErab,my head,f,white,bus,6.2,4.8,8.0,4.0,2.9
+21.35523614,1,m,31.0,RealEstate,Marketing,youjs,my head,f,grey,car,7.8,4.1,4.1,7.9,7.5
+21.48665298,0,f,27.0,Retail,HR,empjs,my head,m,white,bus,5.4,7.6,6.4,4.0,4.4
+21.48665298,0,f,31.0,State,etc,advert,no,f,white,foot,9.4,5.5,3.3,3.3,5.2
+21.61806982,1,m,37.0,manufacture,manage,rabrecNErab,no,m,grey,bus,3.8,4.8,4.9,7.1,6.7
+21.65092402,0,f,43.0,Building,HR,friends,no,m,white,bus,6.2,6.2,4.1,5.6,6.7
+21.88090349,0,f,38.0,manufacture,HR,youjs,no,f,white,foot,5.4,2.6,10.0,3.3,3.7
+21.88090349,0,f,41.0,Retail,HR,youjs,no,m,grey,car,7.8,7.6,4.1,1.7,5.2
+21.88090349,0,f,38.0,manufacture,HR,youjs,no,f,white,foot,6.2,2.6,8.7,6.3,6.0
+21.88090349,0,f,38.0,manufacture,HR,youjs,no,f,white,foot,4.6,5.5,10.0,2.5,5.2
+21.88090349,0,f,38.0,manufacture,HR,youjs,no,f,white,foot,7.0,1.9,9.5,5.6,6.0
+22.01232033,0,m,37.0,manufacture,etc,youjs,no,m,white,bus,3.0,8.4,5.7,5.6,6.7
+22.07802875,1,m,52.0,Consult,Consult,rabrecNErab,no,m,white,foot,3.0,9.1,4.9,6.3,6.7
+22.24229979,0,f,46.0,IT,HR,friends,yes,f,white,bus,7.0,6.2,5.7,4.8,4.4
+22.24229979,0,f,46.0,IT,HR,friends,yes,f,white,bus,3.0,6.9,6.4,5.6,6.0
+22.24229979,1,f,34.0,Retail,HR,empjs,no,m,white,car,7.8,4.1,2.6,4.8,4.4
+22.37371663,1,f,31.0,IT,IT,youjs,my head,m,white,bus,5.4,5.5,7.2,4.8,5.2
+22.47227926,1,f,29.0,Banks,Finanï¿½e,KA,no,f,white,car,7.8,4.8,5.7,7.1,6.0
+22.57084189,1,f,30.0,RealEstate,HR,rabrecNErab,no,m,grey,bus,7.8,3.4,4.9,5.6,5.2
+22.63655031,1,f,36.0,PowerGeneration,Accounting,empjs,no,f,white,bus,7.8,1.9,4.1,7.1,9.0
+22.66940452,1,m,32.0,IT,IT,empjs,no,m,white,car,1.4,7.6,9.5,6.3,5.2
+22.66940452,0,f,31.0,etc,HR,empjs,no,f,white,bus,5.4,5.5,4.9,5.6,6.7
+22.70225873,0,f,26.0,Retail,HR,rabrecNErab,my head,f,white,car,5.4,5.5,4.9,7.9,6.7
+22.73511294,1,f,34.0,Retail,HR,KA,no,m,white,car,5.4,5.5,4.9,4.8,4.4
+22.73511294,1,f,34.0,Retail,HR,KA,no,m,white,car,6.2,6.2,4.9,3.3,2.9
+22.73511294,1,f,34.0,Retail,HR,KA,no,m,white,car,6.2,6.2,4.9,3.3,2.9
+22.73511294,1,f,34.0,Retail,HR,KA,no,m,white,car,5.4,5.5,4.9,4.8,4.4
+22.9650924,1,m,33.0,Banks,HR,empjs,no,m,white,bus,6.2,4.1,5.7,7.1,8.3
+23.03080082,0,f,24.0,Retail,HR,friends,my head,f,white,bus,5.4,4.8,4.9,7.1,6.7
+23.03080082,0,f,24.0,Retail,HR,friends,my head,f,white,bus,4.6,1.9,8.0,6.3,6.0
+23.12936345,0,f,23.0,Retail,HR,youjs,yes,f,white,bus,6.2,4.8,7.2,4.0,6.7
+23.19507187,1,f,30.0,Banks,HR,rabrecNErab,no,f,white,car,5.4,7.6,2.6,5.6,6.0
+23.2936345,0,f,29.0,IT,IT,empjs,yes,m,white,car,9.4,6.2,4.1,4.8,7.5
+23.2936345,0,f,29.0,IT,IT,empjs,yes,m,white,car,7.0,6.2,5.7,4.8,5.2
+23.2936345,1,f,32.0,Consult,HR,friends,no,f,white,car,6.2,6.2,7.2,3.3,2.9
+23.45790554,0,f,29.0,etc,HR,rabrecNErab,no,f,white,car,7.0,7.6,3.3,3.3,6.7
+23.45790554,0,f,29.0,Retail,HR,youjs,my head,m,white,bus,7.0,6.2,5.7,4.0,3.7
+23.45790554,0,f,29.0,Retail,HR,youjs,my head,m,white,bus,6.2,6.2,5.7,6.3,2.9
+23.45790554,1,f,27.0,Building,HR,rabrecNErab,no,f,white,bus,3.8,9.8,4.1,4.0,9.0
+23.45790554,0,f,29.0,Retail,HR,youjs,my head,m,white,bus,7.8,5.5,5.7,4.0,5.2
+23.45790554,0,f,29.0,etc,HR,rabrecNErab,no,f,white,car,6.2,9.1,4.1,3.3,6.7
+23.52361396,1,f,36.0,manufacture,etc,empjs,my head,f,white,foot,6.2,4.8,5.7,4.0,2.9
+23.52361396,1,f,36.0,manufacture,etc,empjs,my head,f,white,foot,4.6,4.1,4.9,5.6,3.7
+23.55646817,0,f,31.0,Consult,HR,KA,no,m,grey,car,7.0,6.9,1.8,6.3,10.0
+23.55646817,1,f,32.0,etc,HR,youjs,my head,f,white,bus,5.4,6.9,7.2,7.9,6.7
+23.6550308,1,m,26.0,manufacture,Engineer,referal,my head,m,white,bus,4.6,5.5,8.7,5.6,1.3
+23.6550308,1,f,37.0,transport,HR,youjs,no,m,white,bus,6.2,5.5,5.7,6.3,9.0
+23.68788501,1,f,24.0,manufacture,HR,rabrecNErab,my head,f,grey,bus,3.0,5.5,5.7,7.1,5.2
+23.68788501,1,f,24.0,manufacture,HR,rabrecNErab,my head,f,grey,bus,3.0,4.8,7.2,7.9,5.2
+23.75359343,0,f,34.0,Banks,HR,youjs,no,f,white,bus,3.8,6.9,7.2,5.6,5.2
+23.81930185,1,m,22.0,Building,Consult,friends,yes,m,white,bus,7.0,4.8,2.6,7.1,6.7
+23.88501027,1,f,26.0,Retail,HR,youjs,my head,f,white,bus,7.0,5.5,4.1,4.8,7.5
+23.95071869,1,f,32.0,manufacture,HR,recNErab,my head,f,white,car,4.6,6.9,4.9,5.6,6.0
+23.95071869,1,m,34.0,Banks,BusinessDevelopment,referal,no,m,white,bus,7.8,4.8,3.3,7.1,5.2
+23.95071869,1,m,34.0,Banks,BusinessDevelopment,referal,no,m,white,bus,9.4,4.8,4.1,7.1,5.2
+23.9835729,0,m,32.0,Retail,HR,rabrecNErab,no,f,white,bus,7.8,2.6,5.7,8.7,5.2
+23.9835729,1,f,23.0,Agriculture,Consult,referal,yes,m,white,bus,4.6,6.9,7.2,3.3,2.1
+23.9835729,1,f,23.0,Agriculture,Consult,referal,my head,m,white,bus,4.6,6.9,7.2,2.5,2.9
+23.9835729,1,f,29.0,Mining,HR,rabrecNErab,no,m,white,bus,4.6,5.5,5.7,4.8,7.5
+23.9835729,1,f,23.0,Agriculture,Consult,referal,my head,m,white,bus,4.6,6.9,7.2,3.3,2.1
+23.9835729,1,f,23.0,Agriculture,Consult,referal,yes,m,white,bus,4.6,6.9,7.2,2.5,2.9
+24.0164271,1,f,28.0,transport,HR,empjs,no,m,white,bus,3.8,4.8,9.5,4.8,2.1
+24.08213552,1,f,42.0,transport,HR,empjs,no,m,white,bus,5.4,4.8,4.1,4.8,6.0
+24.18069815,1,f,23.0,manufacture,HR,youjs,my head,f,white,bus,6.2,3.4,6.4,4.8,3.7
+24.21355236,0,f,23.0,transport,HR,empjs,yes,m,white,bus,5.4,5.5,8.0,2.5,4.4
+24.24640657,1,f,23.0,Building,Marketing,rabrecNErab,my head,f,white,bus,3.8,7.6,7.2,2.5,4.4
+24.24640657,0,f,30.0,State,HR,rabrecNErab,my head,f,white,bus,5.4,9.8,3.3,5.6,6.7
+24.27926078,0,m,45.0,manufacture,HR,empjs,no,m,white,car,6.2,3.4,7.2,6.3,3.7
+24.27926078,0,m,27.0,transport,HR,friends,no,f,white,bus,3.0,7.6,8.7,3.3,2.9
+24.27926078,0,m,45.0,manufacture,HR,empjs,no,m,white,car,7.0,5.5,5.7,6.3,6.0
+24.3449692,1,f,36.0,Retail,HR,rabrecNErab,my head,m,white,bus,7.8,2.6,5.7,7.1,5.2
+24.41067762,1,f,27.0,Building,HR,rabrecNErab,no,f,white,bus,3.8,9.8,4.1,4.0,9.0
+24.47638604,0,f,27.0,Building,HR,empjs,no,m,white,bus,8.6,5.5,4.9,3.3,3.7
+24.83778234,0,f,29.0,Retail,HR,youjs,no,f,white,car,9.4,1.2,4.1,5.6,6.7
+24.83778234,0,f,34.0,IT,HR,friends,no,m,white,bus,5.4,4.1,3.3,7.9,7.5
+24.83778234,1,f,42.0,transport,HR,youjs,no,m,white,bus,5.4,4.8,4.1,4.8,6.0
+24.90349076,0,f,24.0,manufacture,HR,youjs,no,m,white,bus,3.8,7.6,8.0,4.8,2.9
+25.06776181,1,f,28.0,manufacture,HR,youjs,my head,m,white,bus,6.2,4.8,4.1,4.0,6.7
+25.23203285,1,f,30.0,Retail,Sales,youjs,no,f,white,bus,4.6,2.6,7.2,6.3,5.2
+25.33059548,0,f,32.0,Retail,HR,recNErab,yes,m,white,bus,8.6,3.4,3.3,6.3,2.1
+25.36344969,0,f,32.0,manufacture,HR,KA,no,m,white,car,6.2,6.9,5.7,4.8,8.3
+25.42915811,1,f,22.0,Consult,HR,empjs,yes,m,white,bus,6.2,4.8,3.3,7.1,9.0
+25.52772074,1,f,27.0,Consult,Sales,rabrecNErab,my head,m,grey,bus,7.0,4.8,4.9,5.6,6.7
+25.65913758,1,m,51.0,Retail,etc,referal,no,m,white,car,3.0,5.5,9.5,5.6,5.2
+25.98767967,1,f,23.0,IT,HR,youjs,my head,f,white,bus,1.4,2.6,9.5,8.7,2.1
+25.98767967,0,m,23.0,Consult,Marketing,advert,my head,m,white,foot,6.2,6.2,7.2,4.8,5.2
+26.02053388,1,m,25.0,Retail,IT,referal,no,m,white,car,2.2,7.6,5.7,7.9,6.0
+26.0862423,1,f,30.0,Banks,HR,youjs,no,f,white,bus,8.6,6.9,2.6,4.0,7.5
+26.11909651,1,f,31.0,manufacture,HR,rabrecNErab,no,m,grey,bus,3.0,7.6,4.9,5.6,5.2
+26.15195072,1,m,31.0,Building,Engineer,youjs,no,m,white,bus,5.4,4.1,8.7,6.3,4.4
+26.18480493,1,m,21.0,etc,Marketing,referal,no,m,white,bus,4.6,6.9,4.1,5.6,6.0
+26.21765914,1,f,36.0,etc,HR,empjs,no,m,white,foot,3.0,6.9,6.4,4.8,6.0
+26.21765914,1,f,36.0,etc,HR,empjs,no,m,white,foot,2.2,6.9,8.0,6.3,3.7
+26.21765914,1,f,36.0,etc,HR,empjs,no,m,white,foot,3.0,6.9,7.2,4.8,5.2
+26.31622177,1,f,24.0,Building,etc,friends,no,m,grey,bus,5.4,4.1,2.6,7.9,6.0
+26.34907598,0,m,36.0,transport,etc,empjs,no,m,grey,bus,3.8,8.4,5.7,6.3,6.0
+26.4476386,1,f,27.0,IT,Sales,referal,yes,m,white,bus,5.4,6.9,2.6,5.6,8.3
+26.54620123,1,f,27.0,Retail,Sales,referal,my head,m,white,bus,8.6,7.6,1.0,5.6,10.0
+26.57905544,1,f,28.0,Banks,HR,youjs,no,f,white,foot,3.8,9.1,6.4,4.8,6.7
+26.67761807,0,f,19.0,IT,HR,youjs,yes,f,white,bus,7.0,2.6,6.4,7.1,2.1
+26.67761807,1,f,32.0,etc,HR,youjs,yes,f,white,bus,3.0,8.4,7.2,6.3,7.5
+26.80903491,1,f,34.0,Banks,HR,youjs,no,f,white,bus,1.4,6.9,8.0,4.0,5.2
+26.87474333,1,f,26.0,Consult,HR,youjs,my head,f,white,bus,8.6,4.1,4.9,5.6,5.2
+26.94045175,1,f,21.0,State,PR,empjs,no,f,white,bus,3.0,5.5,7.2,5.6,2.1
+26.94045175,1,f,44.0,transport,HR,referal,no,m,white,car,3.8,6.2,4.9,6.3,10.0
+26.94045175,1,f,24.0,Pharma,HR,empjs,no,f,white,bus,5.4,4.8,4.9,4.8,5.2
+27.23613963,0,f,27.0,etc,etc,empjs,no,m,white,bus,7.0,6.9,5.7,3.3,6.7
+27.33470226,0,f,32.0,etc,Sales,empjs,no,m,white,bus,7.8,5.5,2.6,4.0,7.5
+27.36755647,0,f,26.0,IT,HR,empjs,yes,f,white,bus,6.2,7.6,4.1,3.3,6.7
+27.36755647,0,f,26.0,IT,HR,empjs,yes,f,white,bus,9.4,6.2,2.6,4.0,6.0
+27.36755647,0,f,26.0,Banks,IT,youjs,my head,m,grey,car,6.2,5.5,4.9,5.6,6.7
+27.36755647,1,m,30.0,Retail,Sales,youjs,no,m,white,car,7.0,4.8,1.8,8.7,6.7
+27.40041068,0,f,43.0,State,Law,rabrecNErab,no,m,white,car,4.6,5.5,6.4,4.0,5.2
+27.40041068,0,f,22.0,Consult,HR,youjs,my head,f,white,bus,6.2,5.5,2.6,5.6,8.3
+27.4661191,0,f,31.0,Consult,Marketing,rabrecNErab,no,m,white,foot,5.4,5.5,3.3,7.9,8.3
+27.49897331,1,f,27.0,etc,HR,KA,no,f,white,bus,3.8,1.9,9.5,7.1,2.1
+27.56468172,0,f,26.0, HoReCa,HR,youjs,my head,f,white,car,3.0,6.9,7.2,4.8,5.2
+27.56468172,0,m,41.0,Agriculture,etc,youjs,no,f,white,car,3.8,6.9,2.6,7.1,6.7
+27.59753593,0,f,26.0,Retail,HR,recNErab,no,f,white,bus,3.8,4.1,8.7,7.9,5.2
+27.59753593,0,f,26.0,Retail,HR,recNErab,no,f,white,bus,4.6,6.2,5.7,6.3,4.4
+27.86036961,0,f,31.0,manufacture,HR,referal,my head,f,white,car,9.4,5.5,2.6,4.8,5.2
+27.92607803,0,f,25.0,Consult,HR,empjs,no,f,white,bus,7.0,4.1,5.7,5.6,8.3
+28.02464066,0,m,34.0,IT,IT,referal,no,m,white,foot,6.2,1.2,7.2,6.3,9.0
+28.15605749,1,f,25.0,etc,etc,referal,my head,f,white,bus,3.8,6.9,6.4,7.1,7.5
+28.35318275,1,f,31.0,Banks,HR,empjs,no,f,grey,bus,7.0,6.2,1.0,9.4,7.5
+28.35318275,1,m,26.0,Consult,Consult,referal,no,f,white,bus,8.6,5.5,4.1,7.1,6.7
+28.58316222,1,f,21.0,Consult,HR,empjs,yes,f,white,bus,7.0,9.1,1.8,4.8,6.0
+28.78028747,0,f,31.0,Retail,Accounting,youjs,no,f,white,bus,7.0,2.6,7.2,4.8,4.4
+28.81314168,0,f,23.0,Retail,HR,empjs,no,m,white,bus,7.0,4.1,8.0,4.8,4.4
+28.84599589,1,m,31.0,Retail,Sales,empjs,my head,m,grey,bus,6.2,6.9,6.4,3.3,6.7
+29.01026694,1,f,28.0,Building,BusinessDevelopment,referal,no,m,white,foot,9.4,3.4,4.9,3.3,6.0
+29.07597536,1,f,22.0,etc,HR,youjs,yes,f,white,bus,9.4,4.1,4.1,4.8,9.0
+29.24024641,1,f,42.0,Retail,HR,empjs,no,m,grey,bus,3.8,5.5,5.7,4.8,3.7
+29.27310062,0,f,35.0,Pharma,HR,KA,my head,f,white,bus,5.4,4.8,5.7,4.0,3.7
+29.30595483,1,f,25.0,IT,HR,empjs,yes,f,white,bus,6.2,8.4,5.7,4.0,6.0
+29.47022587,1,f,29.0,Banks,HR,friends,no,f,white,bus,6.2,5.5,4.9,5.6,9.8
+29.70020534,0,m,47.0,IT,Consult,rabrecNErab,no,m,white,bus,1.4,5.5,6.4,10.0,5.2
+29.70020534,0,m,47.0,IT,Consult,rabrecNErab,no,m,white,bus,2.2,5.5,7.2,9.4,6.0
+29.8973306,0,f,26.0,IT,HR,friends,my head,m,white,bus,4.6,6.9,8.0,4.0,4.4
+29.96303901,0,m,32.0,IT,IT,empjs,my head,m,white,bus,3.8,7.6,4.9,4.8,4.4
+30.02874743,1,f,22.0,Banks,HR,youjs,yes,f,white,bus,6.2,4.8,4.9,4.8,6.7
+30.12731006,0,f,34.0,manufacture,HR,rabrecNErab,yes,m,white,bus,4.6,5.5,7.2,4.8,6.0
+30.22587269,0,m,33.0,Retail,HR,empjs,my head,f,white,car,5.4,7.6,5.7,7.1,6.0
+30.22587269,0,m,33.0,Retail,HR,empjs,my head,f,white,car,4.6,6.2,8.0,7.1,5.2
+30.35728953,0,f,30.0,transport,HR,empjs,no,m,white,bus,3.8,3.4,7.2,7.9,2.9
+30.68583162,0,f,37.0,IT,HR,empjs,my head,f,white,bus,5.4,6.9,5.7,5.6,6.7
+30.71868583,0,f,32.0,manufacture,HR,youjs,no,m,white,bus,4.6,2.6,7.2,6.3,5.2
+30.78439425,0,f,41.0,Agriculture,HR,empjs,no,m,white,car,7.8,2.6,4.1,6.3,4.4
+31.14579055,0,m,21.0,Retail,Sales,rabrecNErab,yes,m,white,bus,7.8,4.1,2.6,5.6,8.3
+31.34291581,0,f,22.0,Consult,HR,youjs,my head,f,white,foot,6.2,4.1,8.0,4.0,1.3
+31.34291581,0,f,22.0,Consult,HR,youjs,my head,f,white,foot,4.6,4.1,9.5,6.3,1.3
+31.50718686,0,m,29.0,IT,IT,youjs,no,m,white,bus,3.8,2.6,6.4,7.9,8.3
+31.96714579,1,m,29.0,Consult,HR,empjs,my head,m,white,bus,4.6,3.4,10.0,6.3,1.0
+32.0,0,f,22.0,IT,IT,empjs,my head,m,white,foot,7.0,3.4,4.9,7.1,6.7
+32.26283368,1,f,35.0,manufacture,HR,youjs,no,m,white,car,5.4,4.1,4.1,7.1,7.5
+32.32854209,1,f,31.0,transport,HR,empjs,no,m,white,bus,7.0,4.8,6.4,2.5,4.4
+32.32854209,0,m,49.0,PowerGeneration,IT,friends,no,m,grey,car,3.0,3.4,8.7,5.6,3.7
+32.32854209,0,f,29.0,manufacture,HR,friends,no,f,white,bus,3.8,4.8,6.4,7.9,6.7
+32.45995893,0,f,25.0,Retail,Marketing,youjs,yes,f,white,bus,8.6,5.5,3.3,5.6,9.8
+32.45995893,1,f,32.0,Banks,HR,youjs,no,m,white,bus,3.8,4.1,6.4,7.9,6.7
+32.45995893,1,m,40.0,etc,HR,empjs,yes,m,white,car,5.4,3.4,5.7,7.9,9.8
+32.49281314,1,f,40.0,Retail,HR,KA,no,m,white,car,6.2,6.2,5.7,4.8,7.5
+32.52566735,1,f,48.0,Building,HR,rabrecNErab,no,m,white,bus,6.2,6.2,6.4,3.3,6.7
+32.85420945,1,f,58.0,Retail,Accounting,youjs,no,m,white,bus,5.4,4.8,6.4,4.8,6.0
+32.88706366,0,f,26.0,IT,HR,empjs,my head,f,white,bus,9.4,6.2,2.6,4.0,6.0
+32.88706366,0,f,27.0,Pharma,HR,rabrecNErab,my head,m,white,bus,3.0,5.5,10.0,6.3,4.4
+32.88706366,0,f,26.0,IT,HR,empjs,my head,f,white,bus,6.2,7.6,4.1,3.3,6.7
+32.95277207,1,m,24.0,Consult,HR,empjs,no,f,white,foot,2.2,4.1,6.4,9.4,6.0
+33.01848049,0,f,23.0,etc,etc,youjs,no,f,white,bus,5.4,6.2,7.2,3.3,2.1
+33.28131417,0,f,40.0,State,HR,friends,no,f,white,bus,3.0,6.9,8.0,4.0,3.7
+33.3798768,1,f,38.0,manufacture,HR,rabrecNErab,no,m,white,bus,7.8,2.6,5.7,7.1,5.2
+33.41273101,0,m,32.0,Retail,HR,youjs,no,m,white,bus,4.6,2.6,6.4,8.7,6.0
+33.57700205,1,f,25.0,etc,HR,KA,my head,f,white,foot,9.4,1.2,4.1,5.6,6.7
+33.57700205,0,f,24.0,IT,HR,empjs,no,m,white,bus,6.2,6.2,4.9,3.3,4.4
+33.67556468,0,m,42.0,manufacture,Engineer,youjs,no,m,white,car,1.4,4.1,9.5,7.1,5.2
+33.87268994,0,f,22.0,Retail,manage,youjs,no,f,white,bus,6.2,9.1,4.9,3.3,2.9
+33.90554415,0,f,23.0,Retail,HR,empjs,my head,f,white,bus,6.2,4.1,8.0,4.0,4.4
+33.93839836,1,f,27.0,Retail,HR,friends,my head,f,white,bus,6.2,6.2,7.2,3.3,3.7
+33.93839836,1,f,27.0,Retail,HR,friends,my head,f,white,bus,5.4,3.4,3.3,8.7,8.3
+33.97125257,0,f,25.0,Banks,HR,youjs,yes,f,white,bus,7.0,6.2,3.3,3.3,3.7
+34.03696099,1,f,27.0,Retail,HR,empjs,no,f,grey,car,10.0,4.1,1.8,6.3,8.3
+34.03696099,1,f,27.0,Retail,HR,empjs,no,f,grey,car,7.8,4.8,3.3,5.6,6.7
+34.0698152,1,f,34.0,manufacture,Marketing,referal,no,m,grey,car,9.4,3.4,4.9,3.3,6.0
+34.23408624,0,f,24.0,IT,HR,empjs,my head,f,white,bus,8.6,6.9,4.9,1.7,4.4
+34.29979466,0,m,34.0,manufacture,HR,referal,my head,f,white,bus,7.8,4.8,7.2,6.3,7.5
+34.49691992,0,f,38.0,Building,HR,referal,no,m,white,car,1.4,4.8,5.7,6.3,6.7
+34.56262834,1,m,31.0,Retail,BusinessDevelopment,KA,my head,m,white,car,7.8,4.8,3.3,7.1,5.2
+34.56262834,1,m,31.0,Retail,BusinessDevelopment,KA,my head,m,white,car,9.4,4.8,4.1,7.1,5.2
+34.59548255,0,f,34.0,Retail,HR,empjs,no,f,white,car,8.6,5.5,4.1,5.6,6.7
+34.59548255,0,f,34.0,Retail,HR,empjs,no,f,white,car,8.6,3.4,4.1,7.1,6.0
+34.59548255,0,f,34.0,Retail,HR,empjs,no,f,white,car,7.8,4.1,4.1,7.1,6.7
+34.82546201,0,m,27.0,etc,Sales,youjs,yes,m,grey,bus,10.0,2.6,4.1,5.6,9.0
+34.95687885,0,m,38.0,Retail,Sales,KA,no,m,white,bus,7.0,2.6,6.4,5.6,5.2
+34.95687885,1,m,26.0,Mining,HR,empjs,yes,f,white,car,4.6,3.4,8.7,7.9,7.5
+35.28542094,1,f,23.0,Consult,HR,empjs,yes,f,white,bus,10.0,4.8,4.1,5.6,8.3
+35.28542094,1,f,23.0,Consult,HR,empjs,yes,f,white,bus,8.6,4.8,4.1,6.3,9.0
+35.38398357,1,f,31.0,Retail,HR,KA,no,m,white,bus,3.8,10.0,3.3,3.3,6.7
+35.74537988,1,f,35.0,Retail,HR,empjs,no,m,white,bus,5.4,7.6,4.9,4.0,6.0
+35.77823409,1,f,22.0,IT,IT,empjs,my head,m,grey,bus,7.0,4.1,5.7,5.6,8.3
+35.84394251,0,f,27.0,PowerGeneration,HR,youjs,no,m,white,foot,3.0,2.6,6.4,7.1,7.5
+35.84394251,0,f,27.0,PowerGeneration,HR,youjs,no,m,white,foot,3.0,5.5,4.1,7.1,8.3
+35.94250513,1,m,38.0,Banks,BusinessDevelopment,recNErab,no,m,white,car,8.6,3.4,6.4,4.0,6.0
+35.94250513,0,m,33.0,Consult,Consult,youjs,yes,m,white,bus,5.4,4.8,2.6,7.9,9.0
+36.00821355,0,f,45.0,transport,HR,recNErab,no,f,white,car,4.6,4.8,4.9,8.7,5.2
+36.23819302,1,f,32.0,Retail,HR,youjs,no,m,white,car,3.0,7.6,7.2,4.8,2.9
+36.33675565,0,f,32.0,manufacture,HR,KA,no,m,white,bus,7.0,9.1,3.3,2.5,6.0
+36.59958932,0,m,24.0,IT,IT,empjs,yes,m,white,car,5.4,1.9,6.4,9.4,6.0
+36.59958932,0,m,33.0,Retail,HR,empjs,no,f,white,car,5.4,7.6,5.7,7.1,6.0
+36.59958932,0,m,33.0,Retail,HR,empjs,no,f,white,car,4.6,6.2,8.0,7.1,5.2
+36.73100616,0,f,24.0,PowerGeneration,HR,rabrecNErab,yes,f,white,bus,4.6,6.9,7.2,5.6,4.4
+36.73100616,0,f,24.0,PowerGeneration,HR,rabrecNErab,yes,f,white,bus,6.2,4.8,4.9,4.8,3.7
+36.92813142,1,f,49.0,State,BusinessDevelopment,empjs,my head,f,white,bus,4.6,6.2,4.9,5.6,6.7
+36.96098563,1,f,48.0,State,BusinessDevelopment,empjs,no,f,white,bus,4.6,6.2,4.9,5.6,6.7
+37.09240246,1,f,37.0,etc,HR,youjs,yes,f,white,bus,6.2,6.2,6.4,5.6,5.2
+37.12525667,1,f,38.0,manufacture,HR,KA,my head,m,white,car,3.0,3.4,7.2,5.6,5.2
+37.15811088,1,m,38.0,Retail,HR,rabrecNErab,no,f,white,bus,7.0,3.4,5.7,8.7,5.2
+37.32238193,0,m,25.0,etc,etc,referal,yes,m,white,car,4.6,5.5,8.7,4.0,3.7
+37.38809035,0,f,20.0,etc,HR,KA,no,f,white,bus,7.8,7.6,4.1,4.0,5.2
+37.78234086,1,f,34.0,Building,HR,youjs,my head,f,white,bus,4.6,2.6,5.7,7.9,7.5
+37.9137577,0,f,34.0,Telecom,HR,youjs,yes,f,white,bus,3.0,6.2,8.7,5.6,7.5
+38.01232033,0,f,35.0,manufacture,HR,youjs,no,m,white,bus,7.8,1.9,3.3,4.0,6.7
+38.01232033,0,f,25.0,manufacture,HR,youjs,no,f,white,bus,6.2,3.4,6.4,4.8,3.7
+38.01232033,0,m,33.0,Retail,HR,rabrecNErab,my head,m,white,car,3.0,4.1,8.0,7.1,3.7
+38.17659138,0,m,33.0,Retail,HR,empjs,my head,f,white,bus,2.2,7.6,6.4,4.8,7.5
+38.53798768,0,m,40.0,IT,IT,empjs,no,m,white,car,3.8,6.2,8.7,6.3,4.4
+38.70225873,0,f,33.0,Retail,HR,referal,my head,m,white,car,5.4,4.1,6.4,5.6,6.7
+38.76796715,1,m,21.0,Banks,HR,recNErab,yes,f,white,foot,7.0,3.4,3.3,7.1,8.3
+38.76796715,1,m,21.0,Banks,HR,recNErab,yes,f,white,foot,7.8,6.2,2.6,5.6,9.0
+38.86652977,1,f,32.0,manufacture,HR,empjs,no,m,white,car,5.4,4.8,7.2,4.0,8.3
+38.86652977,1,f,27.0,Retail,etc,referal,yes,m,white,bus,5.4,6.9,2.6,5.6,8.3
+38.89938398,0,m,36.0,manufacture,manage,friends,no,m,white,car,4.6,4.8,4.1,7.1,10.0
+39.06365503,1,f,31.0,manufacture,HR,rabrecNErab,my head,f,white,bus,6.2,4.8,4.1,4.8,5.2
+39.22792608,1,f,37.0,Retail,HR,friends,no,f,white,car,6.2,6.9,4.1,6.3,8.3
+39.22792608,1,f,37.0,Retail,HR,friends,no,f,white,car,3.8,9.1,4.9,5.6,7.5
+39.22792608,1,f,37.0,Retail,HR,friends,no,f,white,car,3.8,9.1,4.9,5.6,7.5
+39.22792608,1,f,37.0,Retail,HR,friends,no,f,white,car,6.2,6.9,4.1,6.3,8.3
+39.26078029,1,f,37.0,Retail,HR,friends,no,f,white,car,3.8,9.1,4.9,5.6,7.5
+39.26078029,1,f,37.0,Retail,HR,friends,no,f,white,car,6.2,6.9,4.1,6.3,8.3
+39.2936345,0,m,21.0,IT,IT,friends,my head,m,white,foot,3.8,5.5,5.7,7.9,3.7
+39.68788501,0,f,25.0,IT,HR,youjs,no,m,white,bus,6.2,6.9,2.6,5.6,7.5
+39.72073922,0,f,30.40033257,Banks,HR,friends,my head,f,white,bus,6.2,6.2,4.1,2.5,5.2
+39.88501027,0,m,22.0,etc,HR,youjs,no,f,white,bus,8.6,2.6,6.4,6.3,6.7
+40.04928131,0,f,29.0,PowerGeneration,Commercial,youjs,no,m,grey,car,5.4,6.2,4.1,5.6,8.3
+40.11498973,0,m,41.0,IT,IT,friends,no,m,white,car,1.4,6.9,9.5,6.3,1.3
+40.31211499,0,f,29.0,manufacture,HR,rabrecNErab,my head,m,white,foot,6.2,3.4,4.1,7.9,7.5
+40.31211499,0,f,29.0,manufacture,HR,rabrecNErab,my head,m,white,foot,6.2,3.4,4.1,7.9,7.5
+40.3449692,0,f,29.0,manufacture,HR,rabrecNErab,my head,m,white,foot,6.2,3.4,4.1,7.9,7.5
+40.3449692,1,f,23.0,Banks,IT,youjs,my head,m,white,bus,5.4,6.2,3.3,4.0,6.0
+40.37782341,0,f,29.0,manufacture,HR,rabrecNErab,my head,m,white,foot,6.2,3.4,4.1,7.9,7.5
+40.47638604,0,m,26.0,transport,etc,referal,my head,m,white,bus,6.2,3.4,5.7,6.3,7.5
+40.57494867,1,m,29.0,Banks,Marketing,rabrecNErab,no,f,white,bus,6.2,4.8,6.4,5.6,5.2
+40.60780287,0,m,33.0,Retail,HR,empjs,no,f,white,car,5.4,7.6,5.7,7.1,6.0
+40.60780287,0,m,33.0,Retail,HR,empjs,no,f,white,car,4.6,6.2,8.0,7.1,5.2
+40.87063655,1,m,35.0,IT,IT,referal,yes,m,white,car,6.2,7.6,4.1,6.3,6.7
+41.29774127,1,f,22.0,Pharma,HR,rabrecNErab,no,m,white,bus,3.8,1.9,8.7,6.3,4.4
+41.29774127,1,f,22.0,Pharma,HR,rabrecNErab,no,m,white,bus,5.4,2.6,8.0,7.1,5.2
+41.65913758,0,f,29.0,Retail,HR,empjs,my head,f,white,bus,6.2,6.9,8.7,3.3,2.9
+41.69199179,1,f,36.0,manufacture,Sales,KA,no,m,grey,car,8.6,4.8,1.8,7.1,8.3
+41.69199179,1,f,21.0,transport,HR,empjs,yes,f,white,foot,7.8,5.5,2.6,7.1,9.0
+42.0862423,0,f,31.0,State,HR,rabrecNErab,no,f,white,bus,1.4,7.6,7.2,4.0,2.9
+42.18480493,0,f,27.0,PowerGeneration,HR,youjs,no,m,white,bus,3.0,2.6,6.4,7.1,7.5
+42.18480493,0,f,27.0,PowerGeneration,HR,youjs,no,m,white,bus,3.0,5.5,4.1,7.1,8.3
+42.25051335,1,f,18.0,Banks,HR,rabrecNErab,my head,f,white,bus,6.2,6.2,4.1,2.5,5.2
+42.38193018,1,f,36.0,manufacture,HR,youjs,my head,f,white,bus,6.2,4.8,5.7,8.7,7.5
+42.38193018,1,f,26.0,Consult,BusinessDevelopment,empjs,my head,m,white,bus,9.4,6.9,3.3,3.3,6.0
+42.48049281,1,f,42.0,Consult,HR,friends,no,m,white,bus,3.0,6.9,6.4,5.6,6.0
+42.48049281,1,f,42.0,Consult,HR,friends,no,m,white,bus,7.0,6.2,5.7,4.8,4.4
+42.57905544,0,f,26.0,Banks,HR,youjs,no,f,white,car,6.2,6.2,5.7,5.6,7.5
+42.57905544,0,f,26.0,Banks,HR,youjs,no,f,white,car,6.2,7.6,4.1,4.8,9.0
+42.57905544,1,f,30.0,Retail,HR,KA,no,f,white,bus,6.2,6.2,5.7,5.6,8.3
+42.61190965,0,f,37.0,transport,HR,youjs,no,m,white,bus,4.6,6.2,8.0,4.8,6.0
+42.90759754,0,f,24.0,Banks,HR,youjs,my head,f,white,bus,6.2,6.2,4.1,4.8,6.0
+42.94045175,1,m,23.0,Banks,HR,rabrecNErab,my head,f,white,bus,4.6,7.6,5.7,4.0,5.2
+42.94045175,1,f,25.0,State,manage,friends,no,m,white,bus,4.6,6.2,6.4,4.0,4.4
+43.17043121,0,f,42.0,Mining,HR,friends,no,m,white,bus,4.6,6.2,7.2,6.3,6.0
+43.26899384,0,f,51.0,Consult,HR,empjs,no,m,white,bus,3.8,7.6,5.7,6.3,5.2
+43.30184805,0,f,33.0,Banks,HR,empjs,no,f,white,bus,7.0,6.2,1.0,9.4,7.5
+43.4661191,0,m,28.0,manufacture,HR,youjs,my head,f,white,car,6.2,3.4,4.9,6.3,6.7
+43.4661191,1,f,22.0,Pharma,HR,rabrecNErab,no,m,white,bus,3.0,4.1,8.7,7.1,6.0
+43.69609856,0,f,36.0,IT,HR,youjs,my head,f,white,bus,5.4,6.9,5.7,5.6,6.7
+43.8275154,1,f,27.0,etc,HR,youjs,my head,f,white,bus,5.4,6.2,5.7,5.6,6.7
+43.86036961,0,f,29.0,Retail,HR,youjs,no,f,white,car,8.6,6.2,4.9,4.8,9.0
+43.92607803,1,f,32.0,transport,HR,rabrecNErab,my head,m,white,bus,6.2,4.8,2.6,5.6,9.8
+43.95893224,0,f,38.0,Retail,HR,friends,no,m,white,bus,7.8,7.6,2.6,5.6,7.5
+43.99178645,1,m,26.0,etc,Engineer,friends,no,m,white,bus,7.8,6.9,4.1,6.3,7.5
+44.02464066,1,m,26.0,State,IT,empjs,my head,m,white,bus,4.6,3.4,6.4,7.1,6.0
+44.22176591,0,f,29.0,Retail,HR,empjs,my head,f,white,bus,6.2,6.9,8.7,3.3,2.9
+44.48459959,0,m,22.0,IT,IT,rabrecNErab,my head,m,white,foot,4.6,2.6,6.4,9.4,6.0
+44.55030801,0,f,30.0,manufacture,HR,rabrecNErab,no,f,white,car,7.0,5.5,4.1,5.6,6.7
+44.78028747,1,f,36.0,etc,HR,rabrecNErab,no,m,white,bus,7.8,4.8,4.9,5.6,9.0
+44.94455852,0,m,33.0,Retail,HR,youjs,my head,f,white,bus,2.2,7.6,6.4,4.8,7.5
+44.97741273,1,m,29.0,Consult,HR,empjs,no,m,white,car,3.0,4.8,4.9,6.3,7.5
+45.07597536,0,f,28.0,IT,HR,recNErab,no,f,white,bus,6.2,6.9,1.8,5.6,7.5
+45.30595483,1,f,34.0,Retail,HR,youjs,no,f,white,bus,4.6,5.5,10.0,2.5,5.2
+45.30595483,1,f,34.0,Retail,HR,youjs,no,f,white,bus,6.2,2.6,8.7,6.3,6.0
+45.30595483,1,f,34.0,Retail,HR,youjs,no,f,white,bus,5.4,2.6,10.0,3.3,3.7
+45.30595483,1,f,34.0,Retail,HR,youjs,no,f,white,bus,7.0,1.9,9.5,5.6,6.0
+45.37166324,1,f,29.0,etc,HR,referal,no,m,white,bus,3.8,3.4,5.7,8.7,7.5
+45.37166324,1,f,29.0,etc,HR,referal,no,m,white,bus,7.8,6.2,6.4,7.9,6.0
+45.43737166,0,f,35.0,etc,HR,rabrecNErab,no,f,white,bus,6.2,5.5,4.9,6.3,6.0
+45.53593429,1,m,39.0,Mining,etc,friends,no,m,white,foot,3.8,6.9,4.1,7.1,7.5
+45.5687885,1,f,25.0,Mining,HR,KA,yes,f,white,foot,7.0,6.2,6.4,4.0,5.2
+45.73305955,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,3.8,3.4,5.7,8.7,7.5
+45.73305955,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,7.8,6.2,6.4,7.9,6.0
+45.79876797,1,f,27.0,etc,HR,youjs,my head,f,white,bus,3.8,9.1,4.1,4.8,4.4
+45.8973306,1,f,31.0,etc,HR,empjs,no,m,white,car,5.4,8.4,2.6,5.6,7.5
+45.96303901,1,f,36.0,RealEstate,manage,rabrecNErab,no,m,white,bus,5.4,5.5,7.2,4.8,4.4
+46.22587269,1,m,29.0,etc,PR,friends,no,m,white,bus,7.0,6.2,2.6,6.3,7.5
+46.35728953,1,f,38.0,Retail,HR,rabrecNErab,no,m,white,bus,6.2,4.1,4.9,5.6,6.7
+46.78439425,1,f,23.0,Retail,Marketing,advert,my head,f,white,car,3.0,6.2,8.7,4.8,6.0
+46.9486653,0,f,22.0,State,HR,rabrecNErab,my head,f,white,car,4.6,9.1,6.4,5.6,6.0
+47.21149897,0,f,31.0, HoReCa,HR,rabrecNErab,no,f,white,car,7.0,4.8,6.4,4.0,6.7
+47.6386037,0,m,40.0,IT,Sales,rabrecNErab,no,m,white,car,1.4,6.9,9.5,6.3,1.3
+47.96714579,1,f,33.0,Banks,HR,empjs,no,f,white,bus,7.0,6.2,1.0,9.4,7.5
+48.09856263,1,f,25.0,State,Consult,rabrecNErab,yes,f,white,bus,7.0,4.1,5.7,6.3,7.5
+48.19712526,0,f,39.0,manufacture,HR,rabrecNErab,my head,f,white,bus,3.0,7.6,8.0,4.0,1.3
+48.19712526,0,f,39.0,manufacture,HR,rabrecNErab,my head,f,white,bus,3.0,7.6,9.5,3.3,4.4
+48.45995893,1,f,34.0,manufacture,manage,KA,no,f,white,car,7.0,2.6,7.2,4.8,5.2
+48.45995893,0,m,35.0,IT,IT,friends,no,m,white,bus,7.0,5.5,2.6,5.6,9.0
+48.45995893,1,f,34.0,Mining,manage,KA,no,f,white,bus,7.0,2.6,7.2,4.8,5.2
+48.62422998,0,f,40.0,manufacture,HR,youjs,yes,m,white,bus,6.2,6.2,6.4,5.6,5.2
+48.6899384,0,f,25.0,IT,HR,youjs,yes,f,white,bus,6.2,3.4,7.2,2.5,3.7
+48.6899384,0,f,25.0,IT,HR,youjs,yes,f,white,bus,6.2,5.5,7.2,7.1,4.4
+49.14989733,1,f,28.0,Retail,HR,rabrecNErab,my head,m,white,bus,7.8,6.9,4.1,3.3,7.5
+49.28131417,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,7.8,6.2,6.4,7.9,6.0
+49.28131417,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,3.8,3.4,5.7,8.7,7.5
+49.31416838,1,m,42.0,IT,Consult,youjs,my head,m,white,bus,5.4,8.4,6.4,5.6,5.2
+49.31416838,1,m,42.0,Consult,Consult,youjs,my head,m,white,bus,5.4,8.4,6.4,5.6,5.2
+49.34702259,1,m,42.0,Consult,Consult,youjs,my head,m,white,bus,5.4,8.4,6.4,5.6,5.2
+49.3798768,1,f,22.0,etc,Marketing,rabrecNErab,no,f,grey,car,5.4,6.9,6.4,4.0,4.4
+49.41273101,0,f,51.0,Consult,HR,empjs,no,m,grey,bus,3.8,7.6,5.7,6.3,5.2
+49.47843943,0,m,31.0,Retail,Consult,youjs,no,f,white,bus,5.4,4.8,2.6,8.7,9.8
+49.70841889,0,m,26.0,Mining,HR,rabrecNErab,my head,m,white,car,7.0,3.4,4.9,7.9,9.0
+49.7412731,0,m,40.0,IT,Sales,friends,no,m,white,car,1.4,6.9,9.5,6.3,1.3
+49.80698152,0,m,34.0,manufacture,HR,KA,no,m,white,car,3.0,5.5,7.2,7.9,6.0
+49.80698152,0,m,34.0,manufacture,HR,KA,no,m,white,car,5.4,4.1,8.0,7.1,8.3
+49.87268994,1,f,30.40033257,State,Finanï¿½e,referal,no,m,grey,bus,10.0,5.5,4.1,4.0,7.5
+50.0698152,0,f,37.0,Telecom,HR,empjs,no,f,white,bus,3.8,8.4,4.9,4.0,8.3
+50.20123203,0,f,31.0,manufacture,HR,KA,my head,m,white,car,8.6,4.8,4.1,2.5,4.4
+50.23408624,0,f,38.0,etc,HR,friends,no,m,white,bus,7.8,7.6,2.6,5.6,7.5
+50.29979466,0,f,21.0,Banks,HR,youjs,my head,f,grey,bus,4.6,6.9,7.2,7.1,1.3
+50.59548255,1,f,44.0,manufacture,HR,rabrecNErab,no,m,grey,car,7.0,6.9,4.9,3.3,6.0
+50.69404517,0,m,32.0,State,etc,youjs,no,f,white,car,3.8,3.4,7.2,10.0,5.2
+50.72689938,1,m,38.0,manufacture,HR,rabrecNErab,no,m,white,car,6.2,3.4,7.2,6.3,3.7
+50.72689938,1,f,28.0,manufacture,Finanï¿½e,rabrecNErab,no,m,white,car,7.8,3.4,6.4,4.0,4.4
+50.72689938,1,m,38.0,manufacture,HR,rabrecNErab,no,m,white,car,7.0,5.5,5.7,6.3,6.0
+50.89117043,1,m,34.0,IT,IT,referal,no,f,white,car,3.8,3.4,5.7,7.9,6.7
+50.98973306,1,f,24.0,Consult,HR,empjs,my head,f,white,bus,7.8,5.5,3.3,7.9,8.3
+51.08829569,1,f,31.0,PowerGeneration,HR,youjs,no,f,white,bus,6.2,2.6,4.9,6.3,6.7
+51.08829569,1,f,28.0,transport,HR,rabrecNErab,my head,f,white,car,4.6,6.9,4.9,4.0,6.0
+51.1211499,0,f,28.0,Retail,HR,youjs,no,f,white,car,5.4,5.5,6.4,2.5,4.4
+51.31827515,0,f,28.0,manufacture,HR,youjs,my head,f,white,car,7.0,4.8,5.7,2.5,4.4
+51.31827515,0,f,43.0,Pharma,HR,youjs,no,f,white,car,4.6,5.5,3.3,7.9,7.5
+51.58110883,0,f,38.0,manufacture,HR,referal,no,m,white,car,3.8,6.9,4.9,4.8,6.0
+51.74537988,0,m,32.0,etc,HR,KA,no,f,white,bus,5.4,9.1,4.9,3.3,6.7
+51.8110883,0,f,23.0,etc,HR,youjs,my head,f,white,bus,7.0,8.4,4.9,3.3,6.7
+51.84394251,0,f,34.0,IT,BusinessDevelopment,friends,my head,m,white,car,4.6,4.1,4.9,9.4,6.7
+51.87679671,1,f,19.0,Agriculture,etc,referal,no,m,white,car,9.4,6.2,3.3,4.0,6.0
+51.94250513,1,f,49.0,manufacture,HR,empjs,my head,m,white,bus,6.2,8.4,3.3,3.3,6.0
+51.94250513,0,m,33.0,PowerGeneration,etc,rabrecNErab,no,f,white,car,6.2,4.8,4.9,5.6,5.2
+52.00821355,0,f,29.0,Retail,HR,empjs,my head,f,white,bus,6.2,6.9,8.7,3.3,2.9
+52.10677618,0,f,30.0,Retail,Sales,youjs,my head,f,white,bus,6.2,4.8,5.7,5.6,8.3
+52.27104723,0,m,27.0,Retail,IT,KA,no,m,white,bus,3.8,6.2,4.1,9.4,6.7
+52.50102669,1,m,35.0,manufacture,BusinessDevelopment,rabrecNErab,no,m,white,car,5.4,4.8,4.1,7.9,7.5
+52.66529774,1,f,42.0,manufacture,HR,empjs,no,m,white,bus,7.8,5.5,8.7,4.8,6.0
+52.73100616,1,f,45.0,manufacture,HR,KA,no,m,grey,bus,3.8,8.4,5.7,3.3,7.5
+52.73100616,1,f,45.0,manufacture,HR,KA,no,m,grey,bus,5.4,4.1,8.0,4.8,3.7
+52.73100616,1,f,45.0,manufacture,HR,KA,no,m,grey,bus,5.4,5.5,5.7,4.0,8.3
+52.79671458,0,f,29.0,Retail,HR,empjs,my head,f,white,bus,6.2,6.9,8.7,3.3,2.9
+52.862423,1,f,38.0,Telecom,HR,youjs,no,m,white,car,4.6,5.5,7.2,6.3,7.5
+52.96098563,1,f,36.0,manufacture,HR,rabrecNErab,my head,m,white,car,4.6,4.1,8.0,5.6,6.0
+53.09240246,0,f,23.0,Retail,etc,recNErab,my head,m,white,bus,6.2,6.9,4.9,2.5,2.9
+53.19096509,1,f,37.0,manufacture,HR,rabrecNErab,my head,m,white,bus,7.0,4.8,5.7,6.3,8.3
+53.2238193,0,f,23.0,Consult,HR,empjs,yes,f,white,foot,8.6,5.5,2.6,4.8,7.5
+53.35523614,0,f,27.0,IT,HR,youjs,no,m,white,bus,3.0,5.5,6.4,6.3,4.4
+53.35523614,1,f,27.0,Retail,HR,rabrecNErab,no,m,white,foot,7.0,5.5,4.9,6.3,8.3
+53.42094456,0,m,37.0,Mining,Law,friends,no,m,white,car,3.0,4.8,4.1,7.1,7.5
+53.48665298,1,m,41.0,IT,Consult,empjs,no,m,white,bus,3.8,3.4,8.0,7.9,6.0
+53.58521561,0,f,40.0,RealEstate,HR,youjs,no,f,white,foot,3.8,8.4,8.0,4.0,4.4
+53.58521561,0,f,40.0,RealEstate,HR,youjs,no,f,white,foot,4.6,9.1,4.9,3.3,2.9
+53.81519507,1,f,30.40033257,State,Teaching,recNErab,no,m,white,foot,4.6,9.1,4.1,4.0,6.0
+53.97946612,1,m,28.0,etc,IT,youjs,no,m,white,bus,7.8,6.9,2.6,6.3,7.5
+54.01232033,1,m,37.0,IT,IT,rabrecNErab,no,m,white,bus,7.8,4.8,2.6,5.6,9.8
+54.01232033,1,m,37.0,IT,IT,rabrecNErab,no,m,white,bus,10.0,3.4,3.3,6.3,10.0
+54.04517454,1,f,30.0,Telecom,HR,youjs,yes,f,white,foot,5.4,4.1,4.9,8.7,7.5
+54.07802875,1,f,30.0,State,HR,friends,yes,f,white,foot,5.4,4.1,4.9,8.7,7.5
+54.07802875,1,f,31.0,etc,HR,empjs,my head,m,white,car,3.0,5.5,7.2,5.6,6.0
+54.9650924,0,m,22.0,Banks,IT,friends,my head,m,white,bus,5.4,5.5,6.4,7.9,6.0
+55.12936345,0,f,37.0,Consult,HR,friends,no,m,white,bus,5.4,7.6,4.9,2.5,6.7
+55.12936345,0,f,37.0,Consult,HR,friends,no,m,white,bus,6.2,6.2,2.6,4.8,8.3
+55.22792608,0,f,28.0,IT,HR,empjs,my head,m,white,car,8.6,4.8,1.0,6.3,8.3
+55.72073922,1,f,29.0,Banks,HR,empjs,my head,f,white,bus,7.0,6.2,4.1,4.0,4.4
+55.78644764,1,f,27.0,Retail,Sales,friends,yes,m,white,bus,4.6,6.9,7.2,2.5,6.7
+55.95071869,0,f,40.0,etc,HR,youjs,no,f,white,foot,3.8,8.4,8.0,4.0,4.4
+55.95071869,0,f,28.0,Mining,HR,empjs,my head,f,white,car,5.4,4.8,4.9,7.9,5.2
+55.95071869,0,f,40.0,etc,HR,youjs,no,f,white,foot,4.6,9.1,4.9,3.3,2.9
+56.73921971,0,f,34.0, HoReCa,HR,youjs,no,f,white,car,6.2,4.1,7.2,4.8,1.0
+56.77207392,1,f,36.0,etc,HR,youjs,no,m,white,bus,4.6,4.1,6.4,7.1,2.1
+56.77207392,1,f,36.0,etc,HR,youjs,no,m,white,bus,5.4,3.4,6.4,4.8,2.9
+57.10061602,0,m,26.0,Building,HR,friends,my head,m,white,car,4.6,6.9,4.9,5.6,6.7
+57.23203285,1,f,36.0,Building,HR,KA,no,f,white,bus,3.8,5.5,6.4,5.6,6.0
+57.52772074,0,m,24.0,State,IT,empjs,my head,m,white,bus,6.2,3.4,2.6,7.1,5.2
+57.62628337,0,f,23.0,etc,Sales,empjs,my head,f,white,bus,5.4,6.2,9.5,5.6,5.2
+57.65913758,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,3.8,3.4,5.7,8.7,7.5
+57.65913758,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,7.8,6.2,6.4,7.9,6.0
+57.69199179,0,f,28.0,Retail,HR,youjs,no,f,white,car,5.4,5.5,6.4,2.5,4.4
+57.82340862,1,m,25.0,Retail,Sales,youjs,my head,m,white,car,7.0,5.5,4.1,6.3,8.3
+58.21765914,0,f,35.0,Telecom,BusinessDevelopment,referal,my head,f,white,bus,8.6,5.5,3.3,4.8,6.7
+58.4476386,0,m,24.0,etc,Marketing,rabrecNErab,my head,f,white,bus,6.2,5.5,3.3,7.9,6.7
+58.80903491,1,f,32.0,transport,PR,referal,no,f,white,car,4.6,2.6,6.4,4.8,4.4
+58.94045175,0,m,46.0,Consult,HR,advert,no,f,white,bus,3.0,6.2,8.0,5.6,3.7
+58.94045175,0,f,29.0,etc,HR,rabrecNErab,my head,f,white,bus,6.2,7.6,4.1,4.0,8.3
+58.97330595,0,m,25.0,Retail,etc,youjs,no,f,white,bus,4.6,4.8,6.4,7.9,6.7
+59.00616016,1,m,36.0,Retail,etc,empjs,no,m,white,bus,3.8,4.1,8.7,6.3,5.2
+59.17043121,0,f,22.0,Retail,HR,youjs,yes,f,white,bus,8.6,4.8,2.6,7.1,8.3
+59.20328542,1,f,25.0,Banks,HR,recNErab,yes,f,white,bus,4.6,4.1,8.7,5.6,2.1
+59.20328542,1,f,25.0,Banks,HR,recNErab,no,f,white,bus,5.4,4.8,7.2,5.6,5.2
+59.20328542,1,f,25.0,Banks,HR,recNErab,no,f,white,bus,4.6,4.1,8.7,5.6,2.1
+59.20328542,1,f,25.0,Banks,HR,recNErab,yes,f,white,bus,5.4,4.8,7.2,5.6,5.2
+59.40041068,0,f,24.0,Retail,HR,youjs,yes,f,white,bus,8.6,4.1,4.9,7.9,5.2
+59.49897331,1,f,23.0,State,Teaching,advert,no,f,white,bus,7.0,5.5,3.3,6.3,5.2
+59.76180698,0,f,38.0,Banks,HR,recNErab,yes,m,white,car,3.8,6.9,4.1,5.6,3.7
+59.86036961,1,f,27.0,Retail,HR,youjs,my head,f,white,car,6.2,6.9,4.1,5.6,6.0
+59.86036961,1,f,27.0,Retail,HR,youjs,my head,m,white,bus,6.2,6.9,4.1,5.6,6.0
+59.89322382,1,f,27.0,Retail,HR,youjs,my head,m,white,car,6.2,6.9,4.1,5.6,6.0
+59.99178645,0,f,31.0,Retail,BusinessDevelopment,referal,no,m,white,car,4.6,4.8,8.0,4.8,6.7
+59.99178645,0,f,31.0,Retail,BusinessDevelopment,referal,no,m,white,car,6.2,6.9,7.2,4.8,5.2
+60.25462012,1,f,22.0,Building,HR,rabrecNErab,my head,f,white,car,6.2,7.6,6.4,2.5,4.4
+60.78028747,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,3.8,3.4,5.7,8.7,7.5
+60.78028747,0,f,33.0,PowerGeneration,HR,empjs,my head,f,white,car,7.8,6.2,6.4,7.9,6.0
+60.94455852,1,f,25.0,IT,HR,youjs,no,m,white,car,5.4,4.8,6.4,6.3,7.5
+60.94455852,1,f,30.40033257,Retail,HR,youjs,no,m,white,bus,7.0,6.2,4.1,2.5,6.7
+61.07597536,0,m,29.0,IT,IT,rabrecNErab,no,m,white,bus,1.0,5.5,10.0,7.1,2.9
+61.2073922,0,f,25.0,etc,HR,youjs,no,f,white,bus,6.2,6.2,3.3,6.3,6.7
+61.73305955,1,m,23.0,State,Law,referal,my head,m,white,car,4.6,6.9,7.2,2.5,2.9
+61.73305955,1,m,23.0,State,Law,referal,my head,m,white,car,4.6,6.9,7.2,3.3,2.1
+61.79876797,1,m,22.0,IT,IT,youjs,no,m,white,bus,3.8,7.6,4.9,5.6,6.0
+61.99589322,0,m,31.0,Banks,HR,youjs,no,f,white,car,5.4,4.8,8.7,5.6,4.4
+63.11293634,1,m,32.0,Mining,Law,rabrecNErab,no,f,white,bus,3.0,4.8,4.1,7.1,7.5
+63.14579055,1,m,32.0,Mining,Law,friends,no,f,white,bus,3.0,4.8,4.1,7.1,7.5
+63.54004107,1,f,31.0,Building,Marketing,rabrecNErab,no,m,white,car,3.8,5.5,3.3,9.4,9.0
+63.70431211,0,f,37.0,manufacture,HR,KA,no,m,white,foot,6.2,6.9,3.3,7.1,6.7
+64.19712526,0,m,19.0,IT,IT,youjs,no,m,white,bus,4.6,6.2,7.2,5.6,6.0
+64.29568789,1,m,44.0,Retail,Commercial,youjs,no,m,white,bus,3.0,2.6,10.0,9.4,4.4
+64.29568789,1,m,44.0,Retail,Sales,youjs,no,m,grey,bus,2.2,5.5,8.7,7.1,6.7
+64.52566735,0,f,25.0,etc,HR,KA,my head,m,white,foot,7.8,4.1,6.4,4.0,3.7
+64.75564682,0,f,35.0,Consult,HR,friends,my head,f,white,foot,7.0,6.2,7.2,2.5,5.2
+64.75564682,0,f,35.0,Consult,HR,friends,my head,f,white,foot,8.6,6.9,5.7,3.3,4.4
+65.3798768,0,m,32.0,etc,HR,recNErab,no,f,white,car,5.4,5.5,4.9,8.7,7.5
+66.49691992,1,f,38.0,Building,HR,youjs,no,m,white,bus,7.0,4.1,4.9,5.6,6.7
+66.69404517,0,f,32.0,Telecom,HR,KA,no,m,white,car,8.6,4.1,1.8,8.7,8.3
+66.69404517,0,f,32.0,Telecom,HR,KA,no,m,white,car,7.8,4.8,2.6,8.7,7.5
+66.7926078,0,m,31.0,Banks,etc,friends,no,m,white,bus,4.6,7.6,4.1,4.0,6.0
+67.35112936,1,f,40.0,manufacture,HR,rabrecNErab,no,m,white,car,8.6,4.1,1.8,7.1,6.7
+67.4825462,0,f,36.0,Retail,HR,KA,no,f,white,bus,4.6,6.9,3.3,6.3,9.0
+67.84394251,1,m,24.0,Building,HR,friends,yes,m,white,car,5.4,5.5,5.7,8.7,5.2
+68.27104723,1,f,24.0,etc,PR,referal,no,f,white,foot,7.8,6.2,2.6,5.6,6.7
+68.27104723,1,f,24.0,etc,PR,referal,no,f,white,foot,7.0,4.1,2.6,7.9,7.5
+70.17659138,0,f,31.0,Retail,HR,youjs,my head,f,white,bus,4.6,5.5,7.2,4.8,3.7
+70.17659138,0,f,31.0,Retail,HR,youjs,my head,f,white,bus,4.6,5.5,7.2,3.3,2.9
+70.30800821,1,m,22.0,PowerGeneration,Marketing,rabrecNErab,no,m,white,bus,5.4,4.1,8.7,4.0,2.1
+70.34086242,0,f,31.0,manufacture,HR,friends,my head,f,white,bus,1.4,7.6,8.0,5.6,1.0
+70.50513347,1,f,24.0,manufacture,HR,referal,no,f,white,bus,7.8,5.5,7.2,5.6,3.7
+70.83367556,1,f,23.0,Banks,HR,rabrecNErab,yes,f,white,car,7.0,7.6,3.3,3.3,6.7
+70.83367556,1,f,23.0,Banks,HR,rabrecNErab,yes,f,white,car,6.2,9.1,4.1,3.3,6.7
+70.93223819,0,m,26.0,Pharma,HR,referal,my head,f,white,bus,4.6,4.1,5.7,8.7,5.2
+70.93223819,1,f,26.0,manufacture,HR,rabrecNErab,no,m,white,bus,3.0,6.9,6.4,3.3,2.9
+70.93223819,1,f,26.0,manufacture,HR,rabrecNErab,no,m,white,bus,3.8,5.5,8.7,3.3,3.7
+71.22792608,1,f,23.0,Consult,HR,empjs,no,f,white,bus,3.8,4.1,8.0,7.9,5.2
+71.2936345,1,f,31.0,PowerGeneration,HR,youjs,my head,f,white,car,5.4,4.1,6.4,4.8,4.4
+72.41067762,0,f,30.0,Retail,etc,youjs,no,f,grey,bus,6.2,2.6,6.4,5.6,6.0
+72.57494867,0,m,26.0,IT,IT,youjs,my head,f,white,bus,4.6,4.1,6.4,4.8,4.4
+72.67351129,0,f,35.0,etc,HR,youjs,no,m,white,car,4.6,4.8,8.0,6.3,4.4
+73.13347023,0,f,22.0,Retail,HR,empjs,yes,f,white,bus,3.8,6.2,5.7,7.9,9.0
+73.29774127,1,f,24.0,Retail,HR,rabrecNErab,my head,f,white,bus,5.4,8.4,4.1,4.8,6.0
+73.29774127,1,f,24.0,Retail,HR,rabrecNErab,my head,f,white,bus,7.8,5.5,4.1,4.8,5.2
+73.3963039,0,f,43.0,IT,HR,empjs,no,m,white,bus,7.8,6.2,4.1,4.0,8.3
+73.42915811,0,f,29.0,Retail,Commercial,friends,my head,m,white,foot,4.6,4.8,7.2,6.3,2.9
+73.49486653,1,m,33.0,Retail,Finanï¿½e,rabrecNErab,no,f,white,bus,3.8,4.1,8.0,6.3,4.4
+73.49486653,1,m,33.0,Retail,Finanï¿½e,rabrecNErab,no,f,white,bus,2.2,6.2,6.4,6.3,5.2
+73.65913758,1,f,30.0,Retail,HR,youjs,yes,f,white,bus,4.6,4.8,5.7,8.7,6.0
+73.82340862,0,f,26.0,Retail,etc,youjs,no,m,white,car,10.0,5.5,2.6,6.3,6.7
+73.98767967,0,m,33.0,Telecom,IT,friends,yes,m,white,car,7.0,6.2,3.3,6.3,7.5
+74.05338809,1,f,21.0,manufacture,Finanï¿½e,rabrecNErab,my head,f,white,car,5.4,4.1,6.4,6.3,7.5
+74.74332649,1,f,25.0,Retail,HR,youjs,no,m,white,car,4.6,2.6,8.0,4.0,2.9
+75.8275154,0,f,23.0,Telecom,HR,rabrecNErab,my head,f,white,bus,2.2,6.2,8.7,4.0,2.1
+76.15605749,0,f,24.0,Retail,HR,rabrecNErab,yes,m,white,car,7.0,6.2,1.8,6.3,7.5
+76.68172485,0,f,25.0,Mining,Finanï¿½e,rabrecNErab,no,f,white,car,6.2,6.2,6.4,5.6,3.7
+77.53593429,1,f,24.0,etc,Sales,rabrecNErab,my head,f,white,bus,6.2,5.5,5.7,3.3,2.1
+78.32443532,0,f,27.0,Consult,Consult,advert,no,m,white,bus,6.2,3.4,5.7,4.8,8.3
+78.68583162,1,f,31.0,Banks,HR,rabrecNErab,no,f,grey,bus,3.8,4.1,7.2,8.7,2.1
+78.68583162,1,f,31.0,Banks,HR,rabrecNErab,no,f,grey,bus,3.8,4.1,7.2,8.7,2.1
+78.91581109,1,m,21.0,Retail,manage,friends,no,f,grey,foot,4.6,6.9,4.9,7.1,6.0
+79.01437372,1,m,29.0,Retail,IT,referal,yes,m,white,car,1.4,4.1,10.0,4.8,1.3
+79.11293634,0,m,28.0,IT,HR,youjs,no,m,white,bus,2.2,5.5,7.2,4.8,3.7
+79.54004107,0,m,34.0, HoReCa,IT,referal,no,m,white,bus,3.8,5.5,6.4,4.0,4.4
+79.54004107,0,m,23.0,IT,IT,youjs,my head,m,white,car,4.6,5.5,8.7,4.8,4.4
+79.80287474,0,m,34.0,IT,IT,referal,no,m,grey,bus,3.8,5.5,6.4,4.0,4.4
+79.86858316,1,m,23.0,Banks,HR,rabrecNErab,no,f,white,bus,5.4,5.5,5.7,8.7,5.2
+79.86858316,1,f,25.0,Retail,HR,empjs,no,m,white,bus,7.8,6.9,3.3,3.3,5.2
+80.06570842,1,f,45.0,Retail,HR,empjs,no,f,white,bus,3.0,5.5,10.0,6.3,2.9
+80.16427105,1,f,26.0,State,manage,referal,no,f,white,foot,4.6,5.5,8.0,4.8,5.2
+80.49281314,1,f,25.0,Consult,HR,youjs,my head,f,white,bus,6.2,6.2,5.7,3.3,6.7
+80.65708419,1,f,37.0,Building,HR,friends,no,m,white,car,2.2,7.6,8.0,4.0,2.1
+80.98562628,1,f,32.0,Retail,HR,rabrecNErab,my head,m,white,bus,3.8,6.2,8.0,4.0,6.0
+81.18275154,1,f,31.0,RealEstate,HR,referal,my head,f,white,bus,6.2,4.8,8.7,6.3,5.2
+81.24845996,0,f,27.0,Mining,HR,youjs,no,m,white,bus,3.0,5.5,7.2,4.8,6.7
+81.64271047,0,f,31.0,Retail,HR,youjs,yes,f,white,bus,4.6,5.5,7.2,3.3,2.9
+81.64271047,0,f,31.0,Retail,HR,youjs,yes,f,white,bus,4.6,5.5,7.2,4.8,3.7
+81.83983573,1,m,34.0,Retail,Commercial,KA,no,m,white,car,3.8,3.4,7.2,8.7,7.5
+81.83983573,1,f,29.0,Telecom,HR,rabrecNErab,my head,f,white,foot,3.8,6.9,6.4,5.6,8.3
+82.75975359,0,f,20.0,Telecom,HR,recNErab,yes,f,white,foot,3.8,6.9,5.7,6.3,6.7
+82.7926078,0,m,23.0,Retail,Sales,empjs,my head,m,white,bus,6.2,2.6,8.7,4.8,5.2
+82.82546201,1,f,23.0,Banks,HR,rabrecNErab,yes,f,white,car,7.0,7.6,3.3,3.3,6.7
+82.82546201,1,f,23.0,Banks,HR,rabrecNErab,yes,f,white,car,6.2,9.1,4.1,3.3,6.7
+83.58110883,0,m,33.0,State,Sales,rabrecNErab,no,m,white,car,7.0,6.2,4.1,6.3,9.0
+84.04106776,0,m,28.0,IT,HR,youjs,no,m,white,bus,2.2,5.5,7.2,4.8,3.7
+84.89527721,0,f,31.0,IT,HR,youjs,no,f,white,car,4.6,3.4,7.2,7.1,4.4
+85.09240246,0,f,26.0,transport,HR,youjs,yes,f,white,bus,7.8,4.8,6.4,4.8,6.0
+85.48665298,0,m,29.0,Retail,Finanï¿½e,youjs,yes,m,white,bus,3.8,2.6,9.5,7.1,2.1
+85.48665298,0,f,22.0,Retail,Commercial,referal,no,f,white,bus,7.0,5.5,6.4,4.8,2.9
+86.04517454,0,f,35.0,etc,HR,KA,no,f,white,car,3.0,7.6,7.2,4.8,2.9
+86.53798768,1,f,23.0,State,Teaching,referal,yes,f,white,bus,3.8,6.9,8.0,1.7,2.1
+86.6036961,1,f,33.0, HoReCa,HR,youjs,my head,m,white,bus,4.6,9.1,4.9,3.3,2.9
+86.6036961,1,f,33.0, HoReCa,HR,youjs,my head,m,white,bus,3.8,8.4,8.0,4.0,4.4
+86.66940452,0,f,25.0,manufacture,HR,youjs,my head,f,white,bus,4.6,7.6,9.5,2.5,1.3
+86.66940452,0,f,25.0,manufacture,HR,youjs,my head,f,white,bus,5.4,5.5,7.2,5.6,2.9
+86.83367556,1,m,24.0,Mining,Engineer,referal,no,m,white,bus,3.8,6.2,8.0,4.0,2.9
+86.83367556,1,f,29.0,manufacture,HR,rabrecNErab,my head,f,white,car,7.0,5.5,1.8,6.3,6.0
+87.68788501,1,f,29.0,Consult,HR,rabrecNErab,no,f,white,bus,7.0,6.2,4.1,4.0,9.0
+88.83778234,1,f,25.0,transport,HR,referal,my head,f,white,car,4.6,6.9,4.9,4.0,6.0
+88.90349076,0,f,30.0,State,HR,youjs,no,m,white,bus,4.6,2.6,7.2,7.1,6.7
+89.00205339,1,m,32.0,Retail,Commercial,youjs,no,m,grey,car,3.8,3.4,8.7,7.9,4.4
+89.19917864,1,m,18.0,Retail,Sales,referal,my head,m,white,bus,7.8,5.5,2.6,7.1,7.5
+89.36344969,1,f,22.0,PowerGeneration,HR,recNErab,no,m,white,bus,7.0,4.8,4.9,6.3,7.5
+89.36344969,1,f,22.0,PowerGeneration,HR,recNErab,no,m,white,bus,7.0,4.8,4.9,6.3,7.5
+90.15195072,0,f,20.0,Telecom,HR,referal,my head,f,white,bus,9.4,6.9,2.6,3.3,7.5
+90.51334702,1,f,22.0,IT,HR,friends,my head,f,white,bus,3.0,5.5,9.5,6.3,3.7
+90.51334702,1,f,22.0,State,HR,referal,my head,f,white,bus,6.2,5.5,3.3,6.3,6.7
+90.90759754,0,m,32.0,IT,IT,referal,yes,m,white,car,7.0,4.1,4.1,5.6,6.0
+91.99178645,1,f,39.0,Banks,HR,referal,no,m,white,car,5.4,9.1,3.3,2.5,8.3
+92.64887064,0,f,25.0,manufacture,HR,youjs,my head,f,white,foot,4.6,7.6,9.5,2.5,1.3
+92.64887064,0,f,25.0,manufacture,HR,youjs,my head,f,white,foot,5.4,5.5,7.2,5.6,2.9
+93.8973306,0,m,23.0,manufacture,IT,youjs,no,m,white,bus,5.4,4.8,5.7,6.3,5.2
+93.9301848,0,f,29.0,IT,HR,rabrecNErab,no,f,white,bus,4.6,7.6,7.2,2.5,4.4
+94.12731006,0,f,25.0,Retail,HR,youjs,no,m,grey,car,6.2,3.4,6.4,6.3,7.5
+94.78439425,0,f,31.0,Retail,HR,referal,yes,m,white,foot,6.2,6.2,3.3,4.0,9.0
+94.78439425,0,f,31.0,Retail,HR,referal,yes,m,white,foot,5.4,6.2,4.9,6.3,7.5
+94.81724846,0,f,30.40033257,Retail,HR,advert,no,f,grey,bus,6.2,4.1,4.1,6.3,7.5
+94.9486653,1,m,26.0,Retail,IT,friends,no,m,white,bus,3.8,7.6,7.2,7.9,4.4
+95.21149897,1,f,22.0,State,Teaching,advert,my head,m,white,bus,8.6,4.8,4.9,4.0,6.7
+95.44147844,0,f,25.0,Retail,HR,youjs,no,m,grey,bus,6.2,3.4,6.4,6.3,7.5
+95.96714579,0,f,33.0,Retail,BusinessDevelopment,friends,my head,m,white,foot,4.6,3.4,6.4,6.3,6.7
+96.0,1,m,31.0,Retail,IT,youjs,no,m,white,bus,4.6,2.6,6.4,10.0,4.4
+96.0,1,f,22.0,etc,Sales,recNErab,my head,m,white,foot,7.0,1.9,6.4,6.3,4.4
+96.52566735,1,f,24.0,IT,HR,KA,no,f,white,bus,6.2,4.8,7.2,4.0,6.7
+96.59137577,0,f,46.0,etc,Marketing,friends,no,m,white,bus,4.6,8.4,4.9,7.9,6.0
+96.65708419,0,f,36.0,Retail,HR,KA,no,m,white,car,6.2,6.2,5.7,4.0,5.2
+96.72279261,1,m,30.0,Retail,Sales,KA,no,m,white,car,6.2,7.6,4.9,4.8,8.3
+97.44558522,0,f,28.0,Banks,Sales,KA,no,m,white,car,7.8,4.8,3.3,6.3,7.5
+99.77823409,0,f,42.0,etc,HR,youjs,no,f,white,foot,5.4,4.8,6.4,6.3,4.4
+99.77823409,0,f,26.0,transport,HR,youjs,yes,f,white,bus,5.4,2.6,7.2,7.1,5.2
+99.77823409,0,f,26.0,transport,HR,youjs,yes,f,white,bus,5.4,4.1,8.7,4.8,2.9
+100.238193,0,f,23.0,Retail,HR,rabrecNErab,no,m,white,car,5.4,5.5,5.7,4.8,9.8
+101.5195072,0,f,32.0,IT,HR,rabrecNErab,no,f,white,bus,4.6,7.6,4.1,4.8,6.0
+103.3921971,1,f,27.0,Banks,HR,youjs,no,f,white,car,3.8,4.8,9.5,6.3,3.7
+103.5893224,0,f,25.0,Retail,HR,youjs,no,m,white,bus,7.8,3.4,5.7,5.6,8.3
+103.5893224,0,f,21.0,Retail,HR,empjs,no,f,grey,bus,2.2,4.8,8.7,7.9,5.2
+103.5893224,0,f,21.0,Retail,HR,empjs,no,f,grey,bus,3.8,3.4,8.7,7.1,3.7
+103.7207392,0,f,34.0,Retail,Accounting,rabrecNErab,no,f,white,car,4.6,3.4,8.0,5.6,5.2
+104.0164271,0,f,37.0,Retail,HR,friends,no,m,white,bus,5.4,4.8,6.4,7.1,4.4
+105.1663244,0,f,34.0,Retail,Accounting,rabrecNErab,no,f,white,car,4.6,3.4,8.0,5.6,5.2
+105.8234086,0,f,32.0,IT,HR,referal,no,f,white,bus,4.6,7.6,4.1,4.8,6.0
+105.9219713,0,f,28.0,Retail,HR,youjs,no,m,white,bus,5.4,3.4,7.2,6.3,3.7
+106.2176591,0,f,23.0,Retail,HR,rabrecNErab,no,m,white,bus,5.4,5.5,5.7,4.8,9.8
+106.8418891,1,f,22.0,Telecom,HR,referal,no,f,white,car,7.0,3.4,4.1,6.3,8.3
+107.1704312,1,f,33.0,etc,etc,advert,no,m,white,bus,5.4,1.0,9.5,9.4,5.2
+108.550308,1,m,27.0,Building,HR,referal,no,m,white,car,3.8,6.2,8.0,5.6,6.0
+108.8788501,1,f,32.0,Banks,HR,recNErab,no,m,white,bus,7.8,7.6,4.1,1.7,5.2
+109.1088296,0,f,29.0,Retail,HR,advert,no,m,white,car,4.6,3.4,9.5,4.8,2.1
+109.2402464,0,f,22.0,State,HR,advert,my head,f,white,foot,5.4,5.5,7.2,4.0,2.9
+110.0287474,0,f,25.0,Retail,HR,youjs,my head,m,white,car,6.2,3.4,6.4,6.3,7.5
+110.4887064,0,f,25.0,Pharma,HR,friends,my head,f,white,bus,10.0,1.9,2.6,7.1,9.8
+112.788501,0,m,23.0,Retail,HR,empjs,no,f,white,car,4.6,1.9,7.2,5.6,7.5
+113.0513347,0,f,30.0,Banks,HR,rabrecNErab,yes,f,white,car,4.6,6.9,4.1,6.3,7.5
+113.8398357,0,f,21.0,Retail,HR,empjs,my head,f,white,bus,3.8,3.4,8.7,7.1,3.7
+113.8398357,0,f,21.0,Retail,HR,empjs,my head,f,white,bus,2.2,4.8,8.7,7.9,5.2
+114.1355236,1,f,38.0,Mining,Finanï¿½e,referal,no,m,white,bus,3.8,3.4,9.5,7.1,2.9
+114.8583162,1,f,26.0,Retail,HR,KA,no,f,white,bus,7.0,5.5,4.9,4.8,7.5
+115.5482546,0,f,19.0,Retail,HR,rabrecNErab,yes,f,white,bus,7.0,6.2,5.7,2.5,5.2
+116.7310062,1,m,38.0,Retail,Commercial,KA,yes,m,white,car,7.8,9.1,2.6,4.0,9.0
+118.8008214,0,f,34.0,Telecom,Accounting,KA,no,f,white,bus,4.6,5.5,7.2,6.3,3.7
+118.899384,1,f,31.0,Telecom,HR,rabrecNErab,no,m,white,bus,9.4,8.4,3.3,3.3,8.3
+120.4435318,1,f,28.0,Retail,HR,referal,no,m,white,bus,3.8,5.5,8.0,4.0,4.4
+123.0718686,1,f,28.0,Retail,Marketing,rabrecNErab,no,f,white,car,3.0,8.4,3.3,7.9,8.3
+123.3347023,1,f,22.0,Banks,IT,referal,my head,m,white,bus,4.6,4.8,6.4,7.1,6.0
+123.3347023,1,f,22.0,Banks,IT,referal,my head,m,white,bus,4.6,6.2,6.4,4.0,6.7
+123.6960986,0,f,32.0,manufacture,HR,friends,no,m,grey,car,3.8,9.1,4.9,4.8,6.0
+128.0657084,0,f,43.0,manufacture,HR,rabrecNErab,my head,m,white,bus,4.6,7.6,4.9,5.6,6.0
+128.1314168,0,f,32.0,Building,HR,KA,no,m,white,bus,7.8,6.9,4.1,3.3,7.5
+129.2813142,0,m,33.0,manufacture,Engineer,recNErab,my head,m,white,bus,5.4,8.4,4.1,4.8,6.7
+129.8069815,1,f,22.0,State,Teaching,recNErab,my head,f,grey,bus,3.0,4.8,5.7,4.8,3.7
+130.9897331,1,f,31.0,IT,HR,KA,no,m,white,bus,5.4,6.9,3.3,4.0,8.3
+131.613963,0,f,26.0,Telecom,IT,youjs,my head,m,white,car,3.0,6.9,4.9,6.3,6.0
+132.4024641,0,m,25.0,Retail,IT,empjs,my head,m,white,bus,4.6,6.9,2.6,4.8,6.0
+132.8952772,0,f,32.0,manufacture,HR,rabrecNErab,no,m,white,bus,3.0,6.9,6.4,3.3,2.9
+132.8952772,0,f,32.0,manufacture,HR,rabrecNErab,no,m,white,bus,3.8,5.5,8.7,3.3,3.7
+133.4209446,1,f,29.0,Retail,Sales,rabrecNErab,no,m,white,car,5.4,6.9,2.6,7.9,6.7
+133.8809035,1,m,19.0,manufacture,Accounting,rabrecNErab,no,f,white,car,6.2,3.4,5.7,7.1,6.7
+133.8809035,1,m,19.0,manufacture,Accounting,rabrecNErab,no,f,white,car,4.6,6.9,5.7,7.1,5.2
+133.9137577,1,m,19.0,manufacture,Accounting,friends,no,f,white,car,4.6,6.9,5.7,7.1,5.2
+133.9137577,1,m,19.0,manufacture,Accounting,friends,no,f,white,car,6.2,3.4,5.7,7.1,6.7
+138.9404517,0,f,30.0,RealEstate,BusinessDevelopment,referal,my head,m,white,foot,5.4,6.9,2.6,5.6,8.3
+139.0718686,1,f,32.0,State,Teaching,rabrecNErab,no,f,white,bus,7.8,4.8,4.1,3.3,7.5
+140.2217659,0,m,27.0,Retail,BusinessDevelopment,referal,no,m,white,car,3.8,6.2,4.1,7.9,5.2
+140.9445585,0,f,26.0,Building,HR,rabrecNErab,no,m,white,foot,5.4,2.6,8.0,7.1,5.2
+140.9445585,0,f,26.0,Building,HR,rabrecNErab,no,m,white,foot,3.8,1.9,8.7,6.3,4.4
+142.4558522,1,f,18.0,Retail,HR,advert,no,f,white,bus,6.2,5.5,6.4,4.8,5.2
+142.75154,0,m,27.0,Retail,Sales,referal,no,m,white,car,3.8,6.2,4.1,7.9,5.2
+144.5913758,1,m,30.0,Retail,Finanï¿½e,friends,no,f,white,bus,8.6,2.6,4.9,7.1,7.5
+144.7556468,0,f,27.0,manufacture,HR,referal,no,f,white,car,5.4,9.1,3.3,4.8,6.0
+149.6180698,0,f,30.0,RealEstate,BusinessDevelopment,referal,my head,m,white,car,5.4,6.9,2.6,5.6,8.3
+150.1437372,1,f,33.0,Pharma,HR,empjs,no,f,white,car,5.4,3.4,5.7,7.1,5.2
+150.9979466,1,f,19.0,Banks,HR,advert,yes,m,white,foot,7.0,3.4,5.7,7.9,6.7
+153.100616,0,m,43.0,IT,Sales,rabrecNErab,no,m,white,car,6.2,3.4,4.9,7.9,5.2
+155.1704312,1,f,33.0,Pharma,HR,empjs,no,f,white,car,5.4,3.4,5.7,7.1,5.2
+155.3675565,0,f,30.0,RealEstate,Sales,referal,my head,m,white,foot,5.4,6.9,2.6,5.6,8.3
+160.0657084,1,f,24.0,Telecom,HR,referal,no,m,white,bus,1.0,6.9,9.5,4.8,7.5
+163.7782341,0,m,23.0,Retail,HR,empjs,no,f,white,car,5.4,7.6,5.7,7.1,6.0
+163.7782341,0,m,23.0,Retail,HR,empjs,no,f,white,car,4.6,6.2,8.0,7.1,5.2
+163.8110883,1,m,19.0,manufacture,HR,referal,no,m,white,car,4.6,5.5,6.4,7.9,6.0
+164.5667351,0,f,27.0,Telecom,Marketing,advert,no,f,white,car,3.8,4.8,4.9,6.3,5.2
+166.0780287,1,m,30.0,Banks,Finanï¿½e,rabrecNErab,my head,m,white,car,3.8,4.8,9.5,4.0,2.1
+166.275154,1,m,26.0,Retail,Sales,recNErab,no,m,white,car,3.0,5.5,5.7,7.1,6.7
+179.449692,0,f,24.0,Retail,HR,KA,no,f,white,bus,7.0,4.8,2.6,5.6,8.3
