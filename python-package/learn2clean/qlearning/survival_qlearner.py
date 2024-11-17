@@ -1049,7 +1049,7 @@ class SurvivalQlearner:
         
         pipeline_counter = 0
         rr = ""
-        
+
         for line in pipelines_file:
             steps = list(line.split(" "))
             goals = ["RSF", "COX", "NN"]
@@ -1111,6 +1111,8 @@ class SurvivalQlearner:
             print("{}".format(rr), file=rr_file)
 
         print(f'**{pipeline_counter} Strategies Have Been Tried**')
+        return p
+    
 
     def no_prep(self, dataset_name='None'):
 
@@ -1148,6 +1150,37 @@ class SurvivalQlearner:
                       mode='a') as rr_file:
 
                 print("{}".format(rr), file=rr_file)
+    
+
+    
+    
+    def generate_pipeline(self, current_step, pipeline):
+        pipeline.append(current_step)
+        if current_step == self.goal or len(self.rewards[current_step]['followed_by']) == 0:
+            pipeline.pop()
+            res = self.custom_pipeline(pipeline, self.goal)
+            return res
+        else:
+            next_steps = self.rewards[current_step]['followed_by']
+            for next_step, reward in next_steps.items():
+                if(next_step not in pipeline):
+                    self.generate_pipeline(next_step, pipeline.copy())
+
+    
+    def grid_search(self, dataset_name='None'):
+        start_time = time.time()
+        timestamps = []
+        best_so_far = -1.0
+
+        for start in self.rewards:
+            ans = self.generate_pipeline(start, [])
+            best_so_far = max(best_so_far, ans[0]['quality_metric'])
+            timestamps.append((best_so_far, time.time() - start_time))
+
+        with open('./save/'+dataset_name+'_results.txt', mode='a') as rr_file:
+             print("{}".format(timestamps), file=rr_file)
+
+        
 
 
         

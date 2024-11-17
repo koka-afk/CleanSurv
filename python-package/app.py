@@ -58,6 +58,8 @@ elif job == 'C':
     pipelines_file_path = str(input("Please enter pipelines file name: "))
     pipelines = open(pipelines_file_path, 'r')
     l2c.custom_pipeline(pipelines, model, dataset_name=file_name)
+elif job == 'G':
+    l2c.grid_search(file_name)
 else:
     l2c.no_prep()
 
