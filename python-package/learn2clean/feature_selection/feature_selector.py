@@ -296,6 +296,9 @@ class Feature_selector():
     def transform(self):
 
         start_time = time.time()
+        
+        if self.dataset is None:
+            return self.dataset
 
         print()
 

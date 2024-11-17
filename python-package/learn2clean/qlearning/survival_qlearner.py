@@ -248,7 +248,6 @@ class SurvivalQlearner:
         # Initialize a Q matrix with zeros
         zeros_mat = [[0.0 for x in range(n_actions)] for y in range(n_states)]
         q = np.array(zeros_mat)
-        print(f'Q MATRIX INSIDE INITIALIZATION:::::\n\n{q}\n\n')
 
         # we prevent the transition from any survival model during preprocessing
         # r = r[~np.all(r == -1, axis=1)]
@@ -413,7 +412,10 @@ class SurvivalQlearner:
                     res = dataset # taking the final dataset after cleaning as a result # TODO check if needed in the unnecessary final call in show_traverse
                     cox_model = L2C_class[a](dataset = dataset, time_column = time_col, target_goal = event_col, config=config, verbose = self.verbose)
                     c_index = cox_model.updated_fit()
-                    n = {"quality_metric": c_index}
+                    if isinstance(c_index, np.generic):
+                            c_index = c_index.item()
+                    time_dif = time.time() - start_time
+                    n = {"quality_metric": c_index, 'time': time_dif}
                     print(f"IN SURVIVAL_QLEARNER --------------------------------> {c_index} \n\n\n\n {n}")
 
                 if a == 12:
@@ -482,7 +484,10 @@ class SurvivalQlearner:
                         res = dataset # taking the final dataset after cleaning as a result # TODO check if needed in the unnecessary final call in show_traverse
                         cox_model = L2C_class[a](dataset=dataset, time_column=time_col, target_goal=event_col, config=config, verbose=self.verbose)
                         c_index = cox_model.updated_fit()
-                        n = {"quality_metric": c_index}
+                        if isinstance(c_index, np.generic):
+                            c_index = c_index.item()
+                        time_dif = time.time() - start_time
+                        n = {"quality_metric": c_index, 'time': time_dif}
                         print(f"IN SURVIVAL_QLEARNER --------------------------------> {c_index} \n\n\n\n {n}")
 
                     if a == 17:
@@ -644,12 +649,20 @@ class SurvivalQlearner:
                 dataset = self.handle_categorical(dataset)[0] # encoding categorical values outside Imputer class
                 
 
+            for idx in range(len(actions_list)): # convert numbers that for some reason randomly change to numpy type Ex. 2 -> np.int64(2)
+                num = actions_list[idx]
+                if isinstance(num, np.generic):
+                    actions_list[idx] = num.item()
+            
             print("\n\nStrategy#", i, ": Greedy traversal for "
                   "starting state %s" % methods[i])
 
             print(traverse_name)
 
             print(actions_list)
+
+            
+                    
 
             actions_strategy.append(traverse_name)
 
@@ -705,13 +718,13 @@ class SurvivalQlearner:
 
         print("Start Learn2Clean")
 
-        gamma = 0.8
+        gamma = 0.91 #0.8
 
-        beta = 1.
+        beta = 0.1 #1.
 
         n_episodes = 1E3
 
-        epsilon = 0.05
+        epsilon = 0.2 #0.05
 
         random_state = np.random.RandomState(1999)
 
@@ -720,8 +733,7 @@ class SurvivalQlearner:
 
         state_names = []
         for key in self.rewards:
-            #condition = len(self.rewards[key]['followed_by']) > 0
-            if self.rewards[key]["type"] == "Survival_Model" or self.rewards[key]["type"] == "Regression" and key != self.goal:
+            if (self.rewards[key]["type"] == "Survival_Model" or self.rewards[key]["type"] == "Regression") and key != self.goal:
                 continue
             if check_missing:
                 state_names.append(key)
@@ -729,7 +741,6 @@ class SurvivalQlearner:
                 if self.rewards[key]['type'] != 'Imputer':
                     state_names.append(key)
 
-        #print(f"HERE STATES_NAMES ARRAY ----> {state_names}")
 
         states_dict = {}
         states_dict_reversed = {}
@@ -771,12 +782,9 @@ class SurvivalQlearner:
                 for x in temp:
                     valid_moves[x] = True
                 valid_moves = np.array(valid_moves)
-                # print(type(valid_moves))
                 
 
                 if random_state.rand() < epsilon:
-
-                    #print("HEEEREEEE 111111")
 
                     actions = np.array(list(range(n_actions)))
 
@@ -793,7 +801,6 @@ class SurvivalQlearner:
                     next_state = action
 
                 else:
-                    #print("HEEEREEEE 222222")
 
 
                     if np.sum(q[current_state]) > 0:
@@ -801,7 +808,6 @@ class SurvivalQlearner:
                         action = np.argmax(q[current_state])
 
                     else:
-                        #print("HEEEREEEE 3333333")
 
                         actions = np.array(list(range(n_actions)))
 
@@ -814,7 +820,6 @@ class SurvivalQlearner:
                     next_state = action
 
                 reward = update_q(q, r, current_state, next_state, action, beta, gamma, states_dict)
-                #print(f'REWARD HERE: {reward}')
 
                 if reward > 1:
 
@@ -843,6 +848,8 @@ class SurvivalQlearner:
         result_list = self.show_traverse(self.dataset, q, g, check_missing)
 
         quality_metric_list = []
+        best_overall = [] # for testing purposes -> maintain best obtained value so far
+        timestamps = [] # for testing purposes -> when the pipelines finished
 
         print(f'result_list: \n {result_list}')
 
@@ -858,6 +865,8 @@ class SurvivalQlearner:
                         if key == 'quality_metric':
 
                             quality_metric_list.append(val)
+                        elif key == 'time':
+                            timestamps.append(val)
 
             if g in range(0, 2):
 
@@ -890,6 +899,13 @@ class SurvivalQlearner:
             result = None
 
             result_l = None
+        
+        best_so_far = 0
+        for num in quality_metric_list: # populate the best_overall
+            best_so_far = max(num, best_so_far)
+            best_overall.append(best_so_far)
+        for i in range(1, len(timestamps)):
+            timestamps[i] += timestamps[i - 1]
 
         t = time.time() - start_pipexec
 
@@ -915,6 +931,15 @@ class SurvivalQlearner:
                   mode='a+') as rr_file:
 
             print("{}".format(rr), file=rr_file)
+
+
+        print(best_overall)
+        print(timestamps)
+        with open('./save/'+str(self.file_name)+'_timestamps.txt', mode='a') as rr_file:
+            print("{}".format(best_overall), file=rr_file)
+            print("{}".format(timestamps), file=rr_file)
+
+        
 
     def random_cleaning(self, dataset_name="None", loop=1):
 
@@ -1101,7 +1126,8 @@ class SurvivalQlearner:
             print(action_list)
             dataset_copy = self.dataset.copy()
             p = self.construct_pipeline(dataset=dataset_copy, actions_list=action_list, time_col=self.time_col, event_col=self.event_col, check_missing=check_missing)
-            print(p)
+            print(f'P IS HERE {p}')
+            print()
             rr += str((dataset_name, "Custom", goals[g], traverse_name, metrics_name[g], "Quality Metric: ", p[0]['quality_metric'])) + "\n"
             pipeline_counter += 1
         print(rr)
@@ -1153,34 +1179,173 @@ class SurvivalQlearner:
     
 
     
+    def get_imputers(self):
+        imputers = []
+        for method in self.rewards:
+            if self.rewards[method]['type'] == 'Imputer':
+                imputers.append(method)
+        return imputers
     
-    def generate_pipeline(self, current_step, pipeline):
+
+    def generate_pipeline(self, current_step, pipeline, imputers):
         pipeline.append(current_step)
         if current_step == self.goal or len(self.rewards[current_step]['followed_by']) == 0:
             pipeline.pop()
-            res = self.custom_pipeline(pipeline, self.goal)
+            random_imputer = imputers[random.randint(0, len(imputers) - 1)]
+            pipeline.insert(0, random_imputer)
+            formatted_pipeline = ""
+            for method in pipeline:
+                formatted_pipeline += method + " "
+            formatted_pipeline = formatted_pipeline[:-1]
+            res = self.custom_pipeline([formatted_pipeline], self.goal)
             return res
         else:
             next_steps = self.rewards[current_step]['followed_by']
             for next_step, reward in next_steps.items():
-                if(next_step not in pipeline):
-                    self.generate_pipeline(next_step, pipeline.copy())
+                if next_step not in pipeline:
+                    # if len(pipeline) != 0 and self.rewards[pipeline[-1]]['type'] == self.rewards[next_step]['type']:
+                    #     continue
+                    self.generate_pipeline(next_step, pipeline.copy(), imputers)
 
     
+    # def grid_search(self, dataset_name='None'):
+    #     start_time = time.time()
+    #     timestamps = []
+    #     best_so_far = -1.0
+    #     imputers = self.get_imputers()
+    #     for start in self.rewards:
+    #         ans = self.generate_pipeline(start, [], imputers)
+    #         best_so_far = max(best_so_far, ans[0]['quality_metric'])
+    #         timestamps.append((best_so_far, time.time() - start_time))
+    #         time_dif = time.time() - start_time
+    #         if time_dif >= 300:
+    #             time_in_mins = time_dif / 60
+    #             print()
+    #             print(f"Time Limit of {time_in_mins} mins have been reached!")
+    #             print()
+    #             break
+    #     else:
+    #         print()
+    #         print(f"Grid Search completed in {(time.time() - start_time) / 60} mins")
+    #         print()
+    #     with open('./save/'+dataset_name+'_results.txt', mode='a') as rr_file:
+    #          print("{}".format(timestamps), file=rr_file)
+
+    
+
+    # def grid_search(self, dataset_name='None'):
+    #     imputers, feature_selectors, duplicate_detectors, outlier_detectors = [], [], [], []
+
+    #     for method in self.rewards:
+    #         if method == "CR":
+    #             continue
+    #         method_type = self.rewards[method]['type']
+    #         if method_type == 'Imputer':
+    #             imputers.append(method)
+    #         elif method_type == 'Feature_selector':
+    #             feature_selectors.append(method)
+    #         elif method_type == 'Duplicate_detector':
+    #             duplicate_detectors.append(method)
+    #         elif method_type == 'Outlier_detector':
+    #             outlier_detectors.append(method)
+
+    #     random.shuffle(imputers)
+    #     start_time = time.time()
+    #     results = []
+    #     timestamps = []
+    #     timeout = False
+    #     best_so_far = 0
+    #     for i in imputers:
+    #         for j in feature_selectors:
+    #             for k in duplicate_detectors:
+    #                 for z in outlier_detectors:
+    #                     string = i + " " + j + " " + k + " " + z
+    #                     pipeline = [string]
+    #                     res = self.custom_pipeline(pipeline, self.goal)[0]['quality_metric']
+    #                     best_so_far = max(best_so_far, res)
+    #                     time_dif = time.time() - start_time
+    #                     results.append(best_so_far)
+    #                     timestamps.append(time_dif)
+    #                     if time_dif >= 300:
+    #                         timeout = True
+    #                         print()
+    #                         print(f"Time limit for Grid Search reached in {time_dif / 60} mins")
+    #                         break
+    #                 if timeout:
+    #                     break
+    #             if timeout:
+    #                 break
+    #         if timeout:
+    #             break
+    #     else:
+    #         print()
+    #         print(f'Grid Search Completed in {(time.time() - start_time) / 60} mins')
+
+    #     with open('./save/'+dataset_name+'_results.txt', mode='a') as rr_file:
+    #         print("{}".format(results), file=rr_file)
+    #         print("{}".format(timestamps), file=rr_file)
+
+
+
     def grid_search(self, dataset_name='None'):
+        imputers, feature_selectors, duplicate_detectors, outlier_detectors = [], [], [], []
+
+        for method in self.rewards:
+            if method == "CR":
+                continue
+            method_type = self.rewards[method]['type']
+            if method_type == 'Imputer':
+                imputers.append(method)
+            elif method_type == 'Feature_selector':
+                feature_selectors.append(method)
+            elif method_type == 'Duplicate_detector':
+                duplicate_detectors.append(method)
+            elif method_type == 'Outlier_detector':
+                outlier_detectors.append(method)
+
+        random.shuffle(imputers)
+        random.shuffle(feature_selectors)
+        random.shuffle(duplicate_detectors)
+        random.shuffle(outlier_detectors)
+        all_methods = [feature_selectors, duplicate_detectors, outlier_detectors]
+        random.shuffle(all_methods)
+        all_methods.insert(0, imputers)
         start_time = time.time()
+        results = []
         timestamps = []
-        best_so_far = -1.0
+        timeout = False
+        best_so_far = 0
+        for i in all_methods[0]:
+            for j in all_methods[1]:
+                for k in all_methods[2]:
+                    for z in all_methods[3]:
+                        string = i + " " + j + " " + k + " " + z
+                        pipeline = [string]
+                        res = self.custom_pipeline(pipeline, self.goal)[0]['quality_metric']
+                        best_so_far = max(best_so_far, res)
+                        time_dif = time.time() - start_time
+                        results.append(best_so_far)
+                        timestamps.append(time_dif)
+                        if time_dif >= 600:
+                            timeout = True
+                            print()
+                            print(f"Time limit for Grid Search reached in {time_dif / 60} mins")
+                            break
+                    if timeout:
+                        break
+                if timeout:
+                    break
+            if timeout:
+                break
+        else:
+            print()
+            print(f'Grid Search Completed in {(time.time() - start_time) / 60} mins')
 
-        for start in self.rewards:
-            ans = self.generate_pipeline(start, [])
-            best_so_far = max(best_so_far, ans[0]['quality_metric'])
-            timestamps.append((best_so_far, time.time() - start_time))
+        with open('./save/'+dataset_name+'_timestamps.txt', mode='a') as rr_file:
+            print("{}".format(results), file=rr_file)
+            print("{}".format(timestamps), file=rr_file)
 
-        with open('./save/'+dataset_name+'_results.txt', mode='a') as rr_file:
-             print("{}".format(timestamps), file=rr_file)
 
-        
-
+            
 
         

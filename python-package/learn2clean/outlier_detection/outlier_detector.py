@@ -200,6 +200,9 @@ class Outlier_detector():
 
         start_time = time.time()
 
+        if self.dataset is None:
+            return self.dataset
+
         print()
 
         print(">>Outlier detection and removal:")

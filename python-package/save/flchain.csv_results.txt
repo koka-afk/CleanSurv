@@ -2,4 +2,637 @@
 ('flchain.csv', 'Learn2Clean', 'OLS', 'KNN -> ED -> UC -> MUO -> OLS', 'MSE', 0.09883234936614402, 32.64012932777405)
 ('flchain.csv', 'Learn2Clean', 'MARS', 'Mean -> UC -> MUO -> MARS', 'MSE', 0.1539506329207502, 32.60671615600586)
 ('flchain.csv', 'Learn2Clean', 'MARS', 'CCA -> RFE -> DBID -> MARS', 'MSE', 2.2204460492503132e-17, 40.482691049575806)
-('flchain.csv', 'Learn2Clean', 'MARS', 'CCA -> ED -> UC -> MUO -> MARS', 'MSE', 0, 48.39164733886719)
+('flchain.csv', 'Learn2Clean', 'MARS', 'CCA -> ED -> UC -> MUO -> MARS', 'MSE', 0, 48.39164733886719)('None', 'Custom', 'COX', 'Median -> Mean -> UC -> CCA -> LASSO -> MI -> RFE -> KNN -> IG -> Median -> DBID -> MR -> DBT -> MUO -> COX', 'C-Index', 'Quality Metric: ', np.float64(0.5))
+('flchain.csv', 'Learn2Clean', 'COX', 'Median -> RFE -> DBT -> MUO -> COX', 'C-Index', 0.6953166410935975, 28.201993465423584)('None', 'Custom', 'COX', 'MI -> MR -> UC -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5766258414515142)
+
+('None', 'Custom', 'COX', 'MI -> MR -> UC -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6563814787660031)
+
+('None', 'Custom', 'COX', 'MI -> MR -> UC -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.6120656598966536)
+
+('None', 'Custom', 'COX', 'MI -> MR -> IG -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5617836291162899)
+
+('None', 'Custom', 'COX', 'MI -> MR -> IG -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6337149624950651)
+
+('None', 'Custom', 'COX', 'MI -> MR -> IG -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.6126319579381423)
+
+('None', 'Custom', 'COX', 'MI -> MR -> LASSO -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'MI -> MR -> LASSO -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'MI -> MR -> LASSO -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5836480057221232)
+
+('None', 'Custom', 'COX', 'MI -> MR -> RFE -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'MI -> MR -> RFE -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'MI -> MR -> RFE -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5836480057221232)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> UC -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5226259616261745)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> UC -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6048297724285456)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> UC -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.57610140079573)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> IG -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5054002116299152)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> IG -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5686451380119069)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> IG -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5819382268151327)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> LASSO -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5045671541946666)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> LASSO -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.586458252794172)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> LASSO -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5677612433031789)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> RFE -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5254776876391102)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> RFE -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6018917038220665)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> RFE -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5677612433031789)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> UC -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5801549759349002)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> UC -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6530483334273307)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> UC -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.6107699958102825)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> IG -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5621392302475976)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> IG -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.63179177711353)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> IG -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.6131316564237895)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> LASSO -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> LASSO -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> LASSO -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5836480057221232)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> RFE -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> RFE -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> RFE -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5836480057221232)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> UC -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.539948187158686)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> UC -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.6094430555913507)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> UC -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5865992074639443)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> IG -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5031379608119778)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> IG -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5641864900389165)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> IG -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5729844260841673)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> LASSO -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5216736905478627)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> LASSO -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.586458252794172)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> LASSO -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5677612433031789)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> RFE -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5254776876391102)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> RFE -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.586458252794172)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> RFE -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5708595631075509)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> UC -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> UC -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> UC -> ED -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> IG -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.6024526330316832)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> IG -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5680290215098283)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> IG -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.620356062278435)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> LASSO -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> LASSO -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> LASSO -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> RFE -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.4921137201553597)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> RFE -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.48797342323692355)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> RFE -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5039007901417691)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> UC -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> UC -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> UC -> ED -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> IG -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5768002322880371)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> IG -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5691540843979869)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> IG -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5639370129451923)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> LASSO -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> LASSO -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> LASSO -> ED -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> RFE -> DBID -> COX', 'C-Index', 'Quality Metric: ', 0.5253581107239644)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> RFE -> DBT -> COX', 'C-Index', 'Quality Metric: ', 0.5256000774293457)
+
+[0.5766258414515142, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031, 0.6563814787660031]
+[1.6531345844268799, 3.178521156311035, 5.070433616638184, 5.719639301300049, 6.178906202316284, 7.362393856048584, 7.841932773590088, 8.292958974838257, 8.964892387390137, 13.816041946411133, 18.542871236801147, 23.31760883331299, 25.37876868247986, 27.361355304718018, 29.441356420516968, 30.433934926986694, 31.363581657409668, 32.62620258331299, 33.700419902801514, 34.67250442504883, 35.68087720870972, 40.82972812652588, 45.82466173171997, 50.89655375480652, 55.013598918914795, 58.495843172073364, 62.33327293395996, 64.93910193443298, 67.46098756790161, 70.68250179290771, 73.18393659591675, 75.7318274974823, 78.34613537788391, 85.10338044166565, 91.91272759437561, 98.71492528915405, 102.46719098091125, 106.22904109954834, 110.34676957130432, 113.40722966194153, 116.34660577774048, 119.6684193611145, 122.69517755508423, 125.65231037139893, 128.70712637901306, 135.89588475227356, 142.9537591934204, 150.10286378860474, 150.17003083229065, 150.24037861824036, 150.30311059951782, 150.71412539482117, 151.1010971069336, 151.56531596183777, 152.15628170967102, 152.72212648391724, 153.2873501777649, 181.98113656044006, 211.4268524646759, 240.1000292301178, 240.42674469947815, 240.73901414871216, 241.0375440120697, 241.61328768730164, 242.169424533844, 242.75086951255798, 243.59470129013062, 244.42366242408752, 245.25414156913757, 276.04309940338135, 309.2985632419586]
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5595087755470219)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5641864900389165)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5409353710815014)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6098768932072197)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.559832665576207)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5860025142797943)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.559832665576207)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5865992074639443)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5031379608119778)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5031379608119778)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.4897043262506233)
+
+('None', 'Custom', 'COX', 'KNN -> MUO -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5226259616261745)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.63179177711353)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6357819637922283)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6131316564237895)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6107699958102825)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5577004184515638)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5621392302475976)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'KNN -> MR -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5766134367608872)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.4839939024390244)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5691540843979869)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.48839924003349006)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5639370129451923)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5194662214479288)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5833817266744096)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MUO -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.48797342323692355)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5680290215098283)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5233479203729434)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.620356062278435)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.4921137201553597)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6024526330316832)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> MR -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5427007894985525)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5636280851868078)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5409353710815014)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6108519539874402)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5724743143009127)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5703625413156044)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.571585251418018)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.57610140079573)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.4970779437967879)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5054002116299152)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.4835075620746903)
+
+('None', 'Custom', 'COX', 'MI -> MUO -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5345629686388266)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6337149624950651)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6332581354689527)
+
+('None', 'Custom', 'COX', 'MI -> MR -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'MI -> MR -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6126319579381423)
+
+('None', 'Custom', 'COX', 'MI -> MR -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'MI -> MR -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6120656598966536)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5560712690825491)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5617836291162899)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'MI -> MR -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5766258414515142)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6060153088837916)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.608420745169798)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6060153088837916)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6231110882021941)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5917088117720071)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.619689238916261)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5866158361043096)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5674248748328947)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5618591809679028)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5549291834662093)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5514722874274802)
+
+('None', 'Custom', 'COX', 'Median -> MUO -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5037460927522835)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6573938300152276)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6504822063053409)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6543426766679826)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6350939033331453)
+
+('None', 'Custom', 'COX', 'Median -> MR -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Median -> MR -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6557045143197118)
+
+('None', 'Custom', 'COX', 'Median -> MR -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Median -> MR -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6134799922825241)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6015737417508807)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Median -> MR -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5586369725939035)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6301555801826414)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5982062317981496)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6142797006949993)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5626272518749517)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5917088117720071)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6238488334679785)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5917088117720071)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5674248748328947)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5620781084664128)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.5620781084664128)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5454575860957559)
+
+('None', 'Custom', 'COX', 'Mean -> MUO -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5037460927522835)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBT -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6579465343184253)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBT -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6505780835824263)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBT -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6543426766679826)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBT -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6352292594890305)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> ED -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> ED -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6557101651911165)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> ED -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> ED -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.6134799922825241)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBID -> RFE -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBID -> IG -> COX', 'C-Index', 'Quality Metric: ', 0.6016523047915185)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBID -> LASSO -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Mean -> MR -> DBID -> UC -> COX', 'C-Index', 'Quality Metric: ', 0.5586865913564115)
+
+[0.5595087755470219, 0.5641864900389165, 0.5641864900389165, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6098768932072197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6450651401500197, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6573938300152276, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253, 0.6579465343184253]
+[6.765644788742065, 9.698559045791626, 12.691359519958496, 15.728920221328735, 21.534908056259155, 24.18728280067444, 26.668617486953735, 29.864635705947876, 34.87695527076721, 37.32602071762085, 39.74605321884155, 42.447768688201904, 47.30603241920471, 49.34148597717285, 51.31277084350586, 53.763861417770386, 59.40406155586243, 61.96592998504639, 64.03105878829956, 67.10592865943909, 71.97285914421082, 74.04923558235168, 76.08050274848938, 78.71507239341736, 98.26429414749146, 98.77702736854553, 99.38081383705139, 99.63148427009583, 118.784499168396, 119.34492063522339, 119.99650526046753, 120.25443696975708, 138.67727041244507, 139.23526644706726, 139.88099551200867, 140.16459941864014, 158.17873358726501, 158.63615798950195, 159.0500340461731, 159.09957695007324, 177.47144150733948, 178.00794553756714, 178.44925618171692, 178.50471687316895, 200.22825932502747, 200.69833779335022, 201.1726312637329, 201.2543785572052, 205.08521723747253, 205.8988058567047, 206.7123420238495, 207.78226852416992, 212.57638907432556, 213.9328429698944, 214.92254424095154, 216.87508511543274, 220.50791382789612, 221.46264672279358, 222.36190819740295, 223.49848437309265, 227.00049138069153, 227.51944184303284, 227.90427136421204, 228.935706615448, 233.33817195892334, 234.8092920780182, 235.40203261375427, 237.16400933265686, 240.86908555030823, 241.8390929698944, 242.4445719718933, 243.63963794708252, 247.42637634277344, 248.2082440853119, 249.0001664161682, 250.0601041316986, 254.77475881576538, 255.95123314857483, 257.01966547966003, 258.8147728443146, 262.4998767375946, 263.39860486984253, 264.24373745918274, 265.3752110004425, 268.7973265647888, 269.30586647987366, 269.654096364975, 270.5934512615204, 275.00718355178833, 275.84430956840515, 276.52592730522156, 278.2613534927368, 281.8367290496826, 282.44705152511597, 282.8636438846588, 283.9328980445862, 287.7153398990631, 288.5791292190552, 289.36002016067505, 290.3695442676544, 294.9820456504822, 295.92560505867004, 296.8362822532654, 298.40187335014343, 301.9530382156372, 302.76409006118774, 303.58757996559143, 304.7805230617523, 308.0944035053253, 308.44413685798645, 308.72257924079895, 309.52637100219727, 313.7369372844696, 314.3157217502594, 314.88339042663574, 316.37367367744446, 319.8405327796936, 320.2603876590729, 320.58616375923157, 321.52715730667114]
+('None', 'Custom', 'COX', 'Median -> DBT -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6350939033331453)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6336518342865114)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6543426766679826)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6902531733854094)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6573938300152276)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6929069605244804)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6504822063053409)
+
+('None', 'Custom', 'COX', 'Median -> DBT -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6737132096526712)
+
+('None', 'Custom', 'COX', 'Median -> ED -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6134799922825241)
+
+('None', 'Custom', 'COX', 'Median -> ED -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.573561200886978)
+
+('None', 'Custom', 'COX', 'Median -> ED -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Median -> ED -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5917088117720071)
+
+('None', 'Custom', 'COX', 'Median -> ED -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Median -> ED -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6004715768837674)
+
+('None', 'Custom', 'COX', 'Median -> ED -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6557045143197118)
+
+('None', 'Custom', 'COX', 'Median -> ED -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.619689238916261)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5586369725939035)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.573751718990435)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6287811785876783)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6269560905284576)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6015737417508807)
+
+('None', 'Custom', 'COX', 'Median -> DBID -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6112551058489128)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6357819637922283)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5992676802901381)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.658055516808481)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.658055516808481)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.63179177711353)
+
+('None', 'Custom', 'COX', 'KNN -> DBT -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6397335751150788)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6107699958102825)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5817897283819766)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.571585251418018)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.559832665576207)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6131316564237895)
+
+('None', 'Custom', 'COX', 'KNN -> ED -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5729844260841673)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5766134367608872)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6041271529137505)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5578551053584025)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5577004184515638)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.59602437415971)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5621392302475976)
+
+('None', 'Custom', 'COX', 'KNN -> DBID -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5744009733703459)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.48797342323692355)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.4889866231329646)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5680290215098283)
+
+('None', 'Custom', 'COX', 'CCA -> DBT -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5979386467191345)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5233479203729434)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.48839924003349006)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.620356062278435)
+
+('None', 'Custom', 'COX', 'CCA -> ED -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5875102053884451)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.4921137201553597)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5086255208206427)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6024526330316832)
+
+('None', 'Custom', 'COX', 'CCA -> DBID -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5673107380424454)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6352292594890305)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6147021899846562)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6543426766679826)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6886420700237132)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6579465343184253)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6933114799832613)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6505780835824263)
+
+('None', 'Custom', 'COX', 'Mean -> DBT -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6657692844190264)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6134799922825241)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5801719938677502)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6004715768837674)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6226202767796815)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5917088117720071)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6557101651911165)
+
+('None', 'Custom', 'COX', 'Mean -> ED -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6199044087908848)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5586865913564115)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5615232427955769)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5829614065223948)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5899815583599345)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6136501899196867)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6016523047915185)
+
+('None', 'Custom', 'COX', 'Mean -> DBID -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5935338415054984)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6332581354689527)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6334983958711118)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6384781698981727)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6450651401500197)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6551506486260288)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6337149624950651)
+
+('None', 'Custom', 'COX', 'MI -> DBT -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6345236434649184)
+
+('None', 'Custom', 'COX', 'MI -> ED -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6120656598966536)
+
+('None', 'Custom', 'COX', 'MI -> ED -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5774133393368385)
+
+('None', 'Custom', 'COX', 'MI -> ED -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'MI -> ED -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5657279357050145)
+
+('None', 'Custom', 'COX', 'MI -> ED -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5875562160796353)
+
+('None', 'Custom', 'COX', 'MI -> ED -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.571585251418018)
+
+('None', 'Custom', 'COX', 'MI -> ED -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.6126319579381423)
+
+('None', 'Custom', 'COX', 'MI -> ED -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5766904777795597)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> UC -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5766258414515142)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> UC -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.6040862545818912)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> LASSO -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5572972660061858)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> LASSO -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.553853979744687)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> RFE -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5560712690825491)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> RFE -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5812841879249527)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> IG -> MR -> COX', 'C-Index', 'Quality Metric: ', 0.5617836291162899)
+
+('None', 'Custom', 'COX', 'MI -> DBID -> IG -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.5645752496050795)
+
+('flchain.csv', 'Learn2Clean', 'COX', 'Mean -> DBT -> MUO -> COX', 'C-Index', 0.6688659506207282, 23.531373500823975)
+('flchain.csv', 'Learn2Clean', 'COX', 'MI -> RFE -> DBT -> MUO -> COX', 'C-Index', 0.658055516808481, 23.2611985206604)
+('flchain.csv', 'Learn2Clean', 'COX', 'MI -> RFE -> DBT -> MUO -> COX', 'C-Index', 0.658055516808481, 32.60550022125244)
+('flchain.csv', 'Learn2Clean', 'COX', 'Median -> DBT -> MUO -> COX', 'C-Index', 0.6767261821732459, 34.599045515060425)
+('flchain.csv', 'Learn2Clean', 'COX', 'Median -> RFE -> DBT -> MUO -> COX', 'C-Index', 0.6886420700237132, 20.96361470222473)
+('flchain.csv', 'Learn2Clean', 'COX', 'Median -> DBT -> MUO -> COX', 'C-Index', 0.6658181057330171, 29.50434923171997)
+('flchain.csv', 'Learn2Clean', 'COX', 'Mean -> RFE -> DBT -> MUO -> COX', 'C-Index', 0.6886420700237132, 21.458572387695312)

@@ -46,7 +46,7 @@ elif edit == 'D':
 job = ""
 while True:
     job = str(input("Please choose 'L' for Learn2Clean, 'R' for Random, 'C' for Custom Pipeline Design or 'N' for a No Preparation job: ")).upper()
-    if job == 'L' or job == 'R' or job == 'C' or job == 'N':
+    if job == 'L' or job == 'R' or job == 'C' or job == 'N' or job == 'G':
         break
 
 if job == "L":
@@ -59,7 +59,7 @@ elif job == 'C':
     pipelines = open(pipelines_file_path, 'r')
     l2c.custom_pipeline(pipelines, model, dataset_name=file_name)
 elif job == 'G':
-    l2c.grid_search(file_name)
+    l2c.grid_search(dataset_name=file_name)
 else:
     l2c.no_prep()
 

@@ -146,7 +146,7 @@ class Imputer():
 
         data = self.dataset
 
-        print(f"\n\n **BEFORE HANDLE CATEGORICAL** \n\n {data}")
+        #print(f"\n\n **BEFORE HANDLE CATEGORICAL** \n\n {data}")
 
         oe_dict = {}
 
@@ -159,7 +159,7 @@ class Imputer():
                 encoded_values = oe_dict[col_name].fit_transform(reshaped_values)
                 data.loc[col.notnull(), col_name] = np.squeeze(encoded_values)
         
-        print(f"\n\n **AFTER HANDLE CATEGORICAL** \n\n {data}")
+        #print(f"\n\n **AFTER HANDLE CATEGORICAL** \n\n {data}")
 
         return oe_dict
     
@@ -216,6 +216,8 @@ class Imputer():
 
     def complete_case_analysis(self):
         data = self.dataset
+        if data is None:
+            return data
         original_rows = len(data)
         #non_missing_indices = ~np.isnan(data.columns)
         data.dropna(inplace=True)
@@ -348,8 +350,11 @@ class Imputer():
     
 
     def transform(self):
-
+        
         start_time = time.time()
+
+        if self.dataset is None:
+            return self.dataset
 
         print(">>Imputation ")
         if self.strategy == "CCA":
@@ -376,7 +381,7 @@ class Imputer():
                                         "choose between "
                                         "'CCA', 'MI', 'IPW', 'Mean' or 'Median'")
         
-
+        
         print("After missing values handling:")
 
         print("Total", self.dataset.isnull(
