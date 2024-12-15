@@ -59,12 +59,12 @@
         "type": "Outlier_detector",
         "followed_by": {"Mean": 0, "CCA": 0, "MI": 0, "KNN": 0, "Median": 0, "UC": 0, "LASSO": 0, "RFE": 0, "IG": 0, "DBID": 0, "DBT": 0, "ED": 0, "RSF": 100, "COX": 100, "NN": 100, "OLS": 100, "LASSO_REG": 100, "MARS": 100}
     },
-    "RSF": {
+    "COX": {
         "type": "Survival_Model",
         "followed_by": {},
         "reward": 100
     },
-    "COX": {
+    "RSF": {
         "type": "Survival_Model",
         "followed_by": {},
         "reward": 100

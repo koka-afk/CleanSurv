@@ -3,12 +3,13 @@ import pandas as pd
 import json
 
 
-path = "learn2clean/datasets/flchain.csv"
+path = "learn2clean/datasets/rotterdam_missing_MNAR/rotterdam_missing_50_MNAR.csv"  
 file_name = path.split("/")[-1]
 json_path = 'C:/Users/yosef/Desktop/Learn2Clean_extended/python-package/config.json'
 dataset = pd.read_csv(path)
 dataset.drop('rownames', axis=1, inplace=True)
-time_column = "futime"
+dataset.drop('pid', axis=1, inplace=True)
+time_column = "dtime"
 event_column = "death"
 model = ""
 available_models = ['RSF', 'COX', 'NN', 'OLS', 'LASSO_REG', 'MARS']
@@ -45,12 +46,14 @@ elif edit == 'D':
 
 job = ""
 while True:
-    job = str(input("Please choose 'L' for Learn2Clean, 'R' for Random, 'C' for Custom Pipeline Design or 'N' for a No Preparation job: ")).upper()
+    job = str(input("Please choose 'L' for Learn2Clean, 'R' for Random, 'C' for Custom Pipeline Design, 'G' for Grid Search or 'N' for a No Preparation job: ")).upper()
     if job == 'L' or job == 'R' or job == 'C' or job == 'N' or job == 'G':
         break
 
 if job == "L":
-    l2c.Learn2Clean()
+    restarts = 15
+    for times in range(restarts):
+        l2c.Learn2Clean()
 elif job == "R":
     repeat = eval(input("Please enter the number of random experiments: ")) # TODO Allow user to choose number of random trials
     l2c.random_cleaning(dataset_name=file_name, loop=repeat)
@@ -59,7 +62,8 @@ elif job == 'C':
     pipelines = open(pipelines_file_path, 'r')
     l2c.custom_pipeline(pipelines, model, dataset_name=file_name)
 elif job == 'G':
-    l2c.grid_search(dataset_name=file_name)
+    trials = eval(input("Please input the number of trials/restarts of the grid search: "))
+    l2c.grid_search(dataset_name=file_name, trials=trials)
 else:
     l2c.no_prep()
 

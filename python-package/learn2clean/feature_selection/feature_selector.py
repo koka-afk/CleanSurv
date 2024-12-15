@@ -213,6 +213,7 @@ class Feature_selector():
         from sklearn.preprocessing import LabelEncoder
         from sklearn.feature_selection import RFECV
         from sklearn.linear_model import LassoCV
+        from sklearn.exceptions import ConvergenceWarning
 
         print(">>Feature Selection started with RFE method..... ")
         
@@ -226,8 +227,12 @@ class Feature_selector():
         Endcoded_event_labels = LabelEncoder().fit_transform(y["event"])
 
         # Perform feature selection using Recursive Feature Elimination (RFE)
-        #warnings.filterwarnings("ignore", category=ConvergenceWarning)
-        rfecv = RFECV(estimator=LassoCV(cv=5), step=1, scoring='neg_mean_squared_error')
+
+        # if not self.verbose:
+        #     warnings.filterwarnings("ignore", category=ConvergenceWarning)
+
+        rfecv = RFECV(estimator=LassoCV(cv=5, max_iter=10000), step=1, scoring='neg_mean_squared_error')
+        # rfecv = RFECV(estimator=LassoCV(cv=5, max_iter=10000), step=1, scoring='accuracy')
         rfecv.fit(x, Endcoded_event_labels)
 
         selected_features = rfecv.support_

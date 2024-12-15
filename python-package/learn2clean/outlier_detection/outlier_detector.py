@@ -83,15 +83,15 @@ class Outlier_detector():
                 setattr(self, k, v)
     
 
-    def survival_analysis_with_fdr_control(self): # TODO Fix this method from NaNs and return correct data
-
+    def survival_analysis_with_fdr_control(self):
         from lifelines import KaplanMeierFitter
         from lifelines.statistics import logrank_test
         from statsmodels.stats import multitest
 
-        #self.dataset.dropna(inplace=True)
+        # Handle missing values (e.g., remove rows with NaNs)
+        self.dataset.dropna(inplace=True)  # Or use imputation techniques
 
-        # Split the data into groups for comparison (e.g., treatment vs. control)
+        # Split the data into groups for comparison
         groups = self.dataset[self.event_column].unique()
 
         # Initialize Kaplan-Meier estimator
@@ -107,8 +107,11 @@ class Outlier_detector():
             # Fit the Kaplan-Meier survival curve for the current group
             kmf.fit(group_data[self.time_column], event_observed=group_data[self.event_column])
 
-            # Perform log-rank test for the current group
-            results = logrank_test(group_data[self.time_column], group_data[self.time_column])
+            # Perform log-rank test for the current group (compare with the rest of the data)
+            rest_of_data = self.dataset[self.dataset[self.event_column] != group]
+            results = logrank_test(group_data[self.time_column], rest_of_data[self.time_column],
+                                event_observed_A=group_data[self.event_column],
+                                event_observed_B=rest_of_data[self.event_column])
 
             # Store the results for the current group
             results_dict[group] = results
@@ -123,17 +126,13 @@ class Outlier_detector():
         # Identify outliers based on adjusted p-values
         outliers = [group for group, adj_p in zip(groups, adjusted_p_values) if adj_p < fdr_threshold]
 
-        print(outliers)
-
-        # Number of detected outliers
-        num_outliers = len(outliers)
-
-        # Number of remaining rows
-        num_remaining_rows = len(self.dataset) - num_outliers
+        # Remove outliers from the dataset
+        self.dataset = self.dataset[~self.dataset[self.event_column].isin(outliers)]
 
         # Print results
-        print("Number of Detected Outliers:", num_outliers)
-        print("Number of Remaining Rows:", num_remaining_rows)
+        print("Number of Detected Outliers:", len(outliers))
+        print("Number of Remaining Rows:", len(self.dataset))
+
         return self.dataset
 
     def martingale_residuals(self): # TODO Fix this method by actually discovering outliers correctly

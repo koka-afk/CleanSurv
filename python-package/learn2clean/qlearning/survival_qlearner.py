@@ -33,7 +33,6 @@ def update_q(q, r, state, next_state, action, beta, gamma, states_dict):
     action_name = states_dict[action]
     current_state_name = states_dict[state]
     #print(f'Action name: {action_name} \n\nCurrent State Name: {current_state_name}\n\n')
-
     rsa = r[current_state_name]['followed_by'][action_name] #r[state, action]
     #print(rsa)
     # rsa is the immediate reward obtained when taking the current action in the current state.
@@ -164,6 +163,22 @@ class SurvivalQlearner:
                 imputer_no += 1
         return imputer_no
     
+
+    def get_methods(self):
+        methods = []
+        for key in self.rewards:
+            if self.rewards[key]['type'] not in ('Survival_Model', 'Regression'):
+                methods.append(key)
+        return methods
+    
+
+    def get_goals(self):
+        goals = []
+        for key in self.rewards:
+            if self.rewards[key]['type'] in ('Survival_Model', 'Regression'):
+                goals.append(key)
+        return goals
+
 
     def edit_edge(self, u, v, weight):
         if weight == -1:
@@ -319,7 +334,7 @@ class SurvivalQlearner:
         #dataset = dataset.copy()
 
         # Define names of goals (used when executing survival models)
-        goals_name = ["RSF", "COX", "NN", "OLS", "LASSO_REG", "MARS"]
+        goals_name = self.get_goals() #["RSF", "COX", "NN", "OLS", "LASSO_REG", "MARS"]
 
         # Initialize the result variable as None
         res = None
@@ -328,11 +343,11 @@ class SurvivalQlearner:
         if check_missing:
 
             # Define names of actions (methods) for preprocessing
-            actions_name = ["CCA", "MI", "Mean", "KNN", "Median",
+            actions_name = ["Mean", "CCA", "MI", "KNN", "Median",
                             "UC", "LASSO", "RFE", "IG",
                             "DBID", "DBT", "ED",
                             "MR", "MR", "MUO"] # TODO Replace "CR" action with "MR" until fixed ... and IPW with MI
-            #update on 25th of june TODO replaced Mean with my version of KNN  
+            #update on 25th of june 2024 TODO replaced Mean with my version of KNN  
 
             # Define a list of classes corresponding to each action (used for instantiation)
             L2C_class = [Imputer, Imputer, Imputer, Imputer, Imputer,
@@ -537,7 +552,7 @@ class SurvivalQlearner:
          # Define lists of methods and goals based on whether missing values should be handled
         if check_missing:
 
-            methods, goals = ["CCA", "MI", "Mean", "KNN", "Median",
+            methods, goals = ["Mean", "CCA", "MI", "KNN", "Median",
                             "UC", "LASSO", "RFE", "IG",
                             "DBID", "DBT", "ED",
                             "MR", "MR", "MUO"], ["RSF", "COX", "NN", "OLS", "LASSO_REG", "MARS"]
@@ -615,7 +630,7 @@ class SurvivalQlearner:
                 print(f'HERE IS TEMP ---> {temp} \n\n {actions_list} \n\n')
                 has_imputer = False
                 name = "" 
-                imputer_list = ["CCA", "MI", "Mean", "KNN", "Median"]
+                imputer_list = ["Mean", "CCA", "MI", "KNN", "Median"]
                 for im in imputer_list:
                     if im in temp:
                         has_imputer = True
@@ -741,7 +756,7 @@ class SurvivalQlearner:
                 if self.rewards[key]['type'] != 'Imputer':
                     state_names.append(key)
 
-
+        print(state_names)
         states_dict = {}
         states_dict_reversed = {}
         i = 0
@@ -755,10 +770,8 @@ class SurvivalQlearner:
             states = list(range(n_states))
 
             random_state.shuffle(states)
-            # print(f'Random States -----> {states}')
 
             current_state = states[0]
-            #print(f"CURRENT STATE IN L2C::: {current_state}")
 
             goal = False
 
@@ -818,7 +831,7 @@ class SurvivalQlearner:
                         action = actions[0]
 
                     next_state = action
-
+               
                 reward = update_q(q, r, current_state, next_state, action, beta, gamma, states_dict)
 
                 if reward > 1:
@@ -932,9 +945,10 @@ class SurvivalQlearner:
 
             print("{}".format(rr), file=rr_file)
 
-
-        print(best_overall)
-        print(timestamps)
+        best_overall.insert(0, "Best So Far")
+        best_overall.insert(0, "CleanSurv")
+        timestamps.insert(0, "Timestamps")
+        timestamps.insert(0, "CleanSurv")
         with open('./save/'+str(self.file_name)+'_timestamps.txt', mode='a') as rr_file:
             print("{}".format(best_overall), file=rr_file)
             print("{}".format(timestamps), file=rr_file)
@@ -956,6 +970,7 @@ class SurvivalQlearner:
         check_missing = self.dataset.isnull().sum().sum() > 0
         rr = ""
         average = 0
+        obtained_scores = []
         for repeat in range(loop):
             random.seed(time.perf_counter())
 
@@ -1055,9 +1070,16 @@ class SurvivalQlearner:
             p = self.construct_pipeline(dataset=dataset_copy, actions_list=new_list, time_col=self.time_col, event_col=self.event_col, check_missing=check_missing)
             rr += str((dataset_name, "random", goals[g], traverse_name, metrics_name[g], "Quality Metric: ", p[0]['quality_metric'])) + "\n"
             average += p[0]['quality_metric']
+            obtained_scores.append(p[0]['quality_metric'])
+        mean = average / loop
+        for i in  range(len(obtained_scores)):
+            obtained_scores[i] -= mean
+            obtained_scores[i] = obtained_scores[i] ** 2
+        standard_deviation = (sum(obtained_scores) / len(obtained_scores)) ** (1.0 / 2.0)
         print(rr)
         print(f"**Average score over {loop} experiments is: {average/loop}**")
-        average_score_str = f"**Average score over {loop} experiments is: {average/loop}**\n\n"
+        print(f"**Standard deviation:{standard_deviation}**")
+        average_score_str = f"**Average score over {loop} experiments is: {average/loop}**\n**Standard deviation:{standard_deviation}**\n\n"
         rr += average_score_str
 
         if p[1] is not None:
@@ -1287,7 +1309,7 @@ class SurvivalQlearner:
 
 
 
-    def grid_search(self, dataset_name='None'):
+    def grid_search(self, dataset_name='None', trials=1):
         imputers, feature_selectors, duplicate_detectors, outlier_detectors = [], [], [], []
 
         for method in self.rewards:
@@ -1302,48 +1324,52 @@ class SurvivalQlearner:
                 duplicate_detectors.append(method)
             elif method_type == 'Outlier_detector':
                 outlier_detectors.append(method)
-
-        random.shuffle(imputers)
-        random.shuffle(feature_selectors)
-        random.shuffle(duplicate_detectors)
-        random.shuffle(outlier_detectors)
-        all_methods = [feature_selectors, duplicate_detectors, outlier_detectors]
-        random.shuffle(all_methods)
-        all_methods.insert(0, imputers)
-        start_time = time.time()
-        results = []
-        timestamps = []
-        timeout = False
-        best_so_far = 0
-        for i in all_methods[0]:
-            for j in all_methods[1]:
-                for k in all_methods[2]:
-                    for z in all_methods[3]:
-                        string = i + " " + j + " " + k + " " + z
-                        pipeline = [string]
-                        res = self.custom_pipeline(pipeline, self.goal)[0]['quality_metric']
-                        best_so_far = max(best_so_far, res)
-                        time_dif = time.time() - start_time
-                        results.append(best_so_far)
-                        timestamps.append(time_dif)
-                        if time_dif >= 600:
-                            timeout = True
-                            print()
-                            print(f"Time limit for Grid Search reached in {time_dif / 60} mins")
+        for trial in range(trials):
+            random.shuffle(imputers)
+            random.shuffle(feature_selectors)
+            random.shuffle(duplicate_detectors)
+            random.shuffle(outlier_detectors)
+            all_methods = [feature_selectors, duplicate_detectors, outlier_detectors]
+            random.shuffle(all_methods)
+            all_methods.insert(0, imputers)
+            start_time = time.time()
+            results = []
+            timestamps = []
+            timeout = False
+            best_so_far = 0
+            for i in all_methods[0]:
+                for j in all_methods[1]:
+                    for k in all_methods[2]:
+                        for z in all_methods[3]:
+                            string = i + " " + j + " " + k + " " + z
+                            pipeline = [string]
+                            res = self.custom_pipeline(pipeline, self.goal)[0]['quality_metric']
+                            best_so_far = max(best_so_far, res)
+                            time_dif = time.time() - start_time
+                            results.append(best_so_far)
+                            timestamps.append(time_dif)
+                            if time_dif >= 600:
+                                timeout = True
+                                print()
+                                print(f"Time limit for Grid Search reached in {time_dif / 60} mins")
+                                break
+                        if timeout:
                             break
                     if timeout:
                         break
                 if timeout:
                     break
-            if timeout:
-                break
-        else:
-            print()
-            print(f'Grid Search Completed in {(time.time() - start_time) / 60} mins')
+            else:
+                print()
+                print(f'Grid Search Completed in {(time.time() - start_time) / 60} mins')
+            results.insert(0, "Best So Far")
+            results.insert(0, "Grid_Search")
+            timestamps.insert(0, "Timestamps")
+            timestamps.insert(0, "Grid_Search")
 
-        with open('./save/'+dataset_name+'_timestamps.txt', mode='a') as rr_file:
-            print("{}".format(results), file=rr_file)
-            print("{}".format(timestamps), file=rr_file)
+            with open('./save/'+dataset_name+'_timestamps.txt', mode='a') as rr_file:
+                print("{}".format(results), file=rr_file)
+                print("{}".format(timestamps), file=rr_file)
 
 
             
