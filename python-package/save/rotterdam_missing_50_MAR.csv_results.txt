@@ -3613,3 +3613,7 @@
 
 ('None', 'Custom', 'COX', 'Mean -> LASSO -> ED -> MUO -> COX', 'C-Index', 'Quality Metric: ', 0.8373712522413578)
 
+('rotterdam_missing_50_MAR.csv', 'Learn2Clean', 'COX', 'Mean -> LASSO -> COX', 'C-Index', 0.8345655412813089, 15.046724557876587)
+('rotterdam_missing_50_MAR.csv', 'no-prep', 'COX', 'COX', 'C-Index', 'Quality Metric: ', 0.8145345965605496)
+('rotterdam_missing_50_MAR.csv', 'Custom', 'COX', 'Mean -> COX', 'C-Index', 'Quality Metric: ', 0.7972507238636044)
+

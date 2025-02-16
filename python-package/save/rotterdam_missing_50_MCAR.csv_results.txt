@@ -3643,3 +3643,7 @@
 ('rotterdam_missing_50_MCAR.csv', 'Learn2Clean', 'COX', 'Median -> RFE -> DBT -> MUO -> COX', 'C-Index', 0.8350650495585697, 16.744439363479614)
 ('rotterdam_missing_50_MCAR.csv', 'Learn2Clean', 'COX', 'Mean -> LASSO -> COX', 'C-Index', 0.8332555589913698, 15.529860258102417)
 ('rotterdam_missing_50_MCAR.csv', 'Learn2Clean', 'COX', 'Mean -> LASSO -> COX', 'C-Index', 0.8332555589913698, 15.425437927246094)
+('rotterdam_missing_50_MCAR.csv', 'Learn2Clean', 'COX', 'Mean -> LASSO -> COX', 'C-Index', 0.8332555589913698, 19.078821182250977)
+('rotterdam_missing_50_MCAR.csv', 'no-prep', 'COX', 'COX', 'C-Index', 'Quality Metric: ', 0.8038925180146811)
+('rotterdam_missing_50_MCAR.csv', 'Custom', 'COX', 'Mean -> COX', 'C-Index', 'Quality Metric: ', 0.8002136451803334)
+

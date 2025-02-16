@@ -51,7 +51,7 @@ while True:
         break
 
 if job == "L":
-    restarts = 15
+    restarts = 1
     for times in range(restarts):
         l2c.Learn2Clean()
 elif job == "R":
@@ -65,5 +65,5 @@ elif job == 'G':
     trials = eval(input("Please input the number of trials/restarts of the grid search: "))
     l2c.grid_search(dataset_name=file_name, trials=trials)
 else:
-    l2c.no_prep()
+    l2c.no_prep(dataset_name=file_name)
 
